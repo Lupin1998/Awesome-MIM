@@ -1,10 +1,10 @@
-# Awesome Mask Image Modeling for Visual Represention Learning
+# Awesome Masked Image Modeling for Visual Represention Learning
 
  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Lupin1998/Awesome-MIM?color=green) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Lupin1998/Awesome-MIM)
 
 ## Introduction
 
-**We summarize awesome mask image modeling (MIM) methods proposed for self-supervised visual representation learning.**
+**We summarize awesome Masked Image Modeling (MIM) methods proposed for self-supervised visual representation learning.**
 
 The list of awesome MIM methods is summarized in chronological order and is on updating. Notice that the main branch is forked from [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup).
 
@@ -13,8 +13,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ### Fundermental Methods
 
-1. **iGPT**, [[ICML'2020](http://proceedings.mlr.press/v119/chen20s/chen20s.pdf)] [[code](https://github.com/openai/image-gpt)]
-   Generative Pretraining from Pixels.
+- **iGPT**, [[ICML'2020](http://proceedings.mlr.press/v119/chen20s/chen20s.pdf)] [[code](https://github.com/openai/image-gpt)]
+   - Generative Pretraining from Pixels.
 2. **ViT**, [[ICLR'2021](https://arxiv.org/abs/2010.11929)] [[code](https://github.com/google-research/vision_transformer)]
    An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
 3. **BEiT**, [[ICLR'2022](https://arxiv.org/abs/2106.08254)] [[code](https://github.com/microsoft/unilm/tree/master/beit)]
