@@ -1,12 +1,12 @@
 # Awesome Masked Image Modeling for Visual Represention Learning
 
- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Lupin1998/Awesome-MIM?color=green) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Lupin1998/Awesome-MIM)
+ [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Lupin1998/Awesome-MIM?color=green) ![GitHub forks](https://img.shields.io/github/forks/Lupin1998/Awesome-MIM?color=yellow&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Lupin1998/Awesome-MIM)
 
 ## Introduction
 
 **We summarize awesome Masked Image Modeling (MIM) methods proposed for self-supervised visual representation learning.**
 
-The list of awesome MIM methods is summarized in chronological order and is on updating. Notice that the main branch is forked from [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup).
+The list of awesome MIM methods is summarized in chronological order and is on updating. Notice that the main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup).
 
 
 ## MIM for Backbones
@@ -192,11 +192,25 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ## Contribution
 
-Feel free to send [pull requests](https://github.com/Westlake-AI/openmixup/pulls) to add more links! Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)). We thank all contributors for Awesome-MIM.
+Feel free to send [pull requests](https://github.com/Westlake-AI/openmixup/pulls) to add more links with the following Markdown format. Note that the Abbreviation and the code link are optional attributes.
+
+```markdown
+* **Abbreviation**: Author List.
+  - Paper Name. [[Conference'Year](link)] [[code](link)]
+```
+
+Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Daisuke Niizumi ([@daisukelab](https://github.com/daisukelab)). We thank all contributors for `Awesome-MIM`.
+
 
 ## Related Project
 
+<!-- ### Paper List of Masked Image Modeling -->
+
 - [awesome-MIM](https://github.com/ucasligang/awesome-MIM): Reading list for research topics in Masked Image Modeling.
-- [Awesome-Mixup](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_mixups/Mixup_SL.md): Awesome list of mixup methods for supervised image classification.
 - [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md): Awesome list of masked image modeling methods for self-supervised visual representation.
+
+<!-- ### Open-source Porject of Self-supervised Learning -->
 - [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
+- [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab self-supervised learning toolbox and benchmark.
+- [solo-learn](https://github.com/vturrisi/solo-learn): A library of self-supervised methods for visual representation learning powered by Pytorch Lightning.
+- [VISSL](https://github.com/facebookresearch/vissl): FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images. 
