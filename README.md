@@ -6,7 +6,27 @@
 
 **We summarize awesome Masked Image Modeling (MIM) methods proposed for self-supervised visual representation learning.**
 
-The list of awesome MIM methods is summarized in chronological order and is on updating. Notice that the main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup).
+The list of awesome MIM methods is summarized in chronological order and is on updating. Notice that the main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup). Currently, we are working on a survey of MIM pre-training methods.
+
+**Table of Contents**
+
+- [Introduction](#Introduction)
+- [MIM for Backbones](#MIM-for-Backbones)
+  - [Fundermental Methods](#Fundermental-Methods)
+  - [MIM with Constrastive Learning](#MIM-with-Constrastive-Learning)
+  - [MIM for Transformer and CNN](#MIM-for-Transformer-and-CNN)
+  - [MIM with Advanced Masking](#MIM-with-Advanced-Masking)
+- [MIM for Downstream Tasks](#MIM-for-Downstream-Tasks)
+  - [Object Detection](#Object-Detection)
+  - [Video Rrepresentation](#Video-Rrepresentation)
+  - [Medical Image](#Medical-Image)
+  - [Face Recognition](#Face-Recognition)
+  - [Scene Text Recognition (OCR)](#Scene-Text-Recognition-(OCR))
+  - [Satellite Imagery](#Satellite-Imagery)
+  - [3D Point Cloud](#3D-Point-Cloud)
+  - [Reinforcement Learning](#Reinforcement-Learning)
+  - [Audio](#Audio)
+- [Analysis of MIM](#Analysis-of-MIM)
 
 
 ## MIM for Backbones
@@ -51,16 +71,23 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Green Hierarchical Vision Transformer for Masked Image Modeling. [[NIPS'2022](https://arxiv.org/abs/2205.13515)] [[code](https://github.com/LayneH/GreenMIM)]
 * **HiViT**: Xiaosong Zhang, Yunjie Tian, Wei Huang, Qixiang Ye, Qi Dai, Lingxi Xie, Qi Tian.
    - HiViT: Hierarchical Vision Transformer Meets Masked Image Modeling. [[ArXiv'2022](https://arxiv.org/abs/2205.14949)]
+* **FD**: Yixuan Wei, Han Hu, Zhenda Xie, Zheng Zhang, Yue Cao, Jianmin Bao, Dong Chen, Baining Guo.
+   - Contrastive Learning Rivals Masked Image Modeling in Fine-tuning via Feature Distillation. [[ArXiv'2022](https://arxiv.org/abs/2205.14141)] [[code](https://github.com/SwinTransformer/Feature-Distillation)]
 * **ObjMAE**: Jiantao Wu, Shentong Mo.
    - Object-wise Masked Autoencoders for Fast Pre-training. [[ArXiv'2022](https://arxiv.org/abs/2205.14338)]
 * **LoMaR**: Jun Chen, Ming Hu, Boyang Li, Mohamed Elhoseiny.
    - Efficient Self-supervised Vision Pretraining with Local Masked Reconstruction. [[ArXiv'2022](https://arxiv.org/abs/2206.00790)] [[code](https://github.com/junchen14/LoMaR)]
+* **ExtreMA**: Zhirong Wu, Zihang Lai, Xiao Sun, Stephen Lin.
+   - Extreme Masking for Learning Instance and Distributed Visual Representations. [[ArXiv'2022](https://arxiv.org/abs/2206.04667)]
 * **BEiT.V2**: Zhiliang Peng, Li Dong, Hangbo Bao, Qixiang Ye, Furu Wei.
    - BEiT v2: Masked Image Modeling with Vector-Quantized Visual Tokenizers. [[ArXiv'2022](http://arxiv.org/abs/2208.06366)] [[code](https://aka.ms/beit)]
 * **MILAN**: Zejiang Hou, Fei Sun, Yen-Kuang Chen, Yuan Xie, Sun-Yuan Kung.
    - MILAN: Masked Image Pretraining on Language Assisted Representation. [[ArXiv'2022](https://arxiv.org/abs/2208.06049)] [[code](https://github.com/zejiangh/milan)]
 * **BEiT.V3**: Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal, Owais Khan Mohammed, Saksham Singhal, Subhojit Som, Furu Wei.
    - Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks. [[ArXiv'2022](https://arxiv.org/abs/2208.10442)] [[code](https://github.com/microsoft/unilm/tree/master/beit)]
+* **DMAE**: Yutong Bai, Zeyu Wang, Junfei Xiao, Chen Wei, Huiyu Wang, Alan Yuille, Yuyin Zhou, Cihang Xie.
+   - Masked Autoencoders Enable Efficient Knowledge Distillers. [[ArXiv'2022](https://arxiv.org/abs/2208.12256)] [[code](https://github.com/UCSC-VLAA/DMAE)]
+
 
 ### MIM with Constrastive Learning
 
@@ -87,6 +114,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Corrupted Image Modeling for Self-Supervised Visual Pre-Training. [[ArXiv'2022](https://arxiv.org/abs/2202.03382)]
 * **A2MIM**: Siyuan Li, Di Wu, Fang Wu, Zelin Zang, Kai Wang, Lei Shang, Baigui Sun, Hao Li, Stan.Z.Li.
    - Architecture-Agnostic Masked Image Modeling - From ViT back to CNN. [[ArXiv'2022](https://arxiv.org/abs/2205.13943)] [[code](https://github.com/Westlake-AI/openmixup)]
+* **MFM**: Jiahao Xie, Wei Li, Xiaohang Zhan, Ziwei Liu, Yew Soon Ong, Chen Change Loy.
+   - Masked Frequency Modeling for Self-Supervised Visual Pre-Training. [[ArXiv'2022](https://arxiv.org/abs/2206.07706)] [[code](https://www.mmlab-ntu.com/project/mfm/index.html)]
 * **MixMIM**: Jihao Liu, Xin Huang, Yu Liu, Hongsheng Li.
    - MixMIM: Mixed and Masked Image Modeling for Efficient Visual Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2205.13137)] [[code](https://github.com/Sense-X/MixMIM)]
 * **MRA**: Haohang Xu, Shuangrui Ding, Xiaopeng Zhang, Hongkai Xiong, Qi Tian.
@@ -104,7 +133,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - SemMAE: Semantic-Guided Masking for Learning Masked Autoencoders. [[NIPS'2022](https://arxiv.org/abs/2206.10207)]
 
 
-## MIM in Downstream Tasks
+## MIM for Downstream Tasks
 
 ### Object Detection
 
@@ -117,6 +146,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training. [[NIPS'2022](https://arxiv.org/abs/2203.12602)] [[code](https://github.com/MCG-NJU/VideoMAE)]
 * **MAE**: Christoph Feichtenhofer, Haoqi Fan, Yanghao Li, Kaiming He.
    - Masked Autoencoders As Spatiotemporal Learners. [[NIPS'2022](https://arxiv.org/abs/2205.09113)] [[code](https://github.com/facebookresearch/SlowFast)]
+* **FMNet**: Yiran Wang, Zhiyu Pan, Xingyi Li, Zhiguo Cao, Ke Xian, Jianming Zhang.
+   - Less is More: Consistent Video Depth Estimation with Masked Frames Modeling. [[ACMMM'2022](https://arxiv.org/abs/2208.00380)] [[code](https://github.com/RaymondWang987/FMNet)]
 * **MaskViT**: Agrim Gupta, Stephen Tian, Yunzhi Zhang, Jiajun Wu, Roberto Martín-Martín, Li Fei-Fei.
    - MaskViT: Masked Visual Pre-Training for Video Prediction. [[ArXiv'2022](https://arxiv.org/abs/2206.11894)] [[code](https://github.com/agrimgupta92/maskvit)]
 * **OmniMAE**: Rohit Girdhar, Alaaeldin El-Nouby, Mannat Singh, Kalyan Vasudev Alwala, Armand Joulin, Ishan Misra.
@@ -132,6 +163,23 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Self Pre-training with Masked Autoencoders for Medical Image Analysis. [[ArXiv'2022](https://arxiv.org/abs/2203.05573)]
 * **SD-MAE**: Yang Luo, Zhineng Chen, Xieping Gao.
    - Self-distillation Augmented Masked Autoencoders for Histopathological Image Classification. [[ArXiv'2022](https://arxiv.org/abs/2203.16983)]
+* **GCMAE**: Hao Quan, Xingyu Li, Weixing Chen, Qun Bai, Mingchen Zou, Ruijie Yang, Tingting Zheng, Ruiqun Qi, Xinghua Gao, Xiaoyu Cui.
+   - Global Contrast Masked Autoencoders Are Powerful Pathological Representation Learners. [[ArXiv'2022](https://arxiv.org/abs/2205.09048)] [[code](https://github.com/staruniversus/gcmae)]
+
+### Face Recognition
+
+* **FaceMAE**: Kai Wang, Bo Zhao, Xiangyu Peng, Zheng Zhu, Jiankang Deng, Xinchao Wang, Hakan Bilen, Yang You.
+   - FaceMAE: Privacy-Preserving Face Recognition via Masked Autoencoders. [[ArXiv'2022](https://arxiv.org/abs/2205.11090)] [[code](https://github.com/kaiwang960112/FaceMAE)]
+
+### Scene Text Recognition (OCR)
+
+* **MaskOCR**: Pengyuan Lyu, Chengquan Zhang, Shanshan Liu, Meina Qiao, Yangliu Xu, Liang Wu, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
+   - MaskOCR: Text Recognition with Masked Encoder-Decoder Pretraining. [[ArXiv'2022](https://arxiv.org/abs/2206.00311)]
+
+### Satellite Imagery
+
+* **SatMAE**: Yezhen Cong, Samar Khanna, Chenlin Meng, Patrick Liu, Erik Rozi, Yutong He, Marshall Burke, David B. Lobell, Stefano Ermon.
+   - SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery. [[ArXiv'2022](https://arxiv.org/abs/2207.08051)]
 
 ### 3D Point Cloud
 
@@ -139,15 +187,14 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Pre-Training 3D Point Cloud Transformers with Masked Point Modeling. [[CVPR'2022](https://arxiv.org/abs/2111.14819)] [[code](https://github.com/lulutang0608/Point-BERT)]
 * **PointMAE**: Yatian Pang, Wenxiao Wang, Francis E.H. Tay, Wei Liu, Yonghong Tian, Li Yuan.
    - Masked Autoencoders for Point Cloud Self-supervised Learning. [[ECCV'2022](https://arxiv.org/abs/2203.06604)] [[code](https://github.com/Pang-Yatian/Point-MAE)]
+* **MaskPoint**: Haotian Liu, Mu Cai, Yong Jae Lee.
+   - Masked Discrimination for Self-Supervised Learning on Point Clouds. [[ECCV'2022](https://arxiv.org/abs/2203.11183)] [[code](https://github.com/haotian-liu/MaskPoint)]
+* **MeshMAE**: Yaqian Liang, Shanshan Zhao, Baosheng Yu, Jing Zhang, Fazhi He.
+   - MeshMAE: Masked Autoencoders for 3D Mesh Data Analysis. [[ECCV'2022](http://arxiv.org/abs/2207.10228)]
 * **VoxelMAE**: Chen Min, Xinli Xu, Dawei Zhao, Liang Xiao, Yiming Nie, Bin Dai.
    - Voxel-MAE: Masked Autoencoders for Pre-training Large-scale Point Clouds. [[ArXiv'2022](https://arxiv.org/abs/2206.09900)]
 * **Point-M2AE**: Renrui Zhang, Ziyu Guo, Peng Gao, Rongyao Fang, Bin Zhao, Dong Wang, Yu Qiao, Hongsheng Li.
    - Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training. [[NIPS'2022](https://arxiv.org/abs/2205.14401)] [[code](https://github.com/zrrskywalker/point-m2ae)]
-
-### 3D Mesh Data
-
-* **MeshMAE**: Yaqian Liang, Shanshan Zhao, Baosheng Yu, Jing Zhang, Fazhi He.
-   - MeshMAE: Masked Autoencoders for 3D Mesh Data Analysis. [[ECCV'2022](http://arxiv.org/abs/2207.10228)]
 
 ### Reinforcement Learning
 
@@ -190,26 +237,34 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Understanding Masked Image Modeling via Learning Occlusion Invariant Feature. [[ArXiv'2022](http://arxiv.org/abs/2208.04164)]
 
 
+## Survey
+
+* Chaoning Zhang, Chenshuang Zhang, Junha Song, John Seon Keun Yi, Kang Zhang, In So Kweon.
+   - A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond. [[ArXiv'2022](https://arxiv.org/abs/2208.00173)]
+
+
 ## Contribution
 
-Feel free to send [pull requests](https://github.com/Westlake-AI/openmixup/pulls) to add more links with the following Markdown format. Note that the Abbreviation and the code link are optional attributes.
+Feel free to send [pull requests](https://github.com/Lupin1998/Awesome-MIM/pulls) to add more links with the following Markdown format. Note that the Abbreviation and the code link are optional attributes.
 
 ```markdown
 * **Abbreviation**: Author List.
   - Paper Name. [[Conference'Year](link)] [[code](link)]
 ```
 
-Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Daisuke Niizumi ([@daisukelab](https://github.com/daisukelab)). We thank all contributors for `Awesome-MIM`.
+Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Daisuke Niizumi ([@daisukelab](https://github.com/daisukelab)). We thank all contributors for `Awesome-MIM`!
 
 
 ## Related Project
 
-<!-- ### Paper List of Masked Image Modeling -->
+### Paper List of Masked Image Modeling
 
 - [awesome-MIM](https://github.com/ucasligang/awesome-MIM): Reading list for research topics in Masked Image Modeling.
 - [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md): Awesome list of masked image modeling methods for self-supervised visual representation.
+- [awesome-self-supervised-learning](https://github.com/jason718/awesome-self-supervised-learning): A curated list of awesome self-supervised methods.
 
-<!-- ### Open-source Porject of Self-supervised Learning -->
+### Porject of Self-supervised Learning
+
 - [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
 - [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab self-supervised learning toolbox and benchmark.
 - [solo-learn](https://github.com/vturrisi/solo-learn): A library of self-supervised methods for visual representation learning powered by Pytorch Lightning.
