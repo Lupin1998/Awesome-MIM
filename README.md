@@ -27,6 +27,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
   - [Reinforcement Learning](#Reinforcement-Learning)
   - [Audio](#Audio)
 - [Analysis of MIM](#Analysis-of-MIM)
+- [Survey](#Survey)
+- [Contribution](#Contribution)
+- [Related Project](#Related-Project)
 
 
 ## MIM for Backbones
@@ -235,7 +238,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - An Empirical Study Of Self-supervised Learning Approaches For Object Detection With Transformers. [[ArXiv'2022](https://arxiv.org/abs/2205.05543)] [[code](https://github.com/gokulkarthik/deformable-detr)]
 * Xiangwen Kong, Xiangyu Zhang.
    - Understanding Masked Image Modeling via Learning Occlusion Invariant Feature. [[ArXiv'2022](http://arxiv.org/abs/2208.04164)]
-
+* Qi Zhang, Yifei Wang, Yisen Wang.
+   - How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders. [[NIP'2022](https://openreview.net/forum?id=WOppMAJtvhv)]
 
 ## Survey
 
@@ -268,4 +272,5 @@ Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin19
 - [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
 - [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab self-supervised learning toolbox and benchmark.
 - [solo-learn](https://github.com/vturrisi/solo-learn): A library of self-supervised methods for visual representation learning powered by Pytorch Lightning.
+- [unilm](https://github.com/microsoft/unilm): Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
 - [VISSL](https://github.com/facebookresearch/vissl): FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images. 
