@@ -1,18 +1,18 @@
 # Awesome Masked Image Modeling for Visual Represention Learning
 
- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Lupin1998/Awesome-MIM?color=green) ![GitHub forks](https://img.shields.io/github/forks/Lupin1998/Awesome-MIM?color=yellow&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=Lupin1998/Awesome-MIM)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Lupin1998/Awesome-MIM?color=blue) ![GitHub forks](https://img.shields.io/github/forks/Lupin1998/Awesome-MIM?color=yellow&label=Fork)
 
 ## Introduction
 
 **We summarize awesome Masked Image Modeling (MIM) methods proposed for self-supervised visual representation learning.**
 
-The list of awesome MIM methods is summarized in chronological order and is on updating. Notice that the main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup). Currently, we are working on a survey of MIM pre-training methods.
+The list of awesome MIM methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup). If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, we are working on a survey of MIM pre-training methods.
 
 **Table of Contents**
 
 - [Introduction](#Introduction)
 - [MIM for Backbones](#MIM-for-Backbones)
-  - [Fundermental Methods](#Fundermental-Methods)
+  - [Fundamental Methods](#Fundamental-Methods)
   - [MIM with Constrastive Learning](#MIM-with-Constrastive-Learning)
   - [MIM for Transformer and CNN](#MIM-for-Transformer-and-CNN)
   - [MIM with Advanced Masking](#MIM-with-Advanced-Masking)
@@ -34,7 +34,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ## MIM for Backbones
 
-### Fundermental Methods
+### Fundamental Methods
 
 * **iGPT**: Mark Chen, Alec Radford, Rewon Child, Jeff Wu, Heewoo Jun, David Luan, Ilya Sutskever.
    - Generative Pretraining from Pixels. [[ICML'2020](http://proceedings.mlr.press/v119/chen20s/chen20s.pdf)] [[code](https://github.com/openai/image-gpt)]
@@ -123,6 +123,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - MixMIM: Mixed and Masked Image Modeling for Efficient Visual Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2205.13137)] [[code](https://github.com/Sense-X/MixMIM)]
 * **MRA**: Haohang Xu, Shuangrui Ding, Xiaopeng Zhang, Hongkai Xiong, Qi Tian.
    - Masked Autoencoders are Robust Data Augmentors. [[ArXiv'2022](https://arxiv.org/abs/2206.04846)] [[code](https://github.com/haohang96/mra)]
+* **Spark**: Anonymous.
+   - Sparse and Hierarchical Masked Modeling for Convolutional Representation Learning. [[OpenReview'2022](https://openreview.net/pdf?id=NRxydtWup1S)]
 
 ### MIM with Advanced Masking
 
