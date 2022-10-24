@@ -62,6 +62,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Bootstrapped Masked Autoencoders for Vision BERT Pretraining. [[ECCV'2022](https://arxiv.org/abs/2207.07116)] [[code](https://github.com/LightDXY/BootMAE)]
 * **SdAE**: Yabo Chen, Yuchen Liu, Dongsheng Jiang, Xiaopeng Zhang, Wenrui Dai, Hongkai Xiong, Qi Tian.
    - SdAE: Self-distillated Masked Autoencoder. [[ECCV'2022](https://arxiv.org/abs/2208.00449)] [[code](https://github.com/AbrahamYabo/SdAE)]
+* **MultiMAE**: Roman Bachmann, David Mizrahi, Andrei Atanov, Amir Zamir.
+   - MultiMAE: Multi-modal Multi-task Masked Autoencoders. [[ECCV'2022](https://arxiv.org/abs/2204.01678)] [[code](https://github.com/EPFL-VILAB/MultiMAE)]
 * **SupMAE**: Feng Liang, Yangguang Li, Diana Marculescu.
    - SupMAE: Supervised Masked Autoencoders Are Efficient Vision Learners. [[ArXiv'2022](https://arxiv.org/abs/2205.14540)] [[code](https://github.com/cmu-enyac/supmae)]
 * **MVP**: Longhui Wei, Lingxi Xie, Wengang Zhou, Houqiang Li, Qi Tian.
@@ -94,6 +96,10 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Masked Autoencoders Enable Efficient Knowledge Distillers. [[ArXiv'2022](https://arxiv.org/abs/2208.12256)] [[code](https://github.com/UCSC-VLAA/DMAE)]
 * **RC-MAE**: Youngwan Lee, Jeffrey Willette, Jonghee Kim, Juho Lee, Sung Ju Hwang.
    - Exploring The Role of Mean Teachers in Self-supervised Masked Auto-Encoders. [[ArXiv'2022](https://arxiv.org/abs/2210.02077)]
+* **DMAE**: Quanlin Wu, Hang Ye, Yuntian Gu, Huishuai Zhang, Liwei Wang, Di He.
+   - Denoising Masked AutoEncoders are Certifiable Robust Vision Learners. [[ArXiv'2022](https://arxiv.org/abs/2210.06983)] [[code](https://github.com/quanlin-wu/dmae)]
+* **MaskDistill**: Zhiliang Peng, Li Dong, Hangbo Bao, Qixiang Ye, Furu Wei.
+   - A Unified View of Masked Image Modeling. [[ArXiv'2022](https://arxiv.org/abs/2210.10615)] [[code](https://aka.ms/unimim)]
 
 ### MIM with Constrastive Learning
 
