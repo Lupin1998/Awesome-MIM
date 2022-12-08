@@ -8,28 +8,32 @@
 
 The list of awesome MIM methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup). If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, we are working on a survey of MIM pre-training methods.
 
-**Table of Contents**
+* To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
+* To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
 
-- [Introduction](#introduction)
-- [MIM for Backbones](#mim-for-backbones)
-  - [Fundamental Methods](#fundamental-methods)
-  - [MIM with Constrastive Learning](#mim-with-constrastive-learning)
-  - [MIM for Transformer and CNN](#mim-for-transformer-and-cnn)
-  - [MIM with Advanced Masking](#mim-with-advanced-masking)
-- [MIM for Downstream Tasks](#mim-for-downstream-tasks)
-  - [Object Detection](#object-detection)
-  - [Video Rrepresentation](#video-rrepresentation)
-  - [Medical Image](#medical-image)
-  - [Face Recognition](#face-recognition)
-  - [Scene Text Recognition (OCR)](#scene-text-recognition-(ocr))
-  - [Satellite Imagery](#satellite-imagery)
-  - [3D Point Cloud](#3d-point-cloud)
-  - [Reinforcement Learning](#reinforcement-learning)
-  - [Audio](#audio)
-- [Analysis of MIM](#analysis-of-mim)
-- [Survey](#survey)
-- [Contribution](#contribution)
-- [Related Project](#related-project)
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Table of Contents](#table-of-contents)
+3. [MIM for Backbones](#mim-for-backbones)
+   - [Fundamental Methods](#fundamental-methods)
+   - [MIM with Constrastive Learning](#mim-with-constrastive-learning)
+   - [MIM for Transformer and CNN](#mim-for-transformer-and-cnn)
+   - [MIM with Advanced Masking](#mim-with-advanced-masking)
+4. [MIM for Downstream Tasks](#mim-for-downstream-tasks)
+   - [Object Detection](#object-detection)
+   - [Video Rrepresentation](#video-rrepresentation)
+   - [Medical Image](#medical-image)
+   - [Face Recognition](#face-recognition)
+   - [Scene Text Recognition (OCR)](#scene-text-recognition-(ocr))
+   - [Satellite Imagery](#satellite-imagery)
+   - [3D Point Cloud](#3d-point-cloud)
+   - [Reinforcement Learning](#reinforcement-learning)
+   - [Audio](#audio)
+5. [Analysis of MIM](#analysis-of-mim)
+6. [Survey](#survey)
+7. [Contribution](#contribution)
+8. [Related Project](#related-project)
 
 
 ## MIM for Backbones
