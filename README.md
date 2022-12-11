@@ -64,6 +64,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **data2vec**: Alexei Baevski, Wei-Ning Hsu, Qiantong Xu, Arun Babu, Jiatao Gu, Michael Auli.
    - data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language. [[ICML'2022](https://arxiv.org/abs/2202.03555)] [[code](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204302962-e44f4eed-b7d0-4b64-8696-ae6f349400fb.png" /></p>
+* **MP3**: Shuangfei Zhai, Navdeep Jaitly, Jason Ramapuram, Dan Busbridge, Tatiana Likhomanenko, Joseph Yitan Cheng, Walter Talbott, Chen Huang, Hanlin Goh, Joshua Susskind.
+   - Position Prediction as an Effective Pretraining Strategy. [[ICML'2022](https://arxiv.org/abs/2207.07611)]
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/206919419-aa867bf6-f729-4bf7-8f70-c21f17bf8cec.png" /></p>
 * **PeCo**: Xiaoyi Dong, Jianmin Bao, Ting Zhang, Dongdong Chen, Weiming Zhang, Lu Yuan, Dong Chen, Fang Wen, Nenghai Yu.
    - PeCo: Perceptual Codebook for BERT Pre-training of Vision Transformers. [[ArXiv'2021](https://arxiv.org/abs/2111.12710)] [[code](https://github.com/microsoft/PeCo)]
 * **MC-SSL0.0**: Sara Atito, Muhammad Awais, Ammarah Farooq, Zhenhua Feng, Josef Kittler.
@@ -95,7 +98,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204305687-8f04d9f7-dc60-4ff0-8f94-5e72795774ca.png" /></p>
 * **GreenMIM**: Lang Huang, Shan You, Mingkai Zheng, Fei Wang, Chen Qian, Toshihiko Yamasaki.
    - Green Hierarchical Vision Transformer for Masked Image Modeling. [[NIPS'2022](https://arxiv.org/abs/2205.13515)] [[code](https://github.com/LayneH/GreenMIM)]
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204305942-b22b5064-26d9-4f0b-9a2a-88012873f4fa.png" /></p>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204305942-b22b5064-26d9-4f0b-9a2a-88012873f4fa.png" /></p>
 * **TTT-MAE**: Yossi Gandelsman, Yu Sun, Xinlei Chen, Alexei A. Efros.
    - Test-Time Training with Masked Autoencoders. [[NIPS'2022](https://arxiv.org/abs/2209.07522)] [[code](https://github.com/yossigandelsman/test_time_training_mae)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204306169-63fd5383-ee33-47f0-a955-971cfbd150ae.png" /></p>
@@ -138,8 +141,18 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MaskVLM**: Gukyeong Kwon, Zhaowei Cai, Avinash Ravichandran, Erhan Bas, Rahul Bhotika, Stefano Soatto.
    - Masked Vision and Language Modeling for Multi-modal Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2208.02131)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204310845-3e7777dc-5726-4c94-9506-8f88efd1966b.png" /></p>
+* **DILEMMA**: Sepehr Sameni, Simon Jenni, Paolo Favaro.
+   - DILEMMA: Self-Supervised Shape and Texture Learning with Transformers. [[AAAI'2023](https://arxiv.org/abs/2204.04788)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/206920238-6f520585-e9c1-4e7a-89eb-3d9379931279.png" /></p>
+* **EVA**: Yuxin Fang, Wen Wang, Binhui Xie, Quan Sun, Ledell Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang, Yue Cao.
+   - EVA: Exploring the Limits of Masked Visual Representation Learning at Scale. [[ArXiv'2022](https://arxiv.org/abs/2211.07636)] [[code](https://github.com/baaivision/EVA)]
+   <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/206920442-4d896aca-1765-4e66-9afb-c76017bc3521.png" /></p>
+* **CAE.V2**: Xinyu Zhang, Jiahui Chen, Junkun Yuan, Qiang Chen, Jian Wang, Xiaodi Wang, Shumin Han, Xiaokang Chen, Jimin Pi, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
+   - CAE v2: Context Autoencoder with CLIP Target. [[ArXiv'2022](https://arxiv.org/abs/2211.09799)]
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/206920593-c703518b-47f9-4f61-a319-5ba0099c902d.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ### MIM with Constrastive Learning
 
