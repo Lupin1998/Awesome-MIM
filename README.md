@@ -150,6 +150,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **CAE.V2**: Xinyu Zhang, Jiahui Chen, Junkun Yuan, Qiang Chen, Jian Wang, Xiaodi Wang, Shumin Han, Xiaokang Chen, Jimin Pi, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
    - CAE v2: Context Autoencoder with CLIP Target. [[ArXiv'2022](https://arxiv.org/abs/2211.09799)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/206920593-c703518b-47f9-4f61-a319-5ba0099c902d.png" /></p>
+* **Data2Vec.V2**: Alexei Baevski, Arun Babu, Wei-Ning Hsu, and Michael Auli.
+   - Efficient Self-supervised Learning with Contextualized Target Representations for Vision, Speech and Language. [[ArXiv'2022](https://ai.facebook.com/research/publications/efficient-self-supervised-learning-with-contextualized-target-representations-for-vision-speech-and-language)] [[code](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)]
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/207722013-4fc539f7-3d45-4eb8-8037-c4fa210738d6.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -235,27 +238,37 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 * **MIMDet**: Yuxin Fang, Shusheng Yang, Shijie Wang, Yixiao Ge, Ying Shan, Xinggang Wang.
    - Unleashing Vanilla Vision Transformer with Masked Image Modeling for Object Detection. [[ArXiv'2022](https://arxiv.org/abs/2204.02964)] [[code](https://github.com/hustvl/MIMDet)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/207723589-e1fd22e3-0719-422e-b94d-371c51b164e5.png" /></p>
 
 ### Video Rrepresentation
 
 * **VideoMAE**: Zhan Tong, Yibing Song, Jue Wang, Limin Wang.
    - VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training. [[NIPS'2022](https://arxiv.org/abs/2203.12602)] [[code](https://github.com/MCG-NJU/VideoMAE)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207724710-e4093d2e-8d6c-40b9-bf7d-ab519eb97dd2.png" /></p>
 * **MAE**: Christoph Feichtenhofer, Haoqi Fan, Yanghao Li, Kaiming He.
    - Masked Autoencoders As Spatiotemporal Learners. [[NIPS'2022](https://arxiv.org/abs/2205.09113)] [[code](https://github.com/facebookresearch/SlowFast)]
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/207725088-8bccb8df-a9c8-4ba6-b7cd-5f259c0959c1.png" /></p>
 * **FMNet**: Yiran Wang, Zhiyu Pan, Xingyi Li, Zhiguo Cao, Ke Xian, Jianming Zhang.
    - Less is More: Consistent Video Depth Estimation with Masked Frames Modeling. [[ACMMM'2022](https://arxiv.org/abs/2208.00380)] [[code](https://github.com/RaymondWang987/FMNet)]
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/207725289-efef0f35-77a7-4ad4-896a-f1c84503cbb5.png" /></p>
 * **MaskViT**: Agrim Gupta, Stephen Tian, Yunzhi Zhang, Jiajun Wu, Roberto Martín-Martín, Li Fei-Fei.
    - MaskViT: Masked Visual Pre-Training for Video Prediction. [[ArXiv'2022](https://arxiv.org/abs/2206.11894)] [[code](https://github.com/agrimgupta92/maskvit)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207725785-e8b125ff-22c1-451a-b1d8-101c13113189.png" /></p>
 * **OmniMAE**: Rohit Girdhar, Alaaeldin El-Nouby, Mannat Singh, Kalyan Vasudev Alwala, Armand Joulin, Ishan Misra.
    - OmniMAE: Single Model Masked Pretraining on Images and Videos. [[ArXiv'2022](http://arxiv.org/abs/2206.08356)] [[code](https://github.com/facebookresearch/omnivore)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207725594-3beaf158-74f6-4fed-a330-d34755d1f37a.png" /></p>
 * **MILES**: Yuying Ge, Yixiao Ge, Xihui Liu, Alex Jinpeng Wang, Jianping Wu, Ying Shan, Xiaohu Qie, Ping Luo.
    - MILES: Visual BERT Pre-training with Injected Language Semantics for Video-text Retrieval. [[ArXiv'2022](https://arxiv.org/abs/2204.12408)] [[code](https://github.com/tencentarc/mcq)]
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/207725934-fc1c45cc-3946-4617-9eff-f93bd2903ba6.png" /></p>
 * **MAR**: Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv, Changxin Gao, Nong Sang.
    - MAR: Masked Autoencoders for Efficient Action Recognition. [[ArXiv'2022](http://arxiv.org/abs/2207.11660)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207726266-39eb361a-7e3c-4737-a51b-bfda8ad8ed06.png" /></p>
 * **MotionMAE**: Haosen Yang, Deng Huang, Bin Wen, Jiannan Wu, Hongxun Yao, Yi Jiang, Xiatian Zhu, Zehuan Yuan.
    - Self-supervised Video Representation Learning with Motion-Aware Masked Autoencoders. [[ArXiv'2022](https://arxiv.org/abs/2210.04154)] [[code](https://github.com/happy-hsy/MotionMAE)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/207726409-07a0255c-a7ae-4e6c-aa25-fdfa77393788.png" /></p>
 * **MIMT**: Anonymous.
    - MIMT: Masked Image Modeling Transformer for Video Compression. [[OpenReview'2022](https://openreview.net/forum?id=j9m-mVnndbm)]
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/207726629-e9481b07-58a4-4afb-be42-1a315bccd10c.png" /></p>
 
 
 ### Medical Image
