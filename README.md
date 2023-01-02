@@ -153,6 +153,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **CAE.V2**: Xinyu Zhang, Jiahui Chen, Junkun Yuan, Qiang Chen, Jian Wang, Xiaodi Wang, Shumin Han, Xiaokang Chen, Jimin Pi, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
    - CAE v2: Context Autoencoder with CLIP Target. [[ArXiv'2022](https://arxiv.org/abs/2211.09799)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/206920593-c703518b-47f9-4f61-a319-5ba0099c902d.png" /></p>
+* **FastMIM**: Jianyuan Guo, Kai Han, Han Wu, Yehui Tang, Yunhe Wang, Chang Xu.
+   - FastMIM: Expediting Masked Image Modeling Pre-training for Vision. [[ArXiv'2022](https://arxiv.org/abs/2212.06593)]
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/210276245-83f9b564-2bdb-48b7-922c-dc36e3d5c20f.png" /></p>
 * **Data2Vec.V2**: Alexei Baevski, Arun Babu, Wei-Ning Hsu, and Michael Auli.
    - Efficient Self-supervised Learning with Contextualized Target Representations for Vision, Speech and Language. [[ArXiv'2022](https://arxiv.org/abs/2212.07525)] [[code](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/207722013-4fc539f7-3d45-4eb8-8037-c4fa210738d6.png" /></p>
