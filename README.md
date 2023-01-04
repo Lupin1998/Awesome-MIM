@@ -165,6 +165,12 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **A-CLIP**: Yifan Yang, Weiquan Huang, Yixuan Wei, Houwen Peng, Xinyang Jiang, Huiqiang Jiang, Fangyun Wei, Yin Wang, Han Hu, Lili Qiu, Yuqing Yang.
    - Attentive Mask CLIP. [[ArXiv'2022](https://arxiv.org/abs/2212.08653)]
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
+* **TinyMIM**: Sucheng Ren, Fangyun Wei, Zheng Zhang, Han Hu.
+   - TinyMIM: An Empirical Study of Distilling MIM Pre-trained Models. [[ArXiv'2023](https://arxiv.org/abs/2301.01296)] [[code](https://github.com/OliverRensu/TinyMIM)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/210646611-f5022c04-9c34-465c-b4dd-53ca097f47d8.png" /></p>
+* **DMJD**: Xin Ma, Chang Liu, Chunyu Xie, Long Ye, Yafeng Deng, Xiangyang Ji.
+   - Disjoint Masking with Joint Distillation for Efficient Masked Image Modeling. [[ArXiv'2023](https://arxiv.org/abs/2301.00230)] [[code](https://github.com/mx-mark/dmjd)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/210645728-7a066877-9eea-4fdb-a13a-df6863a287e6.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
