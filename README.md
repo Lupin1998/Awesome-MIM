@@ -147,6 +147,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MaskCLIP**: Xiaoyi Dong, Yinglin Zheng, Jianmin Bao, Ting Zhang, Dongdong Chen, Hao Yang, Ming Zeng, Weiming Zhang, Lu Yuan, Dong Chen, Fang Wen, Nenghai Yu.
    - MaskCLIP: Masked Self-Distillation Advances Contrastive Language-Image Pretraining. [[ArXiv'2022](https://arxiv.org/abs/2208.12262)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209704378-5c467c07-8096-441d-b8a4-37fe27d1ac07.png" /></p>
+* **i-MAE**: Kevin Zhang, Zhiqiang Shen.
+   - i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable?. [[ArXiv'2022](https://arxiv.org/abs/2210.11470)] [[code](https://github.com/vision-learning-acceleration-lab/i-mae)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/211220785-5031f97c-c9a3-4ade-b344-48db01fc3760.png" /></p>
 * **EVA**: Yuxin Fang, Wen Wang, Binhui Xie, Quan Sun, Ledell Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang, Yue Cao.
    - EVA: Exploring the Limits of Masked Visual Representation Learning at Scale. [[ArXiv'2022](https://arxiv.org/abs/2211.07636)] [[code](https://github.com/baaivision/EVA)]
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/206920442-4d896aca-1765-4e66-9afb-c76017bc3521.png" /></p>
@@ -165,6 +168,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **A-CLIP**: Yifan Yang, Weiquan Huang, Yixuan Wei, Houwen Peng, Xinyang Jiang, Huiqiang Jiang, Fangyun Wei, Yin Wang, Han Hu, Lili Qiu, Yuqing Yang.
    - Attentive Mask CLIP. [[ArXiv'2022](https://arxiv.org/abs/2212.08653)]
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
+* **SDMAE**: Jiawei Mao, Honggu Zhou, Xuesong Yin, Yuanqi Chang. Binling Nie. Rui Xu.
+   - Masked autoencoders are effective solution to transformer data-hungry. [[ArXiv'2022](https://arxiv.org/abs/2212.05677)] [[code](https://github.com/Talented-Q/SDMAE)]
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/211220908-70f4c587-80a9-4427-8a68-b17593de8b0a.png" /></p>
 * **TinyMIM**: Sucheng Ren, Fangyun Wei, Zheng Zhang, Han Hu.
    - TinyMIM: An Empirical Study of Distilling MIM Pre-trained Models. [[ArXiv'2023](https://arxiv.org/abs/2301.01296)] [[code](https://github.com/OliverRensu/TinyMIM)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/210646611-f5022c04-9c34-465c-b4dd-53ca097f47d8.png" /></p>
@@ -374,6 +380,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Understanding Masked Image Modeling via Learning Occlusion Invariant Feature. [[ArXiv'2022](http://arxiv.org/abs/2208.04164)]
 * Qi Zhang, Yifei Wang, Yisen Wang.
    - How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders. [[NIP'2022](https://openreview.net/forum?id=WOppMAJtvhv)]
+* Kevin Zhang, Zhiqiang Shen.
+   - i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable?. [[ArXiv'2022](https://arxiv.org/abs/2210.11470)] [[code](https://github.com/vision-learning-acceleration-lab/i-mae)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
