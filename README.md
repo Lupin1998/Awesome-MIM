@@ -233,9 +233,12 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MRA**: Haohang Xu, Shuangrui Ding, Xiaopeng Zhang, Hongkai Xiong, Qi Tian.
    - Masked Autoencoders are Robust Data Augmentors. [[ArXiv'2022](https://arxiv.org/abs/2206.04846)] [[code](https://github.com/haohang96/mra)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204315634-212c14b9-7d6d-4ad0-880b-35cafb623249.png" /></p>
-* **Spark**: Anonymous.
-   - Sparse and Hierarchical Masked Modeling for Convolutional Representation Learning. [[OpenReview'2022](https://openreview.net/pdf?id=NRxydtWup1S)]
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204315983-d5a24e55-fab4-4336-a1ed-3428a997aebd.png" /></p>
+* **SparK**: Keyu Tian, Yi Jiang, Qishuai Diao, Chen Lin, Liwei Wang, Zehuan Yuan.
+   - Designing BERT for Convolutional Networks: Sparse and Hierarchical Masked Modeling. [[ArXiv'2023](https://arxiv.org/abs/2301.03580)] [[OpenReview'2022](https://openreview.net/pdf?id=NRxydtWup1S)] [[code](https://github.com/keyu-tian/spark)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204315983-d5a24e55-fab4-4336-a1ed-3428a997aebd.png" /></p>
+* **ConvNeXt.V2**: Sanghyun Woo, Shoubhik Debnath, Ronghang Hu, Xinlei Chen, Zhuang Liu, In So Kweon, Saining Xie.
+   - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders. [[ArXiv'2023](https://arxiv.org/abs/2301.00808)] [[code](https://github.com/facebookresearch/ConvNeXt-V2)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/211898674-caa94c81-9aea-4544-8f5f-2cf410724bb4.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
