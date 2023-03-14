@@ -148,10 +148,10 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - MaskCLIP: Masked Self-Distillation Advances Contrastive Language-Image Pretraining. [[ArXiv'2022](https://arxiv.org/abs/2208.12262)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209704378-5c467c07-8096-441d-b8a4-37fe27d1ac07.png" /></p>
 * **i-MAE**: Kevin Zhang, Zhiqiang Shen.
-   - i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable?. [[ArXiv'2022](https://arxiv.org/abs/2210.11470)] [[code](https://github.com/vision-learning-acceleration-lab/i-mae)]
+   - i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable? [[ArXiv'2022](https://arxiv.org/abs/2210.11470)] [[code](https://github.com/vision-learning-acceleration-lab/i-mae)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/211220785-5031f97c-c9a3-4ade-b344-48db01fc3760.png" /></p>
 * **EVA**: Yuxin Fang, Wen Wang, Binhui Xie, Quan Sun, Ledell Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang, Yue Cao.
-   - EVA: Exploring the Limits of Masked Visual Representation Learning at Scale. [[ArXiv'2022](https://arxiv.org/abs/2211.07636)] [[code](https://github.com/baaivision/EVA)]
+   - EVA: Exploring the Limits of Masked Visual Representation Learning at Scale. [[CVPR'2023](https://arxiv.org/abs/2211.07636)] [[code](https://github.com/baaivision/EVA)]
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/206920442-4d896aca-1765-4e66-9afb-c76017bc3521.png" /></p>
 * **CAE.V2**: Xinyu Zhang, Jiahui Chen, Junkun Yuan, Qiang Chen, Jian Wang, Xiaodi Wang, Shumin Han, Xiaokang Chen, Jimin Pi, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
    - CAE v2: Context Autoencoder with CLIP Target. [[ArXiv'2022](https://arxiv.org/abs/2211.09799)]
@@ -159,6 +159,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **FastMIM**: Jianyuan Guo, Kai Han, Han Wu, Yehui Tang, Yunhe Wang, Chang Xu.
    - FastMIM: Expediting Masked Image Modeling Pre-training for Vision. [[ArXiv'2022](https://arxiv.org/abs/2212.06593)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/210276245-83f9b564-2bdb-48b7-922c-dc36e3d5c20f.png" /></p>
+* **dBOT**: Xingbin Liu, Jinghao Zhou, Tao Kong, Xianming Lin, Rongrong Ji.
+   - Exploring Target Representations for Masked Autoencoders. [[ArXiv'2022](https://arxiv.org/abs/2209.03917)] [[code](https://github.com/liuxingbin/dbot)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/225108834-36affd27-fbae-46f0-92ca-d5a35a39023d.png" /></p>
 * **Data2Vec.V2**: Alexei Baevski, Arun Babu, Wei-Ning Hsu, and Michael Auli.
    - Efficient Self-supervised Learning with Contextualized Target Representations for Vision, Speech and Language. [[ArXiv'2022](https://arxiv.org/abs/2212.07525)] [[code](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/207722013-4fc539f7-3d45-4eb8-8037-c4fa210738d6.png" /></p>
@@ -386,7 +389,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * Siyuan Li, Di Wu, Fang Wu, Zelin Zang, Kai Wang, Lei Shang, Baigui Sun, Hao Li, Stan.Z.Li.
    - Architecture-Agnostic Masked Image Modeling - From ViT back to CNN. [[ArXiv'2022](https://arxiv.org/abs/2205.13943)] [[code](https://github.com/Westlake-AI/openmixup)]
 * Zhenda Xie, Zheng Zhang, Yue Cao, Yutong Lin, Yixuan Wei, Qi Dai, Han Hu.
-   - On Data Scaling in Masked Image Modeling. [[ArXiv'2022](https://arxiv.org/abs/2206.04664)]
+   - On Data Scaling in Masked Image Modeling. [[CVPR'2023](https://arxiv.org/abs/2206.04664)] [[code](https://github.com/microsoft/Swin-Transformer)]
 * Jiachun Pan, Pan Zhou, Shuicheng Yan.
    - Towards Understanding Why Mask-Reconstruction Pretraining Helps in Downstream Tasks. [[ArXiv'2022](https://arxiv.org/abs/2206.03826)]
 * Gokul Karthik Kumar, Sahal Shaji Mullappilly, Abhishek Singh Gehlot.
