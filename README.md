@@ -13,27 +13,31 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Table of Contents](#table-of-contents)
-3. [MIM for Backbones](#mim-for-backbones)
-   - [Fundamental Methods](#fundamental-methods)
-   - [MIM with Constrastive Learning](#mim-with-constrastive-learning)
-   - [MIM for Transformer and CNN](#mim-for-transformer-and-cnn)
-   - [MIM with Advanced Masking](#mim-with-advanced-masking)
-4. [MIM for Downstream Tasks](#mim-for-downstream-tasks)
-   - [Object Detection](#object-detection)
-   - [Video Rrepresentation](#video-rrepresentation)
-   - [Medical Image](#medical-image)
-   - [Face Recognition](#face-recognition)
-   - [Scene Text Recognition (OCR)](#scene-text-recognition-(ocr))
-   - [Satellite Imagery](#satellite-imagery)
-   - [3D Point Cloud](#3d-point-cloud)
-   - [Reinforcement Learning](#reinforcement-learning)
-   - [Audio](#audio)
-5. [Analysis of MIM](#analysis-of-mim)
-6. [Survey](#survey)
-7. [Contribution](#contribution)
-8. [Related Project](#related-project)
+- [Awesome Masked Image Modeling for Visual Represention Learning](#awesome-masked-image-modeling-for-visual-represention-learning)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [MIM for Backbones](#mim-for-backbones)
+    - [Fundamental Methods](#fundamental-methods)
+    - [MIM with Constrastive Learning](#mim-with-constrastive-learning)
+    - [MIM for Transformer and CNN](#mim-for-transformer-and-cnn)
+    - [MIM with Advanced Masking](#mim-with-advanced-masking)
+  - [MIM for Downstream Tasks](#mim-for-downstream-tasks)
+    - [Object Detection](#object-detection)
+    - [Video Rrepresentation](#video-rrepresentation)
+    - [Knowledge Distillation](#knowledge-distillation)
+    - [Medical Image](#medical-image)
+    - [Face Recognition](#face-recognition)
+    - [Scene Text Recognition (OCR)](#scene-text-recognition-ocr)
+    - [Satellite Imagery](#satellite-imagery)
+    - [3D Point Cloud](#3d-point-cloud)
+    - [Reinforcement Learning](#reinforcement-learning)
+    - [Audio](#audio)
+  - [Analysis of MIM](#analysis-of-mim)
+  - [Survey](#survey)
+  - [Contribution](#contribution)
+  - [Related Project](#related-project)
+    - [Paper List of Masked Image Modeling](#paper-list-of-masked-image-modeling)
+    - [Porject of Self-supervised Learning](#porject-of-self-supervised-learning)
 
 
 ## MIM for Backbones
@@ -183,6 +187,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MAGE**: Tianhong Li, Huiwen Chang, Shlok Kumar Mishra, Han Zhang, Dina Katabi, Dilip Krishnan.
    - MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis. [[CVPR'2023](https://arxiv.org/abs/2211.09117)] [[code](https://github.com/lth14/mage)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
+* **MixedAE**: Kai Chen, Zhili Liu, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung.
+   - Mixed Autoencoder for Self-supervised Visual Representation Learning. [[CVPR'2023](https://arxiv.org/abs/2303.17152)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229929023-1ea53237-ebfb-4203-8b93-dd761d937b27.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -314,7 +321,15 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MIMT**: Jinxi Xiang, Kuan Tian, Jun Zhang.
    - MIMT: Masked Image Modeling Transformer for Video Compression. [[ICLR'2023](https://openreview.net/forum?id=j9m-mVnndbm)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/207726629-e9481b07-58a4-4afb-be42-1a315bccd10c.png" /></p>
+* **DropMAE**: Qiangqiang Wu, Tianyu Yang, Ziquan Liu, Baoyuan Wu, Ying Shan, Antoni B. Chan.
+   - DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks. [[CVPR'2023](https://arxiv.org/abs/2304.00571)] [[code](https://github.com/jimmy-dq/dropmae)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229926942-c661dff0-1cba-43cd-a206-435f223d8fd6.png" /></p>
 
+### Knowledge Distillation
+
+* **G2SD**: Wei Huang, Zhiliang Peng, Li Dong, Furu Wei, Jianbin Jiao, Qixiang Ye.
+   - Generic-to-Specific Distillation of Masked Autoencoders. [[CVPR'2023](https://arxiv.org/abs/2302.14771)] [[code](https://github.com/pengzhiliang/G2SD)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229930409-40ca4ec9-68df-4eed-ae49-67f513a99277.png" /></p>
 
 ### Medical Image
 
