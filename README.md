@@ -190,6 +190,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MixedAE**: Kai Chen, Zhili Liu, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung.
    - Mixed Autoencoder for Self-supervised Visual Representation Learning. [[CVPR'2023](https://arxiv.org/abs/2303.17152)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229929023-1ea53237-ebfb-4203-8b93-dd761d937b27.png" /></p>
+* **LocalMAE**: Haoqing Wang, Yehui Tang, Yunhe Wang, Jianyuan Guo, Zhi-Hong Deng, Kai Han.
+   - Masked Image Modeling with Local Multi-Scale Reconstruction. [[CVPR'2023](https://arxiv.org/abs/2303.05251)] [[code](https://github.com/Haoqing-Wang/LocalMIM)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/233732370-4ad8b717-5a86-4957-8d8a-494cc9198685.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -278,6 +281,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **SemMAE**: Gang Li, Heliang Zheng, Daqing Liu, Chaoyue Wang, Bing Su, Changwen Zheng.
    - SemMAE: Semantic-Guided Masking for Learning Masked Autoencoders. [[NIPS'2022](https://arxiv.org/abs/2206.10207)] [[code](https://github.com/ucasligang/semmae)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204317096-f6ade707-6f66-4826-823e-e14d0784b960.png" /></p>
+* **HPM**: Haochen Wang, Kaiyou Song, Junsong Fan, Yuxi Wang, Jin Xie, Zhaoxiang Zhang.
+   - Hard Patches Mining for Masked Image Modeling. [[CVPR'2023](https://arxiv.org/abs/2304.05919)] [[code](https://github.com/Haochen-Wang409/HPM)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/232319362-d6a5419f-6a95-4405-a615-f8ded42c1896.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -355,6 +361,8 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 * **MaskOCR**: Pengyuan Lyu, Chengquan Zhang, Shanshan Liu, Meina Qiao, Yangliu Xu, Liang Wu, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
    - MaskOCR: Text Recognition with Masked Encoder-Decoder Pretraining. [[ArXiv'2022](https://arxiv.org/abs/2206.00311)]
+* **DocMAE**: Shaokai Liu, Hao Feng, Wengang Zhou, Houqiang Li, Cong Liu, Feng Wu.
+   - DocMAE: Document Image Rectification via Self-supervised Representation Learning. [[ICME'2023](https://arxiv.org/abs/2304.10341)]
 
 ### Satellite Imagery
 
