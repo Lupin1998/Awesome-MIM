@@ -25,6 +25,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
     - [Object Detection](#object-detection)
     - [Video Rrepresentation](#video-rrepresentation)
     - [Knowledge Distillation](#knowledge-distillation)
+    - [Efficient Fine-tuning](#efficient-fine-tuning)
     - [Medical Image](#medical-image)
     - [Face Recognition](#face-recognition)
     - [Scene Text Recognition (OCR)](#scene-text-recognition-ocr)
@@ -99,7 +100,10 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204305475-c462edf5-6e20-4f43-a1e1-f06641d13966.png" /></p>
 * **ConvMAE**: Peng Gao, Teli Ma, Hongsheng Li, Ziyi Lin, Jifeng Dai, Yu Qiao.
    - ConvMAE: Masked Convolution Meets Masked Autoencoders. [[NIPS'2022](https://arxiv.org/abs/2205.03892)] [[code](https://github.com/Alpha-VL/ConvMAE)]
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204305687-8f04d9f7-dc60-4ff0-8f94-5e72795774ca.png" /></p>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204305687-8f04d9f7-dc60-4ff0-8f94-5e72795774ca.png" /></p>
+* **MR-MAE (ConvMAE.V2)**: Peng Gao, Renrui Zhang, Rongyao Fang, Ziyi Lin, Hongyang Li, Hongsheng Li, Qiao Yu.
+   - Mimic before Reconstruct: Enhancing Masked Autoencoders with Feature Mimicking. [[arXiv'2023](https://arxiv.org/abs/2303.05475)] [[code](https://github.com/alpha-vl/convmae)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236312228-1038fc6c-af93-46f2-b0aa-6f121f8388be.png" /></p>
 * **GreenMIM**: Lang Huang, Shan You, Mingkai Zheng, Fei Wang, Chen Qian, Toshihiko Yamasaki.
    - Green Hierarchical Vision Transformer for Masked Image Modeling. [[NIPS'2022](https://arxiv.org/abs/2205.13515)] [[code](https://github.com/LayneH/GreenMIM)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204305942-b22b5064-26d9-4f0b-9a2a-88012873f4fa.png" /></p>
@@ -157,6 +161,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **EVA**: Yuxin Fang, Wen Wang, Binhui Xie, Quan Sun, Ledell Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang, Yue Cao.
    - EVA: Exploring the Limits of Masked Visual Representation Learning at Scale. [[CVPR'2023](https://arxiv.org/abs/2211.07636)] [[code](https://github.com/baaivision/EVA)]
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/206920442-4d896aca-1765-4e66-9afb-c76017bc3521.png" /></p>
+* **CAE**: Xiaokang Chen, Mingyu Ding, Xiaodi Wang, Ying Xin, Shentong Mo, Yunhao Wang, Shumin Han, Ping Luo, Gang Zeng, Jingdong Wang.
+   - Context Autoencoder for Self-Supervised Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2202.03026)] [[code](https://github.com/lxtGH/CAE)]
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/234667973-6f98f65e-662c-4934-be85-efa60f3fc20a.png" /></p>
 * **CAE.V2**: Xinyu Zhang, Jiahui Chen, Junkun Yuan, Qiang Chen, Jian Wang, Xiaodi Wang, Shumin Han, Xiaokang Chen, Jimin Pi, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
    - CAE v2: Context Autoencoder with CLIP Target. [[ArXiv'2022](https://arxiv.org/abs/2211.09799)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/206920593-c703518b-47f9-4f61-a319-5ba0099c902d.png" /></p>
@@ -193,9 +200,20 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **LocalMAE**: Haoqing Wang, Yehui Tang, Yunhe Wang, Jianyuan Guo, Zhi-Hong Deng, Kai Han.
    - Masked Image Modeling with Local Multi-Scale Reconstruction. [[CVPR'2023](https://arxiv.org/abs/2303.05251)] [[code](https://github.com/Haoqing-Wang/LocalMIM)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/233732370-4ad8b717-5a86-4957-8d8a-494cc9198685.png" /></p>
+* **MaskAlign**: Hongwei Xue, Peng Gao, Hongyang Li, Yu Qiao, Hao Sun, Houqiang Li, Jiebo Luo.
+   - Stare at What You See: Masked Image Modeling without Reconstruction. [[CVPR'2023](https://arxiv.org/abs/2211.08887)] [[code](https://github.com/OpenPerceptionX/maskalign)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236316028-df4132f1-2e76-4cef-8f88-ce1d3e84b127.png" /></p>
+* **MOMA**: Yuchong Yao, Nandakishor Desai, Marimuthu Palaniswami.
+   - MOMA: Distill from Self-Supervised Teachers. [[arXiv'2023](https://arxiv.org/abs/2302.02089)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236316583-28639d42-3574-4dcc-8bd4-da377cce29a4.png" /></p>
+* **PixMIM**: Yuan Liu, Songyang Zhang, Jiacheng Chen, Kai Chen, Dahua Lin.
+   - PixMIM: Rethinking Pixel Reconstruction in Masked Image Modeling. [[arXiv'2023](https://arxiv.org/abs/2303.02416)] [[code](https://github.com/open-mmlab/mmselfsup/tree/dev-1.x/configs/selfsup/pixmim)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236320141-75a1c36e-ab6e-4bbe-bc46-b94f91db1439.png" /></p>
+* **Img2Vec**: Heng Pan, Chenyang Liu, Wenxiao Wang, Li Yuan, Hongfa Wang, Zhifeng Li, Wei Liu.
+   - Img2Vec: A Teacher of High Token-Diversity Helps Masked AutoEncoders. [[arXiv'2023](https://arxiv.org/abs/2304.12535)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236318192-b39c9900-db30-4e18-bb1b-a5020723b906.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ### MIM with Constrastive Learning
 
@@ -287,6 +305,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **HPM**: Haochen Wang, Kaiyou Song, Junsong Fan, Yuxi Wang, Jin Xie, Zhaoxiang Zhang.
    - Hard Patches Mining for Masked Image Modeling. [[CVPR'2023](https://arxiv.org/abs/2304.05919)] [[code](https://github.com/Haochen-Wang409/HPM)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/232319362-d6a5419f-6a95-4405-a615-f8ded42c1896.png" /></p>
+* **AutoMAE**: Haijian Chen, Wendong Zhang, Yunbo Wang, Xiaokang Yang.
+   - Improving Masked Autoencoders by Learning Where to Mask. [[arXiv'2023](https://arxiv.org/abs/2303.06583)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236310631-a11eee44-3e70-414f-9caa-ad09a231ce31.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -345,12 +366,21 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MAGVIT**: Lijun Yu, Yong Cheng, Kihyuk Sohn, José Lezama, Han Zhang, Huiwen Chang, Alexander G. Hauptmann, Ming-Hsuan Yang, Yuan Hao, Irfan Essa, Lu Jiang.
    - MAGVIT: Masked Generative Video Transformer. [[CVPR'2023](https://arxiv.org/abs/2212.05199)] [[code](https://github.com/MAGVIT/magvit)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/234349205-1831ce49-2e39-440b-a9b6-916d831f0502.png" /></p>
+* **CMAE-V**: Cheng-Ze Lu, Xiaojie Jin, Zhicheng Huang, Qibin Hou, Ming-Ming Cheng, Jiashi Feng.
+   - CMAE-V: Contrastive Masked Autoencoders for Video Action Recognition. [[arXiv'2023](https://arxiv.org/abs/2301.06018)]
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236318547-a6b49259-bcd5-4e76-b5a9-c20c19a65719.png" /></p>
 
 ### Knowledge Distillation
 
 * **G2SD**: Wei Huang, Zhiliang Peng, Li Dong, Furu Wei, Jianbin Jiao, Qixiang Ye.
    - Generic-to-Specific Distillation of Masked Autoencoders. [[CVPR'2023](https://arxiv.org/abs/2302.14771)] [[code](https://github.com/pengzhiliang/G2SD)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229930409-40ca4ec9-68df-4eed-ae49-67f513a99277.png" /></p>
+
+### Efficient Fine-tuning
+
+* **MAE-CT**: Johannes Lehner, Benedikt Alkin, Andreas Fürst, Elisabeth Rumetshofer, Lukas Miklautz, Sepp Hochreiter.
+   - Contrastive Tuning: A Little Help to Make Masked Autoencoders Forget. [[arXiv'2023](https://arxiv.org/abs/2304.10520)] [[code](https://github.com/ml-jku/MAE-CT)]
+   <!-- <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236308666-b5904b49-dd4e-4dc5-9ee2-158eb3e616e5.png" /></p> -->
 
 ### Medical Image
 
