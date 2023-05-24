@@ -393,6 +393,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **FreMAE**: Wenxuan Wang, Jing Wang, Chen Chen, Jianbo Jiao, Lichao Sun, Yuanxiu Cai, Shanshan Song, Jiangyun Li.
    - FreMAE: Fourier Transform Meets Masked Autoencoders for Medical Image Segmentation. [[ArXiv'2023](https://arxiv.org/abs/2304.10864)]
 
+* **3DMIM_Medical**: Zekai Chen, Devansh Agarwal, Kshitij Aggarwal, Wiem Safta, Samit Hirawat, Venkat Sethuraman, Mariann Micsinai Balan, Kevin Brown.
+   - Masked Image Modeling Advances 3D Medical Image Analysis. [[WACV'2023](https://arxiv.org/abs/2204.11716)] [[code](https://github.com/ZEKAICHEN/MIM-Med3D.)]
+
 ### Face Recognition
 
 * **FaceMAE**: Kai Wang, Bo Zhao, Xiangyu Peng, Zheng Zhu, Jiankang Deng, Xinchao Wang, Hakan Bilen, Yang You.
