@@ -429,6 +429,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - Voxel-MAE: Masked Autoencoders for Pre-training Large-scale Point Clouds. [[ArXiv'2022](https://arxiv.org/abs/2206.09900)]
 * **Point-M2AE**: Renrui Zhang, Ziyu Guo, Peng Gao, Rongyao Fang, Bin Zhao, Dong Wang, Yu Qiao, Hongsheng Li.
    - Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training. [[NIPS'2022](https://arxiv.org/abs/2205.14401)] [[code](https://github.com/zrrskywalker/point-m2ae)]
+* **I2P-MAE**: Renrui Zhang, Liuhui Wang, Yu Qiao, Peng Gao, Hongsheng Li.
+   - Learning 3D Representations from 2D Pre-trained Models via
+Image-to-Point Masked Autoencoders. [[CVPR'2023](https://arxiv.org/pdf/2212.06785.pdf)] [[code](https://github.com/ZrrSkywalker/I2P-MAE)]
 * **ACT**: Runpei Dong, Zekun Qi, Linfeng Zhang, Junbo Zhang, Jianjian Sun, Zheng Ge, Li Yi, Kaisheng Ma.
    - Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?. [[ICLR'2023](https://arxiv.org/abs/2212.08320)] [[code](https://github.com/RunpeiDong/ACT)]
 * **ReCon**: Zekun Qi, Runpei Dong, Guofan Fan, Zheng Ge, Xiangyu Zhang, Kaisheng Ma, Li Yi.
