@@ -259,9 +259,15 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MAE-Lite**: Shaoru Wang, Jin Gao, Zeming Li, Xiaoqin Zhang, Weiming Hu.
    - A Closer Look at Self-Supervised Lightweight Vision Transformers. [[ICML'2023](https://arxiv.org/abs/2205.14443)] [[code](https://github.com/wangsr126/mae-lite)]
    <p align="center"><img width="80%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/218d8909-9ad5-43af-9eeb-42c9e0aea9ed" /></p>
-* **A2MIM**: Siyuan Li, Di Wu, Fang Wu, Zelin Zang, Kai Wang, Lei Shang, Baigui Sun, Hao Li, Stan.Z.Li.
+* **A2MIM**: Siyuan Li, Di Wu, Fang Wu, Zelin Zang, Stan.Z.Li.
    - Architecture-Agnostic Masked Image Modeling - From ViT back to CNN. [[ICML'2023](https://arxiv.org/abs/2205.13943)] [[code](https://github.com/Westlake-AI/openmixup)] [[project](https://github.com/Westlake-AI/A2MIM)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204314681-d953cffc-8ba7-481c-925e-c89084f83c56.png" /></p>
+* **Hiera**: Chaitanya Ryali, Yuan-Ting Hu, Daniel Bolya, Chen Wei, Haoqi Fan, Po-Yao Huang, Vaibhav Aggarwal, Arkabandhu Chowdhury, Omid Poursaeed, Judy Hoffman, Jitendra Malik, Yanghao Li, Christoph Feichtenhofer.
+   - Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles. [[ICML'2023](https://arxiv.org/abs/2306.00989)] [[code](https://github.com/facebookresearch/hiera)]
+   <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/f4a007c0-4479-4701-875d-b182bf963332" /></p>
+* **WSP**: Mannat Singh, Quentin Duval, Kalyan Vasudev Alwala, Haoqi Fan, Vaibhav Aggarwal, Aaron Adcock, Armand Joulin, Piotr Dollár, Christoph Feichtenhofer, Ross Girshick, Rohit Girdhar, Ishan Misra.
+   - The effectiveness of MAE pre-pretraining for billion-scale pretraining. [[ArXiv'2023](https://arxiv.org/abs/2303.13496)]
+   <p align="center"><img width="50%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/59a0eb5c-5da6-4821-83fe-bba7567c3e6f" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -273,7 +279,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **CIM**: Yuxin Fang, Li Dong, Hangbo Bao, Xinggang Wang, Furu Wei.
    - Corrupted Image Modeling for Self-Supervised Visual Pre-Training. [[ICLR'2023](https://arxiv.org/abs/2202.03382)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204315003-182e9ba5-5ab3-4d84-9544-8e0a3d8590c5.png" /></p>
-* **A2MIM**: Siyuan Li, Di Wu, Fang Wu, Zelin Zang, Kai Wang, Lei Shang, Baigui Sun, Hao Li, Stan.Z.Li.
+* **A2MIM**: Siyuan Li, Di Wu, Fang Wu, Zelin Zang, Stan.Z.Li.
    - Architecture-Agnostic Masked Image Modeling - From ViT back to CNN. [[ICML'2023](https://arxiv.org/abs/2205.13943)] [[code](https://github.com/Westlake-AI/openmixup)] [[project](https://github.com/Westlake-AI/A2MIM)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204314681-d953cffc-8ba7-481c-925e-c89084f83c56.png" /></p>
 * **MFM**: Jiahao Xie, Wei Li, Xiaohang Zhan, Ziwei Liu, Yew Soon Ong, Chen Change Loy.
@@ -375,6 +381,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **CMAE-V**: Cheng-Ze Lu, Xiaojie Jin, Zhicheng Huang, Qibin Hou, Ming-Ming Cheng, Jiashi Feng.
    - CMAE-V: Contrastive Masked Autoencoders for Video Action Recognition. [[arXiv'2023](https://arxiv.org/abs/2301.06018)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236318547-a6b49259-bcd5-4e76-b5a9-c20c19a65719.png" /></p>
+* **SiamMAE**: Agrim Gupta, Jiajun Wu, Jia Deng, Li Fei-Fei.
+   - Siamese Masked Autoencoders. [[arXiv'2023](https://arxiv.org/abs/2305.14344)] [[code](https://siam-mae-video.github.io/)]
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/68a888de-dc34-4f5b-bdcc-b28dbfb99238" /></p>
 
 ### Knowledge Distillation
 
