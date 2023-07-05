@@ -288,14 +288,14 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **MFM**: Jiahao Xie, Wei Li, Xiaohang Zhan, Ziwei Liu, Yew Soon Ong, Chen Change Loy.
    - Masked Frequency Modeling for Self-Supervised Visual Pre-Training. [[ICLR'2023](https://arxiv.org/abs/2206.07706)] [[code](https://github.com/CoinCheung/MFM)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204315329-1a58598f-35cb-439c-91ee-303ddd36fa6c.png" /></p>
-* **MixMIM**: Jihao Liu, Xin Huang, Yu Liu, Hongsheng Li.
-   - MixMIM: Mixed and Masked Image Modeling for Efficient Visual Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2205.13137)] [[code](https://github.com/Sense-X/MixMIM)]
+* **MixMAE**: Jihao Liu, Xin Huang, Jinliang Zheng, Yu Liu, Hongsheng Li.
+   - MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers. [[CVPR'2023](https://arxiv.org/abs/2205.13137)] [[code](https://github.com/Sense-X/MixMIM)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204315480-5c59ed60-7b5f-4da9-85fb-551a961fd731.png" /></p>
 * **MRA**: Haohang Xu, Shuangrui Ding, Xiaopeng Zhang, Hongkai Xiong, Qi Tian.
    - Masked Autoencoders are Robust Data Augmentors. [[ArXiv'2022](https://arxiv.org/abs/2206.04846)] [[code](https://github.com/haohang96/mra)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204315634-212c14b9-7d6d-4ad0-880b-35cafb623249.png" /></p>
 * **SparK**: Keyu Tian, Yi Jiang, Qishuai Diao, Chen Lin, Liwei Wang, Zehuan Yuan.
-   - Designing BERT for Convolutional Networks: Sparse and Hierarchical Masked Modeling. [[ArXiv'2023](https://arxiv.org/abs/2301.03580)] [[OpenReview'2022](https://openreview.net/pdf?id=NRxydtWup1S)] [[code](https://github.com/keyu-tian/spark)]
+   - Designing BERT for Convolutional Networks: Sparse and Hierarchical Masked Modeling. [[ICLR'2023](https://arxiv.org/abs/2301.03580)] [[OpenReview'2022](https://openreview.net/pdf?id=NRxydtWup1S)] [[code](https://github.com/keyu-tian/spark)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204315983-d5a24e55-fab4-4336-a1ed-3428a997aebd.png" /></p>
 * **ConvNeXt.V2**: Sanghyun Woo, Shoubhik Debnath, Ronghang Hu, Xinlei Chen, Zhuang Liu, In So Kweon, Saining Xie.
    - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders. [[ArXiv'2023](https://arxiv.org/abs/2301.00808)] [[code](https://github.com/facebookresearch/ConvNeXt-V2)]
@@ -339,6 +339,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **iTPN**: Yunjie Tian, Lingxi Xie, Zhaozhi Wang, Longhui Wei, Xiaopeng Zhang, Jianbin Jiao, Yaowei Wang, Qi Tian, Qixiang Ye.
    - Integrally Pre-Trained Transformer Pyramid Networks. [[CVPR'2023](https://arxiv.org/abs/2211.12735)] [[code](https://github.com/sunsmarterjie/iTPN)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/231279943-851af288-fe43-44ba-aa85-3ca6ee72a247.png" /></p>
+* **PiMAE**: Anthony Chen, Kevin Zhang, Renrui Zhang, Zihan Wang, Yuheng Lu, Yandong Guo, Shanghang Zhang.
+   - PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection. [[CVPR'2023](https://arxiv.org/abs/2303.08129)] [[code](https://github.com/BLVLab/PiMAE)]
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/251236178-0e2a8530-d644-4c04-8a83-63c16c3743bb.png" /></p>
 
 ### Video Rrepresentation
 
@@ -378,6 +381,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **DropMAE**: Qiangqiang Wu, Tianyu Yang, Ziquan Liu, Baoyuan Wu, Ying Shan, Antoni B. Chan.
    - DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks. [[CVPR'2023](https://arxiv.org/abs/2304.00571)] [[code](https://github.com/jimmy-dq/dropmae)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229926942-c661dff0-1cba-43cd-a206-435f223d8fd6.png" /></p>
+* **AdaMAE**: Wele Gedara Chaminda Bandara, Naman Patel, Ali Gholami, Mehdi Nikkhah, Motilal Agrawal, Vishal M. Patel.
+   - AdaMAE: Adaptive Masking for Efficient Spatiotemporal Learning with Masked Autoencoders. [[CVPR'2023](https://arxiv.org/abs/2211.09120)] [[code](https://github.com/wgcban/adamae)]
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/251232601-e06047d1-478a-4000-b6c5-7c52e0fae274.png" /></p>
 * **MAGVIT**: Lijun Yu, Yong Cheng, Kihyuk Sohn, José Lezama, Han Zhang, Huiwen Chang, Alexander G. Hauptmann, Ming-Hsuan Yang, Yuan Hao, Irfan Essa, Lu Jiang.
    - MAGVIT: Masked Generative Video Transformer. [[CVPR'2023](https://arxiv.org/abs/2212.05199)] [[code](https://github.com/MAGVIT/magvit)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/234349205-1831ce49-2e39-440b-a9b6-916d831f0502.png" /></p>
@@ -396,9 +402,12 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ### Efficient Fine-tuning
 
+* **Robust Fine-tuning**: Yao Xiao, Ziyi Tang, Pengxu Wei, Cong Liu, Liang Lin.
+   - Masked Images Are Counterfactual Samples for Robust Fine-tuning. [[CVPR'2023](https://arxiv.org/abs/2303.03052)] [[code](https://github.com/Coxy7/robust-finetuning)]
+   <p align="center"><img width="65%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/251233953-dfec8ab8-9c23-4395-9b67-e555b62b17ec.png" /></p>
 * **MAE-CT**: Johannes Lehner, Benedikt Alkin, Andreas Fürst, Elisabeth Rumetshofer, Lukas Miklautz, Sepp Hochreiter.
    - Contrastive Tuning: A Little Help to Make Masked Autoencoders Forget. [[arXiv'2023](https://arxiv.org/abs/2304.10520)] [[code](https://github.com/ml-jku/MAE-CT)]
-   <!-- <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236308666-b5904b49-dd4e-4dc5-9ee2-158eb3e616e5.png" /></p> -->
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236308666-b5904b49-dd4e-4dc5-9ee2-158eb3e616e5.png" /></p>
 
 ### Medical Image
 
@@ -448,8 +457,10 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **Point-M2AE**: Renrui Zhang, Ziyu Guo, Peng Gao, Rongyao Fang, Bin Zhao, Dong Wang, Yu Qiao, Hongsheng Li.
    - Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training. [[NIPS'2022](https://arxiv.org/abs/2205.14401)] [[code](https://github.com/zrrskywalker/point-m2ae)]
 * **I2P-MAE**: Renrui Zhang, Liuhui Wang, Yu Qiao, Peng Gao, Hongsheng Li.
-   - Learning 3D Representations from 2D Pre-trained Models via
-Image-to-Point Masked Autoencoders. [[CVPR'2023](https://arxiv.org/pdf/2212.06785.pdf)] [[code](https://github.com/ZrrSkywalker/I2P-MAE)]
+   - Learning 3D Representations from 2D Pre-trained Models via Image-to-Point Masked Autoencoders. [[CVPR'2023](https://arxiv.org/abs/2212.06785)] [[code](https://github.com/ZrrSkywalker/I2P-MAE)]
+* **GeoMAE**: Xiaoyu Tian, Haoxi Ran, Yue Wang, Hang Zhao.
+   - GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training. [[CVPR'2023](https://arxiv.org/abs/2305.08808)] [[code](https://github.com/tsinghua-mars-lab/geomae)]
+   <!-- https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/251234634-3266bf68-fcc7-4fb2-9679-03c902d6043a.png -->
 * **ACT**: Runpei Dong, Zekun Qi, Linfeng Zhang, Junbo Zhang, Jianjian Sun, Zheng Ge, Li Yi, Kaisheng Ma.
    - Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?. [[ICLR'2023](https://arxiv.org/abs/2212.08320)] [[code](https://github.com/RunpeiDong/ACT)]
 * **ReCon**: Zekun Qi, Runpei Dong, Guofan Fan, Zheng Ge, Xiangyu Zhang, Kaisheng Ma, Li Yi.
