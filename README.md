@@ -21,6 +21,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
     - [MIM with Constrastive Learning](#mim-with-constrastive-learning)
     - [MIM for Transformers and CNNs](#mim-for-transformers-and-cnns)
     - [MIM with Advanced Masking](#mim-with-advanced-masking)
+    - [Image Generation](#image-generation)
   - [MIM for Downstream Tasks](#mim-for-downstream-tasks)
     - [Object Detection](#object-detection)
     - [Video Rrepresentation](#video-rrepresentation)
@@ -271,6 +272,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **Layer Grafted**: Ziyu Jiang, Yinpeng Chen, Mengchen Liu, Dongdong Chen, Xiyang Dai, Lu Yuan, Zicheng Liu, Zhangyang Wang.
    - Layer Grafted Pre-training: Bridging Contrastive Learning And Masked Image Modeling For Label-Efficient Representations. [[ICLR'2023](https://openreview.net/forum?id=jwdqNwyREyh)] [[code](https://github.com/VITA-Group/layerGraftedPretraining_ICLR23)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/224830983-13cfcbf5-f1df-481b-9e7c-24667d041fe4.png" /></p>
+* **MaPeT**: Lorenzo Baraldi, Roberto Amoroso, Marcella Cornia, Lorenzo Baraldi, Andrea Pilzer, Rita Cucchiara.
+   - Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training. [[ArXiv'2023](https://arxiv.org/abs/2306.07346)] [[code](https://github.com/aimagelab/mapet)]
+   <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/71967291-abc1-4136-b03a-e05cf7b6f7ef" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -323,6 +327,15 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **AutoMAE**: Haijian Chen, Wendong Zhang, Yunbo Wang, Xiaokang Yang.
    - Improving Masked Autoencoders by Learning Where to Mask. [[arXiv'2023](https://arxiv.org/abs/2303.06583)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236310631-a11eee44-3e70-414f-9caa-ad09a231ce31.png" /></p>
+
+### Image Generation
+
+* **MAGE**: Tianhong Li, Huiwen Chang, Shlok Kumar Mishra, Han Zhang, Dina Katabi, Dilip Krishnan.
+   - MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis. [[CVPR'2023](https://arxiv.org/abs/2211.09117)] [[code](https://github.com/lth14/mage)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
+* **SPAE**: Lijun Yu, Yong Cheng, Zhiruo Wang, Vivek Kumar, Wolfgang Macherey, Yanping Huang, David A. Ross, Irfan Essa, Yonatan Bisk, Ming-Hsuan Yang, Kevin Murphy, Alexander G. Hauptmann, Lu Jiang.
+   - SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs. [[ArXiv'2023](https://arxiv.org/abs/2306.17842)] [[code](https://github.com/google-research/magvit/)]
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/d71a41d6-69d7-484f-868f-9f38b08c936c" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
