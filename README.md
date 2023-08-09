@@ -228,6 +228,12 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **WSP**: Mannat Singh, Quentin Duval, Kalyan Vasudev Alwala, Haoqi Fan, Vaibhav Aggarwal, Aaron Adcock, Armand Joulin, Piotr Dollár, Christoph Feichtenhofer, Ross Girshick, Rohit Girdhar, Ishan Misra.
    - The effectiveness of MAE pre-pretraining for billion-scale pretraining. [[ArXiv'2023](https://arxiv.org/abs/2303.13496)]
    <p align="center"><img width="50%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/59a0eb5c-5da6-4821-83fe-bba7567c3e6f" /></p>
+* **MaPeT**: Lorenzo Baraldi, Roberto Amoroso, Marcella Cornia, Lorenzo Baraldi, Andrea Pilzer, Rita Cucchiara.
+   - Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training. [[ArXiv'2023](https://arxiv.org/abs/2306.07346)] [[code](https://github.com/aimagelab/mapet)]
+   <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/71967291-abc1-4136-b03a-e05cf7b6f7ef" /></p>
+* **R-MAE**: Duy-Kien Nguyen, Vaibhav Aggarwal, Yanghao Li, Martin R. Oswald, Alexander Kirillov, Cees G. M. Snoek, Xinlei Chen.
+   - R-MAE: Regions Meet Masked Autoencoders. [[ArXiv'2023](https://arxiv.org/abs/2306.05411)] [[code](https://github.com/facebookresearch/r-mae)]
+   <p align="center"><img width="55%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/0c8747ed-477b-4217-b84e-cdf1a983bdbf" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -272,9 +278,6 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **Layer Grafted**: Ziyu Jiang, Yinpeng Chen, Mengchen Liu, Dongdong Chen, Xiyang Dai, Lu Yuan, Zicheng Liu, Zhangyang Wang.
    - Layer Grafted Pre-training: Bridging Contrastive Learning And Masked Image Modeling For Label-Efficient Representations. [[ICLR'2023](https://openreview.net/forum?id=jwdqNwyREyh)] [[code](https://github.com/VITA-Group/layerGraftedPretraining_ICLR23)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/224830983-13cfcbf5-f1df-481b-9e7c-24667d041fe4.png" /></p>
-* **MaPeT**: Lorenzo Baraldi, Roberto Amoroso, Marcella Cornia, Lorenzo Baraldi, Andrea Pilzer, Rita Cucchiara.
-   - Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training. [[ArXiv'2023](https://arxiv.org/abs/2306.07346)] [[code](https://github.com/aimagelab/mapet)]
-   <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/71967291-abc1-4136-b03a-e05cf7b6f7ef" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
