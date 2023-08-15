@@ -192,9 +192,6 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 * **DMJD**: Xin Ma, Chang Liu, Chunyu Xie, Long Ye, Yafeng Deng, Xiangyang Ji.
    - Disjoint Masking with Joint Distillation for Efficient Masked Image Modeling. [[ArXiv'2023](https://arxiv.org/abs/2301.00230)] [[code](https://github.com/mx-mark/dmjd)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/210645728-7a066877-9eea-4fdb-a13a-df6863a287e6.png" /></p>
-* **MAGE**: Tianhong Li, Huiwen Chang, Shlok Kumar Mishra, Han Zhang, Dina Katabi, Dilip Krishnan.
-   - MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis. [[CVPR'2023](https://arxiv.org/abs/2211.09117)] [[code](https://github.com/lth14/mage)]
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
 * **MixedAE**: Kai Chen, Zhili Liu, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung.
    - Mixed Autoencoder for Self-supervised Visual Representation Learning. [[CVPR'2023](https://arxiv.org/abs/2303.17152)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229929023-1ea53237-ebfb-4203-8b93-dd761d937b27.png" /></p>
@@ -333,12 +330,24 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ### Image Generation
 
+* **iGPT**: Mark Chen, Alec Radford, Rewon Child, Jeff Wu, Heewoo Jun, David Luan, Ilya Sutskever.
+   - Generative Pretraining from Pixels. [[ICML'2020](http://proceedings.mlr.press/v119/chen20s/chen20s.pdf)] [[code](https://github.com/openai/image-gpt)]
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204300433-a0b6b25b-9f6f-431b-bbfd-19169d8cbca6.png" /></p>
+* **VQGAN**: Patrick Esser, Robin Rombach, Björn Ommer.
+   - Taming Transformers for High-Resolution Image Synthesis. [[CVPR'2021](https://arxiv.org/abs/2012.09841)] [[code](https://github.com/CompVis/taming-transformers)]
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260847328-ef6d17b6-72a2-4b85-a89a-d48dba273c1e.png" /></p>
+* **ViT-VQGAN**: Jiahui Yu, Xin Li, Jing Yu Koh, Han Zhang, Ruoming Pang, James Qin, Alexander Ku, Yuanzhong Xu, Jason Baldridge, Yonghui Wu.
+   - Vector-quantized Image Modeling with Improved VQGAN. [[ICLR'2022](https://arxiv.org/abs/2110.04627)] [[code](https://github.com/lucidrains/DALLE2-pytorch)]
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260846200-0a7fd6e6-170a-435d-9f7b-a020bde64bc5.png" /></p>
 * **MAGE**: Tianhong Li, Huiwen Chang, Shlok Kumar Mishra, Han Zhang, Dina Katabi, Dilip Krishnan.
    - MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis. [[CVPR'2023](https://arxiv.org/abs/2211.09117)] [[code](https://github.com/lth14/mage)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
+* **LQAE**: Hao Liu, Wilson Yan, Pieter Abbeel.
+   - Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment. [[ArXiv'2023](https://arxiv.org/abs/2302.00902)] [[code](https://github.com/lhao499/language-quantized-autoencoders)]
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260847938-cab2ff4f-e504-4ac1-a7bf-d11d710bb74a.png" /></p>
 * **SPAE**: Lijun Yu, Yong Cheng, Zhiruo Wang, Vivek Kumar, Wolfgang Macherey, Yanping Huang, David A. Ross, Irfan Essa, Yonatan Bisk, Ming-Hsuan Yang, Kevin Murphy, Alexander G. Hauptmann, Lu Jiang.
    - SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs. [[ArXiv'2023](https://arxiv.org/abs/2306.17842)] [[code](https://github.com/google-research/magvit/)]
-   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/d71a41d6-69d7-484f-868f-9f38b08c936c" /></p>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/258768117-d71a41d6-69d7-484f-868f-9f38b08c936c.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -361,13 +370,16 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ### Video Rrepresentation
 
+* **VideoGPT**: Wilson Yan, Yunzhi Zhang, Pieter Abbeel, Aravind Srinivas.
+   - VideoGPT: Video Generation using VQ-VAE and Transformers. [[arXiv'2021](https://arxiv.org/abs/2104.10157)] [[code](https://github.com/wilson1yan/VideoGPT)]
+   <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260848752-da40d950-5154-4ba1-8702-9dcd448a83bc.png" /></p>
 * **VideoMAE**: Zhan Tong, Yibing Song, Jue Wang, Limin Wang.
    - VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training. [[NIPS'2022](https://arxiv.org/abs/2203.12602)] [[code](https://github.com/MCG-NJU/VideoMAE)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207724710-e4093d2e-8d6c-40b9-bf7d-ab519eb97dd2.png" /></p>
 * **VideoMAE.V2**: Limin Wang, Bingkun Huang, Zhiyu Zhao, Zhan Tong, Yinan He, Yi Wang, Yali Wang, Yu Qiao.
    - VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking. [[CVPR'2023](https://arxiv.org/abs/2303.16727)] [[code](https://github.com/MCG-NJU/VideoMAE)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/231277665-7027e34b-7b2c-4306-ac73-7be08b176f09.png" /></p>
-* **MAE**: Christoph Feichtenhofer, Haoqi Fan, Yanghao Li, Kaiming He.
+* **MAE (Video)**: Christoph Feichtenhofer, Haoqi Fan, Yanghao Li, Kaiming He.
    - Masked Autoencoders As Spatiotemporal Learners. [[NIPS'2022](https://arxiv.org/abs/2205.09113)] [[code](https://github.com/facebookresearch/SlowFast)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/207725088-8bccb8df-a9c8-4ba6-b7cd-5f259c0959c1.png" /></p>
 * **FMNet**: Yiran Wang, Zhiyu Pan, Xingyi Li, Zhiguo Cao, Ke Xian, Jianming Zhang.
