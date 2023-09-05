@@ -163,7 +163,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - EVA: Exploring the Limits of Masked Visual Representation Learning at Scale. [[CVPR'2023](https://arxiv.org/abs/2211.07636)] [[code](https://github.com/baaivision/EVA)]
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/206920442-4d896aca-1765-4e66-9afb-c76017bc3521.png" /></p>
 * **CAE**: Xiaokang Chen, Mingyu Ding, Xiaodi Wang, Ying Xin, Shentong Mo, Yunhao Wang, Shumin Han, Ping Luo, Gang Zeng, Jingdong Wang.
-   - Context Autoencoder for Self-Supervised Representation Learning. [[ArXiv'2022](https://arxiv.org/abs/2202.03026)] [[code](https://github.com/lxtGH/CAE)]
+   - Context Autoencoder for Self-Supervised Representation Learning. [[IJCV'2023](https://arxiv.org/abs/2202.03026)] [[code](https://github.com/lxtGH/CAE)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/234667973-6f98f65e-662c-4934-be85-efa60f3fc20a.png" /></p>
 * **CAE.V2**: Xinyu Zhang, Jiahui Chen, Junkun Yuan, Qiang Chen, Jian Wang, Xiaodi Wang, Shumin Han, Xiaokang Chen, Jimin Pi, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang.
    - CAE v2: Context Autoencoder with CLIP Target. [[ArXiv'2022](https://arxiv.org/abs/2211.09799)]
@@ -232,7 +232,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
    - R-MAE: Regions Meet Masked Autoencoders. [[ArXiv'2023](https://arxiv.org/abs/2306.05411)] [[code](https://github.com/facebookresearch/r-mae)]
    <p align="center"><img width="55%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/0c8747ed-477b-4217-b84e-cdf1a983bdbf" /></p>
 * **MFM**: Yuan Liu, Songyang Zhang, Jiacheng Chen, Zhaohui Yu, Kai Chen, Dahua Lin.
-   - Improving Pixel-based MIM by Reducing Wasted Modeling Capability. [[ICCV'2023](https://arxiv.org/abs/2306.05411)] [[code](https://github.com/open-mmlab/mmpretrain/tree/dev)]
+   - Improving Pixel-based MIM by Reducing Wasted Modeling Capability. [[ICCV'2023](https://arxiv.org/abs/2308.00261)] [[code](https://github.com/open-mmlab/mmpretrain/tree/dev)]
    <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263502915-4f9f94c8-3746-4745-80ab-a16e7eed2f5c.png" /></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -315,6 +315,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ### MIM with Advanced Masking
 
+* **MST**: Zhaowen Li, Zhiyang Chen, Fan Yang, Wei Li, Yousong Zhu, Chaoyang Zhao, Rui Deng, Liwei Wu, Rui Zhao, Ming Tang, Jinqiao Wang.
+   - MST: Masked Self-Supervised Transformer for Visual Representation. [[NIPS'2021](https://arxiv.org/abs/2106.05656)]
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204311330-9652d5d0-4b94-4f9a-afcd-efc12c712279.png" /></p>
 * **ADIOS**: Yuge Shi, N. Siddharth, Philip H.S. Torr, Adam R. Kosiorek.
    - Adversarial Masking for Self-Supervised Learning. [[ICML'2022](https://arxiv.org/abs/2201.13100)] [[code](https://github.com/YugeTen/adios)]
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204316447-66b223b7-1518-477d-9d5f-66bd3148eecd.png" /></p>
