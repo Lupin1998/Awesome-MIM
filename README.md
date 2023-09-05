@@ -60,7 +60,7 @@ ICML'2020 [[Paper](http://proceedings.mlr.press/v119/chen20s/chen20s.pdf)]
 ICLR'2021 [[Paper](https://arxiv.org/abs/2010.11929)]
 [[Code](https://github.com/google-research/vision_transformer)]
    <details close>
-   <summary>**ViT Framework**</summary>
+   <summary>ViT Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204301490-5673cc4c-93d1-435d-a266-ec5a0294bf3b.png" /></p>
    </details>
 
@@ -69,7 +69,7 @@ ICLR'2021 [[Paper](https://arxiv.org/abs/2010.11929)]
 ICLR'2022 [[Paper](https://arxiv.org/abs/2106.08254)]
 [[Code](https://github.com/microsoft/unilm/tree/master/beit)]
    <details close>
-   <summary>**BEiT Framework**</summary>
+   <summary>BEiT Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204301720-156e15e1-a00a-4946-b17f-d2620d2be3d6.png" /></p>
    </details>
 
@@ -78,7 +78,7 @@ ICLR'2022 [[Paper](https://arxiv.org/abs/2106.08254)]
 ICLR'2022 [[Paper](https://arxiv.org/abs/2111.07832)]
 [[Code](https://github.com/bytedance/ibot)]
    <details close>
-   <summary>**iBOT Framework**</summary>
+   <summary>iBOT Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204301946-1b18e2a8-b205-4d85-8ea9-bd2e4d529a70.png" /></p>
    </details>
 
@@ -87,7 +87,7 @@ ICLR'2022 [[Paper](https://arxiv.org/abs/2111.07832)]
 CVPR'2022 [[Paper](https://arxiv.org/abs/2111.06377)]
 [[Code](https://github.com/facebookresearch/mae)]
    <details close>
-   <summary>**MAE Framework**</summary>
+   <summary>MAE Framework</summary>
    <p align="center"><img width="65%" src="https://user-images.githubusercontent.com/44519745/204302185-1b854627-597b-416a-aa85-23dc6c87b59e.png" /></p>
    </details>
 
@@ -96,7 +96,7 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2111.06377)]
 CVPR'2022 [[Paper](https://arxiv.org/abs/2111.09886)]
 [[Code](https://github.com/microsoft/simmim)]
    <details close>
-   <summary>**SimMIM Framework**</summary>
+   <summary>SimMIM Framework</summary>
    <p align="center"><img width="65%" src="https://user-images.githubusercontent.com/44519745/204302529-8075a5cc-a2e8-4245-891b-8f74c1bc1734.png" /></p>
    </details>
 
@@ -105,7 +105,7 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2111.09886)]
 CVPR'2022 [[Paper](https://arxiv.org/abs/2112.09133)]
 [[Code](https://github.com/facebookresearch/SlowFast)]
    <details close>
-   <summary>**MaskFeat Framework**</summary>
+   <summary>MaskFeat Framework</summary>
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204302699-10f1f1d4-2bb4-428a-b43b-2972ba915286.png" /></p>
    </details>
 
@@ -114,7 +114,7 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2112.09133)]
 ICML'2022 [[Paper](https://arxiv.org/abs/2202.03555)]
 [[Code](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)]
    <details close>
-   <summary>**data2vec Framework**</summary>
+   <summary>data2vec Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204302962-e44f4eed-b7d0-4b64-8696-ae6f349400fb.png" /></p>
    </details>
 
@@ -122,7 +122,7 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2202.03555)]
 *Shuangfei Zhai, Navdeep Jaitly, Jason Ramapuram, Dan Busbridge, Tatiana Likhomanenko, Joseph Yitan Cheng, Walter Talbott, Chen Huang, Hanlin Goh, Joshua Susskind*<br>
 ICML'2022 [[Paper](https://arxiv.org/abs/2207.07611)]
    <details close>
-   <summary>**MP3 Framework**</summary>
+   <summary>MP3 Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/206919419-aa867bf6-f729-4bf7-8f70-c21f17bf8cec.png" /></p>
    </details>
 
@@ -131,7 +131,7 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2207.07611)]
 ArXiv'2021 [[Paper](https://arxiv.org/abs/2111.12710)]
 [[Code](https://github.com/microsoft/PeCo)]
    <details close>
-   <summary>**PeCo Framework**</summary>
+   <summary>PeCo Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/265825505-92b2c2d9-0120-4c65-af9e-528249555d87.png" /></p>
    </details>
 
@@ -139,7 +139,7 @@ ArXiv'2021 [[Paper](https://arxiv.org/abs/2111.12710)]
 *Sara Atito, Muhammad Awais, Ammarah Farooq, Zhenhua Feng, Josef Kittler*<br>
 ArXiv'2021 [[Paper](https://arxiv.org/abs/2111.15340)]
    <details close>
-   <summary>**MC-SSL0.0 Framework**</summary>
+   <summary>MC-SSL0.0 Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204303461-5d4fb0a1-bff5-4f0a-afea-ee0d81ce17ba.png" /></p>
    </details>
 
@@ -148,7 +148,7 @@ ArXiv'2021 [[Paper](https://arxiv.org/abs/2111.15340)]
 ECCV'2022 [[Paper](https://arxiv.org/abs/2203.15371)]
 [[Code](https://github.com/lixiaotong97/mc-BEiT)]
    <details close>
-   <summary>**mc-BEiT Framework**</summary>
+   <summary>mc-BEiT Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204304102-a17e3bb2-ffe5-4b42-bf5f-4dece8809391.png" /></p>
    </details>
 
@@ -157,7 +157,7 @@ ECCV'2022 [[Paper](https://arxiv.org/abs/2203.15371)]
 ECCV'2022 [[Paper](https://arxiv.org/abs/2207.07116)]
 [[Code](https://github.com/LightDXY/BootMAE)]
    <details close>
-   <summary>**BootMAE Framework**</summary>
+   <summary>BootMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204304317-0cbe6647-769b-4737-9f65-85c4e47ec944.png" /></p>
    </details>
 
@@ -166,7 +166,7 @@ ECCV'2022 [[Paper](https://arxiv.org/abs/2207.07116)]
 ECCV'2022 [[Paper](https://arxiv.org/abs/2208.00449)]
 [[Code](https://github.com/AbrahamYabo/SdAE)]
    <details close>
-   <summary>**SdAE Framework**</summary>
+   <summary>SdAE Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204304730-edc6fe19-b12a-4986-922a-9694230e9ef2.png" /></p>
    </details>
 
@@ -175,7 +175,7 @@ ECCV'2022 [[Paper](https://arxiv.org/abs/2208.00449)]
 ECCV'2022 [[Paper](https://arxiv.org/abs/2204.01678)]
 [[Code](https://github.com/EPFL-VILAB/MultiMAE)]
    <details close>
-   <summary>**MultiMAE Framework**</summary>
+   <summary>MultiMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204304575-577cc0f0-3ac7-4f02-b884-48ec8d061476.png" /></p>
    </details>
 
@@ -184,7 +184,7 @@ ECCV'2022 [[Paper](https://arxiv.org/abs/2204.01678)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.14540)]
 [[Code](https://github.com/cmu-enyac/supmae)]
    <details close>
-   <summary>**SupMAE Framework**</summary>
+   <summary>SupMAE Framework</summary>
    <p align="center"><img width="65%" src="https://user-images.githubusercontent.com/44519745/204305079-c99782a4-ba5f-4785-a2c6-4990da13a493.png" /></p>
    </details>
 
@@ -192,7 +192,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.14540)]
 *Longhui Wei, Lingxi Xie, Wengang Zhou, Houqiang Li, Qi Tian*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2203.05175)]
    <details close>
-   <summary>**MVP Framework**</summary>
+   <summary>MVP Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204305240-24cee1ff-13d6-4936-93a1-8a4614faed99.png" /></p>
    </details>
 
@@ -200,16 +200,16 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2203.05175)]
 *Hao Liu, Xinghua Jiang, Xin Li, Antai Guo, Deqiang Jiang, Bo Ren*<br>
 AAAI'2023 [[Paper](https://arxiv.org/abs/2204.08227)]
    <details close>
-   <summary>**Ge2AE Framework**</summary>
+   <summary>Ge2AE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204305475-c462edf5-6e20-4f43-a1e1-f06641d13966.png" /></p>
    </details>
 
 * **ConvMAE: Masked Convolution Meets Masked Autoencoders**<br>
 *Peng Gao, Teli Ma, Hongsheng Li, Ziyi Lin, Jifeng Dai, Yu Qiao*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2205.03892)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2205.03892)]
 [[Code](https://github.com/Alpha-VL/ConvMAE)]
    <details close>
-   <summary>**ConvMAE Framework**</summary>
+   <summary>ConvMAE Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204305687-8f04d9f7-dc60-4ff0-8f94-5e72795774ca.png" /></p>
    </details>
 
@@ -218,25 +218,25 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2205.03892)]
 arXiv'2023 [[Paper](https://arxiv.org/abs/2303.05475)]
 [[Code](https://github.com/alpha-vl/convmae)]
    <details close>
-   <summary>**MR-MAE (ConvMAE.V2) Framework**</summary>
+   <summary>MR-MAE (ConvMAE.V2) Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236312228-1038fc6c-af93-46f2-b0aa-6f121f8388be.png" /></p>
    </details>
 
 * **Green Hierarchical Vision Transformer for Masked Image Modeling**<br>
 *Lang Huang, Shan You, Mingkai Zheng, Fei Wang, Chen Qian, Toshihiko Yamasaki*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2205.13515)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2205.13515)]
 [[Code](https://github.com/LayneH/GreenMIM)]
    <details close>
-   <summary>**GreenMIM Framework**</summary>
+   <summary>GreenMIM Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204305942-b22b5064-26d9-4f0b-9a2a-88012873f4fa.png" /></p>
    </details>
 
 * **Test-Time Training with Masked Autoencoders**<br>
 *Yossi Gandelsman, Yu Sun, Xinlei Chen, Alexei A. Efros*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2209.07522)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2209.07522)]
 [[Code](https://github.com/yossigandelsman/test_time_training_mae)]
    <details close>
-   <summary>**TTT-MAE Framework**</summary>
+   <summary>TTT-MAE Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204306169-63fd5383-ee33-47f0-a955-971cfbd150ae.png" /></p>
    </details>
 
@@ -244,7 +244,7 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2209.07522)]
 *Xiaosong Zhang, Yunjie Tian, Wei Huang, Qixiang Ye, Qi Dai, Lingxi Xie, Qi Tian*<br>
 ICLR'2023 [[Paper](https://arxiv.org/abs/2205.14949)]
    <details close>
-   <summary>**HiViT Framework**</summary>
+   <summary>HiViT Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204306642-4764b620-0a1d-4625-8f22-e0fbcc3f5b2e.png" /></p>
    </details>
 
@@ -253,7 +253,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2205.14949)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.14141)]
 [[Code](https://github.com/SwinTransformer/Feature-Distillation)]
    <details close>
-   <summary>**FD Framework**</summary>
+   <summary>FD Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204306965-8c8ccfd7-353d-431a-819b-9872cc95bf9b.png" /></p>
    </details>
 
@@ -261,7 +261,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.14141)]
 *Jiantao Wu, Shentong Mo*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.14338)]
    <details close>
-   <summary>**ObjMAE Framework**</summary>
+   <summary>ObjMAE Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204307186-fcca6049-8ed6-4010-967b-b7cf93bd0619.png" /></p>
    </details>
 
@@ -270,7 +270,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.14338)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.00790)]
 [[Code](https://github.com/junchen14/LoMaR)]
    <details close>
-   <summary>**LoMaR Framework**</summary>
+   <summary>LoMaR Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204307493-233177c7-3a18-4228-9d3b-34678dee8fe3.png" /></p>
    </details>
 
@@ -278,7 +278,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.00790)]
 *Zhirong Wu, Zihang Lai, Xiao Sun, Stephen Lin*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.04667)]
    <details close>
-   <summary>**ExtreMA Framework**</summary>
+   <summary>ExtreMA Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204307667-973af3e2-e50a-4cf7-9a31-035668aed4e3.png" /></p>
    </details>
 
@@ -287,7 +287,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.04667)]
 ArXiv'2022 [[Paper](http://arxiv.org/abs/2208.06366)]
 [[Code](https://aka.ms/beit)]
    <details close>
-   <summary>**BEiT.V2 Framework**</summary>
+   <summary>BEiT.V2 Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204307878-40ba7e59-2894-4a8e-93d5-8a8d43f12744.png" /></p>
    </details>
 
@@ -296,7 +296,7 @@ ArXiv'2022 [[Paper](http://arxiv.org/abs/2208.06366)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.06049)]
 [[Code](https://github.com/zejiangh/milan)]
    <details close>
-   <summary>**MILAN Framework**</summary>
+   <summary>MILAN Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204308146-edae9cfb-3f03-4b13-bf11-51620ebc945d.png" /></p>
    </details>
 
@@ -305,7 +305,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.06049)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.10442)]
 [[Code](https://github.com/microsoft/unilm/tree/master/beit)]
    <details close>
-   <summary>**BEiT.V3 Framework**</summary>
+   <summary>BEiT.V3 Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204308318-b1d80584-2b7e-4c35-bb68-171c9bfaf299.png" /></p>
    </details>
 
@@ -314,7 +314,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.10442)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.12256)]
 [[Code](https://github.com/UCSC-VLAA/DMAE)]
    <details close>
-   <summary>**DMAE Framework**</summary>
+   <summary>DMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204308505-f730651b-6e24-4496-9c6d-879b2f446793.png" /></p>
    </details>
 
@@ -322,7 +322,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.12256)]
 *Youngwan Lee, Jeffrey Willette, Jonghee Kim, Juho Lee, Sung Ju Hwang*<br>
 ICLR'2023 [[Paper](https://arxiv.org/abs/2210.02077)]
    <details close>
-   <summary>**RC-MAE Framework**</summary>
+   <summary>RC-MAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204310107-ff38a657-9fac-4271-89a2-e28a2805bf5a.png" /></p>
    </details>
 
@@ -331,7 +331,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2210.02077)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.06983)]
 [[Code](https://github.com/quanlin-wu/dmae)]
    <details close>
-   <summary>**DMAE Framework**</summary>
+   <summary>DMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204310334-f2bb8c49-d2a5-4017-9501-b0bd76340bdc.png" /></p>
    </details>
 
@@ -340,7 +340,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.06983)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.10615)]
 [[Code](https://aka.ms/unimim)]
    <details close>
-   <summary>**MaskDistill Framework**</summary>
+   <summary>MaskDistill Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204310534-7c1bf6fc-690b-4dd3-889d-4488b8a892ea.png" /></p>
    </details>
 
@@ -348,7 +348,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.10615)]
 *Gukyeong Kwon, Zhaowei Cai, Avinash Ravichandran, Erhan Bas, Rahul Bhotika, Stefano Soatto*<br>
 ICLR'2023 [[Paper](https://arxiv.org/abs/2208.02131)]
    <details close>
-   <summary>**MaskVLM Framework**</summary>
+   <summary>MaskVLM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204310845-3e7777dc-5726-4c94-9506-8f88efd1966b.png" /></p>
    </details>
 
@@ -356,7 +356,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2208.02131)]
 *Sepehr Sameni, Simon Jenni, Paolo Favaro*<br>
 AAAI'2023 [[Paper](https://arxiv.org/abs/2204.04788)]
    <details close>
-   <summary>**DILEMMA Framework**</summary>
+   <summary>DILEMMA Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/206920238-6f520585-e9c1-4e7a-89eb-3d9379931279.png" /></p>
    </details>
 
@@ -364,7 +364,7 @@ AAAI'2023 [[Paper](https://arxiv.org/abs/2204.04788)]
 *Xiaoyi Dong, Yinglin Zheng, Jianmin Bao, Ting Zhang, Dongdong Chen, Hao Yang, Ming Zeng, Weiming Zhang, Lu Yuan, Dong Chen, Fang Wen, Nenghai Yu*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.12262)]
    <details close>
-   <summary>**MaskCLIP Framework**</summary>
+   <summary>MaskCLIP Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209704378-5c467c07-8096-441d-b8a4-37fe27d1ac07.png" /></p>
    </details>
 
@@ -373,7 +373,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.12262)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.11470)]
 [[Code](https://github.com/vision-learning-acceleration-lab/i-mae)]
    <details close>
-   <summary>**i-MAE Framework**</summary>
+   <summary>i-MAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/211220785-5031f97c-c9a3-4ade-b344-48db01fc3760.png" /></p>
    </details>
 
@@ -382,7 +382,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.11470)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2211.07636)]
 [[Code](https://github.com/baaivision/EVA)]
    <details close>
-   <summary>**EVA Framework**</summary>
+   <summary>EVA Framework</summary>
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/206920442-4d896aca-1765-4e66-9afb-c76017bc3521.png" /></p>
    </details>
 
@@ -391,7 +391,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.07636)]
 IJCV'2023 [[Paper](https://arxiv.org/abs/2202.03026)]
 [[Code](https://github.com/lxtGH/CAE)]
    <details close>
-   <summary>**CAE Framework**</summary>
+   <summary>CAE Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/234667973-6f98f65e-662c-4934-be85-efa60f3fc20a.png" /></p>
    </details>
 
@@ -399,7 +399,7 @@ IJCV'2023 [[Paper](https://arxiv.org/abs/2202.03026)]
 *Xinyu Zhang, Jiahui Chen, Junkun Yuan, Qiang Chen, Jian Wang, Xiaodi Wang, Shumin Han, Xiaokang Chen, Jimin Pi, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2211.09799)]
    <details close>
-   <summary>**CAE.V2 Framework**</summary>
+   <summary>CAE.V2 Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/206920593-c703518b-47f9-4f61-a319-5ba0099c902d.png" /></p>
    </details>
 
@@ -407,7 +407,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2211.09799)]
 *Jianyuan Guo, Kai Han, Han Wu, Yehui Tang, Yunhe Wang, Chang Xu*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.06593)]
    <details close>
-   <summary>**FastMIM Framework**</summary>
+   <summary>FastMIM Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/210276245-83f9b564-2bdb-48b7-922c-dc36e3d5c20f.png" /></p>
    </details>
 
@@ -416,7 +416,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.06593)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.03917)]
 [[Code](https://github.com/liuxingbin/dbot)]
    <details close>
-   <summary>**dBOT Framework**</summary>
+   <summary>dBOT Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/225108834-36affd27-fbae-46f0-92ca-d5a35a39023d.png" /></p>
    </details>
 
@@ -425,7 +425,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.03917)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.07525)]
 [[Code](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)]
    <details close>
-   <summary>**Data2Vec.V2 Framework**</summary>
+   <summary>Data2Vec.V2 Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/207722013-4fc539f7-3d45-4eb8-8037-c4fa210738d6.png" /></p>
    </details>
 
@@ -433,7 +433,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.07525)]
 *Yanghao Li, Haoqi Fan, Ronghang Hu, Christoph Feichtenhofer, Kaiming He*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.00794)]
    <details close>
-   <summary>**FLIP Framework**</summary>
+   <summary>FLIP Framework</summary>
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209705278-368b8125-cb14-4800-8523-09800b1728d4.png" /></p>
    </details>
 
@@ -441,7 +441,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.00794)]
 *Yifan Yang, Weiquan Huang, Yixuan Wei, Houwen Peng, Xinyang Jiang, Huiqiang Jiang, Fangyun Wei, Yin Wang, Han Hu, Lili Qiu, Yuqing Yang*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.08653)]
    <details close>
-   <summary>**A-CLIP Framework**</summary>
+   <summary>A-CLIP Framework</summary>
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
    </details>
 
@@ -450,7 +450,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.08653)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.05677)]
 [[Code](https://github.com/Talented-Q/SDMAE)]
    <details close>
-   <summary>**SDMAE Framework**</summary>
+   <summary>SDMAE Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/211220908-70f4c587-80a9-4427-8a68-b17593de8b0a.png" /></p>
    </details>
 
@@ -459,7 +459,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.05677)]
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.01296)]
 [[Code](https://github.com/OliverRensu/TinyMIM)]
    <details close>
-   <summary>**TinyMIM Framework**</summary>
+   <summary>TinyMIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/210646611-f5022c04-9c34-465c-b4dd-53ca097f47d8.png" /></p>
    </details>
 
@@ -468,7 +468,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.01296)]
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.00230)]
 [[Code](https://github.com/mx-mark/dmjd)]
    <details close>
-   <summary>**DMJD Framework**</summary>
+   <summary>DMJD Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/210645728-7a066877-9eea-4fdb-a13a-df6863a287e6.png" /></p>
    </details>
 
@@ -476,7 +476,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.00230)]
 *Kai Chen, Zhili Liu, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung*<br>
 CVPR'2023 [[Paper](https://arxiv.org/abs/2303.17152)]
    <details close>
-   <summary>**MixedAE Framework**</summary>
+   <summary>MixedAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229929023-1ea53237-ebfb-4203-8b93-dd761d937b27.png" /></p>
    </details>
 
@@ -485,7 +485,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2303.17152)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2303.05251)]
 [[Code](https://github.com/Haoqing-Wang/LocalMIM)]
    <details close>
-   <summary>**LocalMAE Framework**</summary>
+   <summary>LocalMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/233732370-4ad8b717-5a86-4957-8d8a-494cc9198685.png" /></p>
    </details>
 
@@ -494,7 +494,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2303.05251)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2211.08887)]
 [[Code](https://github.com/OpenPerceptionX/maskalign)]
    <details close>
-   <summary>**MaskAlign Framework**</summary>
+   <summary>MaskAlign Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236316028-df4132f1-2e76-4cef-8f88-ce1d3e84b127.png" /></p>
    </details>
 
@@ -502,7 +502,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.08887)]
 *Mahmoud Assran, Quentin Duval, Ishan Misra, Piotr Bojanowski, Pascal Vincent, Michael Rabbat, Yann LeCun, Nicolas Ballas*<br>
 CVPR'2023 [[Paper](https://arxiv.org/abs/2301.08243)]
    <details close>
-   <summary>**I-JEPA Framework**</summary>
+   <summary>I-JEPA Framework</summary>
    <p align="center"><img width="55%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/245952605-af5cfbb9-4cba-4bdc-803a-2e7022dd4ed1.png" /></p>
    </details>
 
@@ -510,7 +510,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2301.08243)]
 *Yuchong Yao, Nandakishor Desai, Marimuthu Palaniswami*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2302.02089)]
    <details close>
-   <summary>**MOMA Framework**</summary>
+   <summary>MOMA Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236316583-28639d42-3574-4dcc-8bd4-da377cce29a4.png" /></p>
    </details>
 
@@ -519,7 +519,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2302.02089)]
 arXiv'2023 [[Paper](https://arxiv.org/abs/2303.02416)]
 [[Code](https://github.com/open-mmlab/mmselfsup/tree/dev-1.x/configs/selfsup/pixmim)]
    <details close>
-   <summary>**PixMIM Framework**</summary>
+   <summary>PixMIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236320141-75a1c36e-ab6e-4bbe-bc46-b94f91db1439.png" /></p>
    </details>
 
@@ -527,7 +527,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2303.02416)]
 *Heng Pan, Chenyang Liu, Wenxiao Wang, Li Yuan, Hongfa Wang, Zhifeng Li, Wei Liu*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2304.12535)]
    <details close>
-   <summary>**Img2Vec Framework**</summary>
+   <summary>Img2Vec Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236318192-b39c9900-db30-4e18-bb1b-a5020723b906.png" /></p>
    </details>
 
@@ -536,7 +536,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2304.12535)]
 ICML'2023 [[Paper](https://arxiv.org/abs/2205.14443)]
 [[Code](https://github.com/wangsr126/mae-lite)]
    <details close>
-   <summary>**MAE-Lite Framework**</summary>
+   <summary>MAE-Lite Framework</summary>
    <p align="center"><img width="80%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/218d8909-9ad5-43af-9eeb-42c9e0aea9ed" /></p>
    </details>
 
@@ -545,7 +545,7 @@ ICML'2023 [[Paper](https://arxiv.org/abs/2205.14443)]
 ICML'2023 [[Paper](https://arxiv.org/abs/2205.13943)]
 [[Code](https://github.com/Westlake-AI/openmixup)] [[project](https://github.com/Westlake-AI/A2MIM)]
    <details close>
-   <summary>**A2MIM Framework**</summary>
+   <summary>A2MIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204314681-d953cffc-8ba7-481c-925e-c89084f83c56.png" /></p>
    </details>
 
@@ -554,7 +554,7 @@ ICML'2023 [[Paper](https://arxiv.org/abs/2205.13943)]
 ICML'2023 [[Paper](https://arxiv.org/abs/2306.00989)]
 [[Code](https://github.com/facebookresearch/hiera)]
    <details close>
-   <summary>**Hiera Framework**</summary>
+   <summary>Hiera Framework</summary>
    <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/f4a007c0-4479-4701-875d-b182bf963332" /></p>
    </details>
 
@@ -562,7 +562,7 @@ ICML'2023 [[Paper](https://arxiv.org/abs/2306.00989)]
 *Mannat Singh, Quentin Duval, Kalyan Vasudev Alwala, Haoqi Fan, Vaibhav Aggarwal, Aaron Adcock, Armand Joulin, Piotr Dollár, Christoph Feichtenhofer, Ross Girshick, Rohit Girdhar, Ishan Misra*<br>
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2303.13496)]
    <details close>
-   <summary>**WSP Framework**</summary>
+   <summary>WSP Framework</summary>
    <p align="center"><img width="50%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/59a0eb5c-5da6-4821-83fe-bba7567c3e6f" /></p>
    </details>
 
@@ -571,7 +571,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2303.13496)]
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.07346)]
 [[Code](https://github.com/aimagelab/mapet)]
    <details close>
-   <summary>**MaPeT Framework**</summary>
+   <summary>MaPeT Framework</summary>
    <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/71967291-abc1-4136-b03a-e05cf7b6f7ef" /></p>
    </details>
 
@@ -580,7 +580,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.07346)]
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.05411)]
 [[Code](https://github.com/facebookresearch/r-mae)]
    <details close>
-   <summary>**R-MAE Framework**</summary>
+   <summary>R-MAE Framework</summary>
    <p align="center"><img width="55%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/0c8747ed-477b-4217-b84e-cdf1a983bdbf" /></p>
    </details>
 
@@ -589,7 +589,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.05411)]
 ICCV'2023 [[Paper](https://arxiv.org/abs/2308.00261)]
 [[Code](https://github.com/open-mmlab/mmpretrain/tree/dev)]
    <details close>
-   <summary>**MFM Framework**</summary>
+   <summary>MFM Framework</summary>
    <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263502915-4f9f94c8-3746-4745-80ab-a16e7eed2f5c.png" /></p>
    </details>
 
@@ -599,9 +599,9 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.00261)]
 
 * **MST: Masked Self-Supervised Transformer for Visual Representation**<br>
 *Zhaowen Li, Zhiyang Chen, Fan Yang, Wei Li, Yousong Zhu, Chaoyang Zhao, Rui Deng, Liwei Wu, Rui Zhao, Ming Tang, Jinqiao Wang*<br>
-NIPS'2021 [[Paper](https://arxiv.org/abs/2106.05656)]
+NeurIPS'2021 [[Paper](https://arxiv.org/abs/2106.05656)]
    <details close>
-   <summary>**MST Framework**</summary>
+   <summary>MST Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204311330-9652d5d0-4b94-4f9a-afcd-efc12c712279.png" /></p>
    </details>
 
@@ -609,7 +609,7 @@ NIPS'2021 [[Paper](https://arxiv.org/abs/2106.05656)]
 *Alaaeldin El-Nouby, Gautier Izacard, Hugo Touvron, Ivan Laptev, Hervé Jegou, Edouard Grave*<br>
 ArXiv'2021 [[Paper](https://arxiv.org/abs/2112.10740)]
    <details close>
-   <summary>**SplitMask Framework**</summary>
+   <summary>SplitMask Framework</summary>
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204311839-6f1310c9-88b2-4f43-90ff-927cf8aba720.png" /></p>
    </details>
 
@@ -618,7 +618,7 @@ ArXiv'2021 [[Paper](https://arxiv.org/abs/2112.10740)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.07141)]
 [[Code](https://github.com/facebookresearch/msn)]
    <details close>
-   <summary>**MSN Framework**</summary>
+   <summary>MSN Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204312102-a35d65ac-61e6-46ba-bb86-6c18b8562966.png" /></p>
    </details>
 
@@ -627,7 +627,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.07141)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.01204)]
 [[Code](https://github.com/fundamentalvision/Siamese-Image-Modeling)]
    <details close>
-   <summary>**SIM Framework**</summary>
+   <summary>SIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204312408-fe573880-62ac-4f6e-b7ed-c9163f0cea96.png" /></p>
    </details>
 
@@ -636,7 +636,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.01204)]
 ICLR'2023 [[Paper](https://arxiv.org/abs/2205.09616)]
 [[Code](https://github.com/TencentARC/ConMIM)]
    <details close>
-   <summary>**ConMIM Framework**</summary>
+   <summary>ConMIM Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204312585-13d5094b-c90c-4ab6-88d1-b88d46d8ae62.png" /></p>
    </details>
 
@@ -644,7 +644,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2205.09616)]
 *Luya Wang, Feng Liang, Yangguang Li, Honggang Zhang, Wanli Ouyang, Jing Shao*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.06857)]
    <details close>
-   <summary>**RePre Framework**</summary>
+   <summary>RePre Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204312825-03953a52-0c1a-4f7e-bf12-e13841c2d371.png" /></p>
    </details>
 
@@ -652,7 +652,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.06857)]
 *Li Jing, Jiachen Zhu, Yann LeCun*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.07700)]
    <details close>
-   <summary>**MSCN Framework**</summary>
+   <summary>MSCN Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/216648027-99790176-87fa-4fc6-ad5f-a8fe255c60e6.png" /></p>
    </details>
 
@@ -661,7 +661,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.07700)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2207.13532)]
 [[Code](https://github.com/ZhichengHuang/CMAE)]
    <details close>
-   <summary>**CMAE Framework**</summary>
+   <summary>CMAE Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204313292-54630e16-e8ea-4281-a922-1b08c860e721.png" /></p>
    </details>
 
@@ -669,7 +669,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2207.13532)]
 *Shlok Mishra, Joshua Robinson, Huiwen Chang, David Jacobs, Aaron Sarna, Aaron Maschinot, Dilip Krishnan*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.16870)]
    <details close>
-   <summary>**CAN Framework**</summary>
+   <summary>CAN Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204313772-7c0bf6d4-8df1-4b05-8733-da5024513e10.png" /></p>
    </details>
 
@@ -677,7 +677,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.16870)]
 *Qiang Zhou, Chaohui Yu, Hao Luo, Zhibin Wang, Hao Li*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.03063)]
    <details close>
-   <summary>**MimCo Framework**</summary>
+   <summary>MimCo Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/216651122-8fe6a039-37a8-4bec-8988-2760006da0af.png" /></p>
    </details>
 
@@ -686,7 +686,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.03063)]
 ICLR'2023 [[Paper](https://openreview.net/forum?id=A3sgyt4HWp)]
 [[Code](https://github.com/Sherrylone/ccMIM)]
    <details close>
-   <summary>**ccMIM Framework**</summary>
+   <summary>ccMIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204314041-63c5e06d-b870-482d-8f6b-e70e1af9d642.png" /></p>
    </details>
 
@@ -695,7 +695,7 @@ ICLR'2023 [[Paper](https://openreview.net/forum?id=A3sgyt4HWp)]
 NIP'2022 [[Paper](https://arxiv.org/abs/2210.08344)]
 [[Code](https://github.com/zhangq327/U-MAE)]
    <details close>
-   <summary>**U-MAE Framework**</summary>
+   <summary>U-MAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/234359652-b34cb444-1c6b-4721-94e3-6bd60347ca55.png" /></p>
    </details>
 
@@ -704,7 +704,7 @@ NIP'2022 [[Paper](https://arxiv.org/abs/2210.08344)]
 ICLR'2023 [[Paper](https://openreview.net/forum?id=jwdqNwyREyh)]
 [[Code](https://github.com/VITA-Group/layerGraftedPretraining_ICLR23)]
    <details close>
-   <summary>**Layer Grafted Framework**</summary>
+   <summary>Layer Grafted Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/224830983-13cfcbf5-f1df-481b-9e7c-24667d041fe4.png" /></p>
    </details>
 
@@ -712,7 +712,7 @@ ICLR'2023 [[Paper](https://openreview.net/forum?id=jwdqNwyREyh)]
 *Tianyu Hua, Yonglong Tian, Sucheng Ren, Michalis Raptis, Hang Zhao, Leonid Sigal*<br>
 ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
    <details close>
-   <summary>**RandSAC Framework**</summary>
+   <summary>RandSAC Framework</summary>
    <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261103618-f2aa7486-a09f-4f50-a84d-fb367c621d04.png" /></p>
    </details>
 
@@ -725,7 +725,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
 CVPR'2016 [[Paper](https://arxiv.org/abs/1604.07379)]
 [[Code](https://github.com/pathak22/context-encoder)]
    <details close>
-   <summary>**Context-Encoder Framework**</summary>
+   <summary>Context-Encoder Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204314544-4ad0e4a8-f7b8-47f9-80e9-67ef87c1b14a.png" /></p>
    </details>
 
@@ -733,7 +733,7 @@ CVPR'2016 [[Paper](https://arxiv.org/abs/1604.07379)]
 *Yuxin Fang, Li Dong, Hangbo Bao, Xinggang Wang, Furu Wei*<br>
 ICLR'2023 [[Paper](https://arxiv.org/abs/2202.03382)]
    <details close>
-   <summary>**CIM Framework**</summary>
+   <summary>CIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204315003-182e9ba5-5ab3-4d84-9544-8e0a3d8590c5.png" /></p>
    </details>
 
@@ -742,7 +742,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2202.03382)]
 ICML'2023 [[Paper](https://arxiv.org/abs/2205.13943)]
 [[Code](https://github.com/Westlake-AI/openmixup)] [[project](https://github.com/Westlake-AI/A2MIM)]
    <details close>
-   <summary>**A2MIM Framework**</summary>
+   <summary>A2MIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204314681-d953cffc-8ba7-481c-925e-c89084f83c56.png" /></p>
    </details>
 
@@ -751,7 +751,7 @@ ICML'2023 [[Paper](https://arxiv.org/abs/2205.13943)]
 ICLR'2023 [[Paper](https://arxiv.org/abs/2206.07706)]
 [[Code](https://github.com/CoinCheung/MFM)]
    <details close>
-   <summary>**MFM Framework**</summary>
+   <summary>MFM Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204315329-1a58598f-35cb-439c-91ee-303ddd36fa6c.png" /></p>
    </details>
 
@@ -760,7 +760,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2206.07706)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2205.13137)]
 [[Code](https://github.com/Sense-X/MixMIM)]
    <details close>
-   <summary>**MixMAE Framework**</summary>
+   <summary>MixMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204315480-5c59ed60-7b5f-4da9-85fb-551a961fd731.png" /></p>
    </details>
 
@@ -769,7 +769,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2205.13137)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.04846)]
 [[Code](https://github.com/haohang96/mra)]
    <details close>
-   <summary>**MRA Framework**</summary>
+   <summary>MRA Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204315634-212c14b9-7d6d-4ad0-880b-35cafb623249.png" /></p>
    </details>
 
@@ -778,7 +778,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.04846)]
 ICLR'2023 [[Paper](https://arxiv.org/abs/2301.03580)]
 [[Code](https://github.com/keyu-tian/spark)]
    <details close>
-   <summary>**SparK Framework**</summary>
+   <summary>SparK Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204315983-d5a24e55-fab4-4336-a1ed-3428a997aebd.png" /></p>
    </details>
 
@@ -787,7 +787,7 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2301.03580)]
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.00808)]
 [[Code](https://github.com/facebookresearch/ConvNeXt-V2)]
    <details close>
-   <summary>**ConvNeXt.V2 Framework**</summary>
+   <summary>ConvNeXt.V2 Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/211898674-caa94c81-9aea-4544-8f5f-2cf410724bb4.png" /></p>
    </details>
 
@@ -797,9 +797,9 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.00808)]
 
 * **MST: Masked Self-Supervised Transformer for Visual Representation**<br>
 *Zhaowen Li, Zhiyang Chen, Fan Yang, Wei Li, Yousong Zhu, Chaoyang Zhao, Rui Deng, Liwei Wu, Rui Zhao, Ming Tang, Jinqiao Wang*<br>
-NIPS'2021 [[Paper](https://arxiv.org/abs/2106.05656)]
+NeurIPS'2021 [[Paper](https://arxiv.org/abs/2106.05656)]
    <details close>
-   <summary>**MST Framework**</summary>
+   <summary>MST Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204311330-9652d5d0-4b94-4f9a-afcd-efc12c712279.png" /></p>
    </details>
 
@@ -808,7 +808,7 @@ NIPS'2021 [[Paper](https://arxiv.org/abs/2106.05656)]
 ICML'2022 [[Paper](https://arxiv.org/abs/2201.13100)]
 [[Code](https://github.com/YugeTen/adios)]
    <details close>
-   <summary>**ADIOS Framework**</summary>
+   <summary>ADIOS Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204316447-66b223b7-1518-477d-9d5f-66bd3148eecd.png" /></p>
    </details>
 
@@ -817,7 +817,7 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2201.13100)]
 ECCV'2022 [[Paper](https://arxiv.org/abs/2203.12719)]
 [[Code](https://github.com/gkakogeorgiou/attmask)]
    <details close>
-   <summary>**AttMask Framework**</summary>
+   <summary>AttMask Framework</summary>
    <p align="center"><img width="65%" src="https://user-images.githubusercontent.com/44519745/204316717-191ef56d-c703-4b12-9c71-28bd14371d32.png" /></p>
    </details>
 
@@ -826,16 +826,16 @@ ECCV'2022 [[Paper](https://arxiv.org/abs/2203.12719)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.10063)]
 [[Code](https://github.com/implus/um-mae)]
    <details close>
-   <summary>**UnMAE Framework**</summary>
+   <summary>UnMAE Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204316895-a04d2141-4dc9-47db-9176-001d71dcc704.png" /></p>
    </details>
 
 * **SemMAE: Semantic-Guided Masking for Learning Masked Autoencoders**<br>
 *Gang Li, Heliang Zheng, Daqing Liu, Chaoyue Wang, Bing Su, Changwen Zheng*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2206.10207)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2206.10207)]
 [[Code](https://github.com/ucasligang/semmae)]
    <details close>
-   <summary>**SemMAE Framework**</summary>
+   <summary>SemMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204317096-f6ade707-6f66-4826-823e-e14d0784b960.png" /></p>
    </details>
 
@@ -844,7 +844,7 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2206.10207)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2304.05919)]
 [[Code](https://github.com/Haochen-Wang409/HPM)]
    <details close>
-   <summary>**HPM Framework**</summary>
+   <summary>HPM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/232319362-d6a5419f-6a95-4405-a615-f8ded42c1896.png" /></p>
    </details>
 
@@ -852,18 +852,54 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2304.05919)]
 *Haijian Chen, Wendong Zhang, Yunbo Wang, Xiaokang Yang*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2303.06583)]
    <details close>
-   <summary>**AutoMAE Framework**</summary>
+   <summary>AutoMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236310631-a11eee44-3e70-414f-9caa-ad09a231ce31.png" /></p>
    </details>
 
 ### Image Generation
+
+* **Discrete Variational Autoencoders**<br>
+*Jason Tyler Rolfe*<br>
+ICLR'2017
+[[Paper](https://arxiv.org/abs/1609.02200)]
+[[Code](https://github.com/openai/DALL-E)]
+
+* **Neural Discrete Representation Learning**<br>
+*Aaron van den Oord, Oriol Vinyals, Koray Kavukcuoglu*<br>
+NeurIPS'2017
+[[Paper](https://proceedings.neurips.cc/paper/2017/file/7a98af17e63a0ac09ce2e96d03992fbc-Paper.pdf)]
+[[Code](https://github.com/ritheshkumar95/pytorch-vqvae)]
+
+* **Theory and Experiments on Vector Quantized Autoencoders (EM VQ-VAE)**<br>
+*Aurko Roy, Ashish Vaswani, Arvind Neelakantan, Niki Parmar*<br>
+Arxiv'2018
+[[Paper](https://arxiv.org/abs/1805.11063)]
+[[Code](https://github.com/jaywalnut310/Vector-Quantized-Autoencoders)]
+
+* **DVAE: Discrete Variational Autoencoders with Relaxed Boltzmann Priors**<br>
+*Arash Vahdat, Evgeny Andriyash, William G. Macready*<br>
+NeurIPS'2018
+[[Paper](https://arxiv.org/abs/1805.07445)]
+[[Code](https://github.com/xmax1/dvae)]
+
+* **DVAE++: Discrete Variational Autoencoders with Overlapping Transformations**<br>
+*Arash Vahdat, William G. Macready, Zhengbing Bian, Amir Khoshaman, Evgeny Andriyash*<br>
+ICML'2018
+[[Paper](https://arxiv.org/abs/1802.04920)]
+[[Code](https://github.com/xmax1/dvae)]
+
+* **Generating Diverse High-Fidelity Images with VQ-VAE-2**<br>
+*Ali Razavi, Aaron van den Oord, Oriol Vinyals*<br>
+NeurIPS'2019
+[[Paper](https://proceedings.neurips.cc/paper/2019/file/5f8e2fa1718d1bbcadf1cd9c7a54fb8c-Paper.pdf)]
+[[Code](https://github.com/rosinality/vq-vae-2-pytorch)]
 
 * **Generative Pretraining from Pixels**<br>
 *Mark Chen, Alec Radford, Rewon Child, Jeff Wu, Heewoo Jun, David Luan, Ilya Sutskever*<br>
 ICML'2020 [[Paper](http://proceedings.mlr.press/v119/chen20s/chen20s.pdf)]
 [[Code](https://github.com/openai/image-gpt)]
    <details close>
-   <summary>**iGPT Framework**</summary>
+   <summary>iGPT Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204300433-a0b6b25b-9f6f-431b-bbfd-19169d8cbca6.png" /></p>
    </details>
 
@@ -872,7 +908,7 @@ ICML'2020 [[Paper](http://proceedings.mlr.press/v119/chen20s/chen20s.pdf)]
 CVPR'2021 [[Paper](https://arxiv.org/abs/2012.09841)]
 [[Code](https://github.com/CompVis/taming-transformers)]
    <details close>
-   <summary>**VQGAN Framework**</summary>
+   <summary>VQGAN Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260847328-ef6d17b6-72a2-4b85-a89a-d48dba273c1e.png" /></p>
    </details>
 
@@ -881,16 +917,35 @@ CVPR'2021 [[Paper](https://arxiv.org/abs/2012.09841)]
 CVPR'2022 [[Paper](https://arxiv.org/abs/2202.04200)]
 [[Code](https://github.com/google-research/maskgit)]
    <details close>
-   <summary>**MaskGIT Framework**</summary>
+   <summary>MaskGIT Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261109349-c824eba4-edc5-4d00-8480-1a3d2929dcc6.png" /></p>
    </details>
+
+* **ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation**<br>
+*Han Zhang, Weichong Yin, Yewei Fang, Lanxin Li, Boqiang Duan, Zhihua Wu, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang*<br>
+Arxiv'2021
+[[Paper](https://arxiv.org/abs/2112.15283)] 
+[[Project](https://wenxin.baidu.com/wenxin/ernie-vilg)]
+
+* **NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion**<br>
+*Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan*<br>
+Arxiv'2021
+[[Paper](https://arxiv.org/abs/2111.12417)] 
+[[Code](https://github.com/microsoft/NUWA)] 
+
+* **ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis**<br>
+*Patrick Esser, Robin Rombach, Andreas Blattmann, Björn Ommer*<br>
+NeurIPS'2021
+[[Paper](https://openreview.net/pdf?id=-1AAgrS5FF)] 
+[[Code](https://github.com/CompVis/imagebart)] 
+[[Project](https://compvis.github.io/imagebart/)]
 
 * **Vector-quantized Image Modeling with Improved VQGAN**<br>
 *Jiahui Yu, Xin Li, Jing Yu Koh, Han Zhang, Ruoming Pang, James Qin, Alexander Ku, Yuanzhong Xu, Jason Baldridge, Yonghui Wu*<br>
 ICLR'2022 [[Paper](https://arxiv.org/abs/2110.04627)]
 [[Code](https://github.com/lucidrains/DALLE2-pytorch)]
    <details close>
-   <summary>**ViT-VQGAN Framework**</summary>
+   <summary>ViT-VQGAN Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260846200-0a7fd6e6-170a-435d-9f7b-a020bde64bc5.png" /></p>
    </details>
 
@@ -899,7 +954,7 @@ ICLR'2022 [[Paper](https://arxiv.org/abs/2110.04627)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09117)]
 [[Code](https://github.com/lth14/mage)]
    <details close>
-   <summary>**MAGE Framework**</summary>
+   <summary>MAGE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
    </details>
 
@@ -908,7 +963,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09117)]
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2302.00902)]
 [[Code](https://github.com/lhao499/language-quantized-autoencoders)]
    <details close>
-   <summary>**LQAE Framework**</summary>
+   <summary>LQAE Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260847938-cab2ff4f-e504-4ac1-a7bf-d11d710bb74a.png" /></p>
    </details>
 
@@ -917,7 +972,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2302.00902)]
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.17842)]
 [[Code](https://github.com/google-research/magvit/)]
    <details close>
-   <summary>**SPAE Framework**</summary>
+   <summary>SPAE Framework</summary>
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/258768117-d71a41d6-69d7-484f-868f-9f38b08c936c.png" /></p>
    </details>
 
@@ -932,7 +987,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.17842)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.02964)]
 [[Code](https://github.com/hustvl/MIMDet)]
    <details close>
-   <summary>**MIMDet Framework**</summary>
+   <summary>MIMDet Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/207723589-e1fd22e3-0719-422e-b94d-371c51b164e5.png" /></p>
    </details>
 
@@ -940,7 +995,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.02964)]
 *Guoqiang Jin, Fan Yang, Mingshan Sun, Ruyi Zhao, Yakun Liu, Wei Li, Tianpeng Bao, Liwei Wu, Xingyu Zeng, Rui Zhao*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2303.08481)]
    <details close>
-   <summary>**SeqCo-DETR Framework**</summary>
+   <summary>SeqCo-DETR Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/226742022-7b823b2b-a08c-4579-8f33-8f35b282069a.png" /></p>
    </details>
 
@@ -949,7 +1004,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2303.08481)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2211.12735)]
 [[Code](https://github.com/sunsmarterjie/iTPN)]
    <details close>
-   <summary>**iTPN Framework**</summary>
+   <summary>iTPN Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/231279943-851af288-fe43-44ba-aa85-3ca6ee72a247.png" /></p>
    </details>
 
@@ -958,7 +1013,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.12735)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2303.08129)]
 [[Code](https://github.com/BLVLab/PiMAE)]
    <details close>
-   <summary>**PiMAE Framework**</summary>
+   <summary>PiMAE Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/251236178-0e2a8530-d644-4c04-8a83-63c16c3743bb.png" /></p>
    </details>
 
@@ -967,7 +1022,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2303.08129)]
 ICCV'2023 [[Paper](https://arxiv.org/abs/2205.09613)]
 [[Code](https://github.com/LiewFeng/imTED)]
    <details close>
-   <summary>**imTED Framework**</summary>
+   <summary>imTED Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263503486-6daa9793-904f-46d7-882e-9a53606cdcd1.png" /></p>
    </details>
 
@@ -978,16 +1033,16 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2205.09613)]
 arXiv'2021 [[Paper](https://arxiv.org/abs/2104.10157)]
 [[Code](https://github.com/wilson1yan/VideoGPT)]
    <details close>
-   <summary>**VideoGPT Framework**</summary>
+   <summary>VideoGPT Framework</summary>
    <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260848752-da40d950-5154-4ba1-8702-9dcd448a83bc.png" /></p>
    </details>
 
 * **VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training**<br>
 *Zhan Tong, Yibing Song, Jue Wang, Limin Wang*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2203.12602)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2203.12602)]
 [[Code](https://github.com/MCG-NJU/VideoMAE)]
    <details close>
-   <summary>**VideoMAE Framework**</summary>
+   <summary>VideoMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207724710-e4093d2e-8d6c-40b9-bf7d-ab519eb97dd2.png" /></p>
    </details>
 
@@ -996,16 +1051,16 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2203.12602)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2303.16727)]
 [[Code](https://github.com/MCG-NJU/VideoMAE)]
    <details close>
-   <summary>**VideoMAE.V2 Framework**</summary>
+   <summary>VideoMAE.V2 Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/231277665-7027e34b-7b2c-4306-ac73-7be08b176f09.png" /></p>
    </details>
 
 * **Masked Autoencoders As Spatiotemporal Learners**<br>
 *Christoph Feichtenhofer, Haoqi Fan, Yanghao Li, Kaiming He*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2205.09113)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2205.09113)]
 [[Code](https://github.com/facebookresearch/SlowFast)]
    <details close>
-   <summary>**MAE Framework**</summary>
+   <summary>MAE Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/207725088-8bccb8df-a9c8-4ba6-b7cd-5f259c0959c1.png" /></p>
    </details>
 
@@ -1014,7 +1069,7 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2205.09113)]
 ACMMM'2022 [[Paper](https://arxiv.org/abs/2208.00380)]
 [[Code](https://github.com/RaymondWang987/FMNet)]
    <details close>
-   <summary>**FMNet Framework**</summary>
+   <summary>FMNet Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/207725289-efef0f35-77a7-4ad4-896a-f1c84503cbb5.png" /></p>
    </details>
 
@@ -1023,7 +1078,7 @@ ACMMM'2022 [[Paper](https://arxiv.org/abs/2208.00380)]
 CVPR'2022 [[Paper](https://arxiv.org/abs/2206.11894)]
 [[Code](https://github.com/agrimgupta92/maskvit)]
    <details close>
-   <summary>**MaskViT Framework**</summary>
+   <summary>MaskViT Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207725785-e8b125ff-22c1-451a-b1d8-101c13113189.png" /></p>
    </details>
 
@@ -1032,7 +1087,7 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2206.11894)]
 ArXiv'2022 [[Paper](http://arxiv.org/abs/2206.08356)]
 [[Code](https://github.com/facebookresearch/omnivore)]
    <details close>
-   <summary>**OmniMAE Framework**</summary>
+   <summary>OmniMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207725594-3beaf158-74f6-4fed-a330-d34755d1f37a.png" /></p>
    </details>
 
@@ -1041,7 +1096,7 @@ ArXiv'2022 [[Paper](http://arxiv.org/abs/2206.08356)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.12408)]
 [[Code](https://github.com/tencentarc/mcq)]
    <details close>
-   <summary>**MILES Framework**</summary>
+   <summary>MILES Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/207725934-fc1c45cc-3946-4617-9eff-f93bd2903ba6.png" /></p>
    </details>
 
@@ -1049,7 +1104,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.12408)]
 *Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv, Changxin Gao, Nong Sang*<br>
 ArXiv'2022 [[Paper](http://arxiv.org/abs/2207.11660)]
    <details close>
-   <summary>**MAR Framework**</summary>
+   <summary>MAR Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207726266-39eb361a-7e3c-4737-a51b-bfda8ad8ed06.png" /></p>
    </details>
 
@@ -1058,7 +1113,7 @@ ArXiv'2022 [[Paper](http://arxiv.org/abs/2207.11660)]
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.04154)]
 [[Code](https://github.com/happy-hsy/MotionMAE)]
    <details close>
-   <summary>**MotionMAE Framework**</summary>
+   <summary>MotionMAE Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/207726409-07a0255c-a7ae-4e6c-aa25-fdfa77393788.png" /></p>
    </details>
 
@@ -1066,7 +1121,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.04154)]
 *Yuxin Song, Min Yang, Wenhao Wu, Dongliang He, Fu Li, Jingdong Wang*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.05234)]
    <details close>
-   <summary>**MAM2 Framework**</summary>
+   <summary>MAM2 Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/234365532-88126c05-712d-4f1f-bba6-4d20a33a9c12.png" /></p>
    </details>
 
@@ -1074,7 +1129,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.05234)]
 *Jinxi Xiang, Kuan Tian, Jun Zhang*<br>
 ICLR'2023 [[Paper](https://openreview.net/forum?id=j9m-mVnndbm)]
    <details close>
-   <summary>**MIMT Framework**</summary>
+   <summary>MIMT Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/207726629-e9481b07-58a4-4afb-be42-1a315bccd10c.png" /></p>
    </details>
 
@@ -1083,7 +1138,7 @@ ICLR'2023 [[Paper](https://openreview.net/forum?id=j9m-mVnndbm)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2304.00571)]
 [[Code](https://github.com/jimmy-dq/dropmae)]
    <details close>
-   <summary>**DropMAE Framework**</summary>
+   <summary>DropMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229926942-c661dff0-1cba-43cd-a206-435f223d8fd6.png" /></p>
    </details>
 
@@ -1092,7 +1147,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2304.00571)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09120)]
 [[Code](https://github.com/wgcban/adamae)]
    <details close>
-   <summary>**AdaMAE Framework**</summary>
+   <summary>AdaMAE Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/251232601-e06047d1-478a-4000-b6c5-7c52e0fae274.png" /></p>
    </details>
 
@@ -1101,7 +1156,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09120)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2212.05199)]
 [[Code](https://github.com/MAGVIT/magvit)]
    <details close>
-   <summary>**MAGVIT Framework**</summary>
+   <summary>MAGVIT Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/234349205-1831ce49-2e39-440b-a9b6-916d831f0502.png" /></p>
    </details>
 
@@ -1109,7 +1164,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2212.05199)]
 *Cheng-Ze Lu, Xiaojie Jin, Zhicheng Huang, Qibin Hou, Ming-Ming Cheng, Jiashi Feng*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2301.06018)]
    <details close>
-   <summary>**CMAE-V Framework**</summary>
+   <summary>CMAE-V Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236318547-a6b49259-bcd5-4e76-b5a9-c20c19a65719.png" /></p>
    </details>
 
@@ -1118,7 +1173,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2301.06018)]
 arXiv'2023 [[Paper](https://arxiv.org/abs/2305.14344)]
 [[Code](https://siam-mae-video.github.io/)]
    <details close>
-   <summary>**SiamMAE Framework**</summary>
+   <summary>SiamMAE Framework</summary>
    <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/68a888de-dc34-4f5b-bdcc-b28dbfb99238" /></p>
    </details>
 
@@ -1127,7 +1182,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2305.14344)]
 ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10794)]
 [[Code](https://github.com/MCG-NJU/MGMAE)]
    <details close>
-   <summary>**MGMAE Framework**</summary>
+   <summary>MGMAE Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263546126-988c91d2-1a00-4be6-aa4a-f1d3a4c428b7.png" /></p>
    </details>
 
@@ -1138,7 +1193,7 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10794)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2302.14771)]
 [[Code](https://github.com/pengzhiliang/G2SD)]
    <details close>
-   <summary>**G2SD Framework**</summary>
+   <summary>G2SD Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229930409-40ca4ec9-68df-4eed-ae49-67f513a99277.png" /></p>
    </details>
 
@@ -1149,7 +1204,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2302.14771)]
 CVPR'2023 [[Paper](https://arxiv.org/abs/2303.03052)]
 [[Code](https://github.com/Coxy7/robust-finetuning)]
    <details close>
-   <summary>**Robust Finetuning Framework**</summary>
+   <summary>Robust Finetuning Framework</summary>
    <p align="center"><img width="65%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/251233953-dfec8ab8-9c23-4395-9b67-e555b62b17ec.png" /></p>
    </details>
 
@@ -1158,7 +1213,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2303.03052)]
 arXiv'2023 [[Paper](https://arxiv.org/abs/2304.10520)]
 [[Code](https://github.com/ml-jku/MAE-CT)]
    <details close>
-   <summary>**MAE-CT Framework**</summary>
+   <summary>MAE-CT Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236308666-b5904b49-dd4e-4dc5-9ee2-158eb3e616e5.png" /></p>
    </details>
 
@@ -1234,7 +1289,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.09900)]
 
 * **Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training**<br>
 *Renrui Zhang, Ziyu Guo, Peng Gao, Rongyao Fang, Bin Zhao, Dong Wang, Yu Qiao, Hongsheng Li*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2205.14401)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2205.14401)]
 
 * **Learning 3D Representations from 2D Pre-trained Models via Image-to-Point Masked Autoencoders**<br>
 *Renrui Zhang, Liuhui Wang, Yu Qiao, Peng Gao, Hongsheng Li*<br>
@@ -1278,7 +1333,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.12768)]
 
 * **Masked Autoencoders that Listen**<br>
 *Po-Yao Huang, Hu Xu, Juncheng Li, Alexei Baevski, Michael Auli, Wojciech Galuba, Florian Metze, Christoph Feichtenhofer*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2207.06405)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2207.06405)]
 
 * **Contrastive Audio-Visual Masked Autoencoder**<br>
 *Yuan Gong, Andrew Rouditchenko, Alexander H. Liu, David Harwath, Leonid Karlinsky, Hilde Kuehne, James Glass*<br>
@@ -1298,7 +1353,7 @@ ICLR'2021 [[Paper](https://arxiv.org/abs/2010.03648)]
 
 * **Predicting What You Already Know Helps: Provable Self-Supervised Learning**<br>
 *Jason D. Lee, Qi Lei, Nikunj Saunshi, Jiacheng Zhuo*<br>
-NIPS'2021 [[Paper](https://arxiv.org/abs/2008.01064)]
+NeurIPS'2021 [[Paper](https://arxiv.org/abs/2008.01064)]
 
 * **How to Understand Masked Autoencoders**<br>
 *Shuhao Cao, Peng Xu, David A. Clifton*<br>
@@ -1369,7 +1424,7 @@ Feel free to send [pull requests](https://github.com/Lupin1998/Awesome-MIM/pulls
 *AUTHER*<br>
 PUBLISH'YEAR [[Paper](link)] [[Code](link)]
    <details close>
-   <summary>**ABBREVIATION Framework**</summary>
+   <summary>ABBREVIATION Framework</summary>
    <p align="center"><img width="90%" src="link_to_image" /></p>
    </details>
 ```
