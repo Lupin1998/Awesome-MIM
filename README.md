@@ -4,7 +4,7 @@
 
 ## Introduction
 
-**We summarize awesome Masked Image Modeling (MIM) methods proposed for self-supervised visual representation learning.*
+*We summarize awesome Masked Image Modeling (MIM) methods proposed for self-supervised visual representation learning.*
 
 The list of awesome MIM methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup). If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, we are working on a survey of MIM pre-training methods.
 
@@ -128,7 +128,7 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2207.07611)]
 
 * **PeCo: Perceptual Codebook for BERT Pre-training of Vision Transformers**<br>
 *Xiaoyi Dong, Jianmin Bao, Ting Zhang, Dongdong Chen, Weiming Zhang, Lu Yuan, Dong Chen, Fang Wen, Nenghai Yu*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2111.12710)]
+AAAI'2023 [[Paper](https://arxiv.org/abs/2111.12710)]
 [[Code](https://github.com/microsoft/PeCo)]
    <details close>
    <summary>PeCo Framework</summary>
@@ -422,7 +422,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.03917)]
 
 * **Efficient Self-supervised Learning with Contextualized Target Representations for Vision, Speech and Language**<br>
 *Alexei Baevski, Arun Babu, Wei-Ning Hsu, and Michael Auli*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.07525)]
+ICML'2023 [[Paper](https://arxiv.org/abs/2212.07525)]
 [[Code](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)]
    <details close>
    <summary>Data2Vec.V2 Framework</summary>
@@ -1229,7 +1229,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2203.16983)]
 
 * **Global Contrast Masked Autoencoders Are Powerful Pathological Representation Learners**<br>
 *Hao Quan, Xingyu Li, Weixing Chen, Qun Bai, Mingchen Zou, Ruijie Yang, Tingting Zheng, Ruiqun Qi, Xinghua Gao, Xiaoyu Cui*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.09048)]
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.09048)] [[Code](https://github.com/staruniversus/gcmae)]
 
 * **FreMAE: Fourier Transform Meets Masked Autoencoders for Medical Image Segmentation**<br>
 *Wenxuan Wang, Jing Wang, Chen Chen, Jianbo Jiao, Lichao Sun, Yuanxiu Cai, Shanshan Song, Jiangyun Li*<br>
@@ -1237,13 +1237,13 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2304.10864)]
 
 * **Masked Image Modeling Advances 3D Medical Image Analysis**<br>
 *Zekai Chen, Devansh Agarwal, Kshitij Aggarwal, Wiem Safta, Samit Hirawat, Venkat Sethuraman, Mariann Micsinai Balan, Kevin Brown*<br>
-WACV'2023 [[Paper](https://arxiv.org/abs/2204.11716)]
+WACV'2023 [[Paper](https://arxiv.org/abs/2204.11716)] [[Code](https://github.com/ZEKAICHEN/MIM-Med3D)]
 
 ### Face Recognition
 
 * **FaceMAE: Privacy-Preserving Face Recognition via Masked Autoencoders**<br>
 *Kai Wang, Bo Zhao, Xiangyu Peng, Zheng Zhu, Jiankang Deng, Xinchao Wang, Hakan Bilen, Yang You*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.11090)]
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.11090)] [Code](https://github.com/kaiwang960112/FaceMAE)]
 
 ### Scene Text Recognition (OCR)
 
@@ -1263,21 +1263,21 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2207.08051)]
 
 * **CMID: A Unified Self-Supervised Learning Framework for Remote Sensing Image Understanding**<br>
 *Dilxat Muhtar, Xueliang Zhang, Pengfeng Xiao, Zhenshi Li, Feng Gu*<br>
-TGRS'2023 [[Paper](https://arxiv.org/abs/2304.09670)]
+TGRS'2023 [[Paper](https://arxiv.org/abs/2304.09670)] [[Code](https://github.com/NJU-LHRS/official-CMID)]
 
 ### 3D Point Cloud
 
 * **Pre-Training 3D Point Cloud Transformers with Masked Point Modeling**<br>
 *Xumin Yu, Lulu Tang, Yongming Rao, Tiejun Huang, Jie Zhou, Jiwen Lu*<br>
-CVPR'2022 [[Paper](https://arxiv.org/abs/2111.14819)]
+CVPR'2022 [[Paper](https://arxiv.org/abs/2111.14819)] [[Code](https://github.com/lulutang0608/Point-BERT)]
 
 * **Masked Autoencoders for Point Cloud Self-supervised Learning**<br>
 *Yatian Pang, Wenxiao Wang, Francis E.H. Tay, Wei Liu, Yonghong Tian, Li Yuan*<br>
-ECCV'2022 [[Paper](https://arxiv.org/abs/2203.06604)]
+ECCV'2022 [[Paper](https://arxiv.org/abs/2203.06604)] [[Code](https://github.com/Pang-Yatian/Point-MAE)]
 
 * **Masked Discrimination for Self-Supervised Learning on Point Clouds**<br>
 *Haotian Liu, Mu Cai, Yong Jae Lee*<br>
-ECCV'2022 [[Paper](https://arxiv.org/abs/2203.11183)]
+ECCV'2022 [[Paper](https://arxiv.org/abs/2203.11183)] [[Code](https://github.com/haotian-liu/MaskPoint)]
 
 * **MeshMAE: Masked Autoencoders for 3D Mesh Data Analysis**<br>
 *Yaqian Liang, Shanshan Zhao, Baosheng Yu, Jing Zhang, Fazhi He*<br>
@@ -1293,23 +1293,27 @@ NeurIPS'2022 [[Paper](https://arxiv.org/abs/2205.14401)]
 
 * **Learning 3D Representations from 2D Pre-trained Models via Image-to-Point Masked Autoencoders**<br>
 *Renrui Zhang, Liuhui Wang, Yu Qiao, Peng Gao, Hongsheng Li*<br>
-CVPR'2023 [[Paper](https://arxiv.org/abs/2212.06785)]
+CVPR'2023 [[Paper](https://arxiv.org/abs/2212.06785)] [[Code](https://github.com/zrrskywalker/point-m2ae)]
 
 * **GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training**<br>
 *Xiaoyu Tian, Haoxi Ran, Yue Wang, Hang Zhao*<br>
-CVPR'2023 [[Paper](https://arxiv.org/abs/2305.08808)]
+CVPR'2023 [[Paper](https://arxiv.org/abs/2305.08808)] [[Code](https://github.com/ZrrSkywalker/I2P-MAE)]
 
 * **Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?**<br>
 *Runpei Dong, Zekun Qi, Linfeng Zhang, Junbo Zhang, Jianjian Sun, Zheng Ge, Li Yi, Kaisheng Ma*<br>
-ICLR'2023 [[Paper](https://arxiv.org/abs/2212.08320)]
+ICLR'2023 [[Paper](https://arxiv.org/abs/2212.08320)] [[Code](https://github.com/tsinghua-mars-lab/geomae)]
 
 * **Contrast with Reconstruct: Contrastive 3D Representation Learning Guided by Generative Pretraining**<br>
 *Zekun Qi, Runpei Dong, Guofan Fan, Zheng Ge, Xiangyu Zhang, Kaisheng Ma, Li Yi*<br>
-ICML'2023 [[Paper](https://arxiv.org/abs/2302.02318)]
+ICML'2023 [[Paper](https://arxiv.org/abs/2302.02318)] [[Code](https://github.com/qizekun/ReCon)]
 
 * **MGM: A meshfree geometric multilevel method for systems arising from elliptic equations on point cloud surfaces**<br>
 *Grady B. Wright, Andrew M. Jones, Varun Shankar*<br>
 ICCV'2023 [[Paper](https://arxiv.org/abs/2204.06154)]
+
+* **PointGPT: Auto-regressively Generative Pre-training from Point Clouds**<br>
+*Guangyan Chen, Meiling Wang, Yi Yang, Kai Yu, Li Yuan, Yufeng Yue*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2305.11487)] [[Code](https://github.com/CGuangyan-BIT/PointGPT)]
 
 ### Reinforcement Learning
 
@@ -1325,15 +1329,15 @@ ArXiv'2021 [[Paper](https://arxiv.org/abs/2010.11445)]
 
 * **MAE-AST: Masked Autoencoding Audio Spectrogram Transformer**<br>
 *Alan Baade, Puyuan Peng, David Harwath*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2203.16691)]
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2203.16691)] [[Code](https://github.com/AlanBaade/MAE-AST-Public)]
 
 * **Masked Spectrogram Prediction For Self-Supervised Audio Pre-Training**<br>
 *Dading Chong, Helin Wang, Peilin Zhou, Qingcheng Zeng*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.12768)]
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.12768)] [[Code](https://github.com/wanghelin1997/maskspec)]
 
 * **Masked Autoencoders that Listen**<br>
 *Po-Yao Huang, Hu Xu, Juncheng Li, Alexei Baevski, Michael Auli, Wojciech Galuba, Florian Metze, Christoph Feichtenhofer*<br>
-NeurIPS'2022 [[Paper](https://arxiv.org/abs/2207.06405)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2207.06405)] [[Code](https://github.com/facebookresearch/audiomae)]
 
 * **Contrastive Audio-Visual Masked Autoencoder**<br>
 *Yuan Gong, Andrew Rouditchenko, Alexander H. Liu, David Harwath, Leonid Karlinsky, Hilde Kuehne, James Glass*<br>
@@ -1381,15 +1385,15 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.03826)]
 
 * **An Empirical Study Of Self-supervised Learning Approaches For Object Detection With Transformers**<br>
 *Gokul Karthik Kumar, Sahal Shaji Mullappilly, Abhishek Singh Gehlot*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.05543)]
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.05543)] [[Code](https://github.com/gokulkarthik/deformable-detr)]
 
 * **Understanding Masked Image Modeling via Learning Occlusion Invariant Feature**<br>
 *Xiangwen Kong, Xiangyu Zhang*<br>
-ArXiv'2022 [[Paper](http://arxiv.org/abs/2208.04164)]
+ArXiv'2022 [[Paper](http://arxiv.org/abs/2208.04164)] [[Code](https://github.com/zhangq327/u-mae)]
 
 * **How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders**<br>
 *Qi Zhang, Yifei Wang, Yisen Wang*<br>
-NIP'2022 [[Paper](https://arxiv.org/abs/2210.08344)]
+NIP'2022 [[Paper](https://arxiv.org/abs/2210.08344)] [[Code](https://github.com/zhangq327/U-MAE)]
 
 * **i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable**<br>
 *Kevin Zhang, Zhiqiang Shen*<br>
@@ -1397,11 +1401,11 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.11470)]
 
 * **Understanding Masked Autoencoders via Hierarchical Latent Variable Models**<br>
 *Lingjing Kong, Martin Q. Ma, Guangyi Chen, Eric P. Xing, Yuejie Chi, Louis-Philippe Morency, Kun Zhang*<br>
-CVPR'2023 [[Paper](https://arxiv.org/abs/2306.04898)]
+CVPR'2023 [[Paper](https://arxiv.org/abs/2306.04898)] [[Code](https://github.com/martinmamql/mae_understand)]
 
 * **Evaluating Self-Supervised Learning via Risk Decomposition**<br>
 *Yann Dubois, Tatsunori Hashimoto, Percy Liang*<br>
-ICML'2023 [[Paper](https://arxiv.org/abs/2302.03068)]
+ICML'2023 [[Paper](https://arxiv.org/abs/2302.03068)] [[Code](https://github.com/yanndubs/ssl-risk-decomposition)]
 
 * **Regeneration Learning: A Learning Paradigm for Data Generation**<br>
 *Xu Tan, Tao Qin, Jiang Bian, Tie-Yan Liu, Yoshua Bengio*<br>
