@@ -439,7 +439,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.00794)]
 
 * **Attentive Mask CLIP**<br>
 *Yifan Yang, Weiquan Huang, Yixuan Wei, Houwen Peng, Xinyang Jiang, Huiqiang Jiang, Fangyun Wei, Yin Wang, Han Hu, Lili Qiu, Yuqing Yang*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.08653)]
+ICCV'2023 [[Paper](https://arxiv.org/abs/2212.08653)]
    <details close>
    <summary>A-CLIP Framework</summary>
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
@@ -560,7 +560,7 @@ ICML'2023 [[Paper](https://arxiv.org/abs/2306.00989)]
 
 * **The effectiveness of MAE pre-pretraining for billion-scale pretraining**<br>
 *Mannat Singh, Quentin Duval, Kalyan Vasudev Alwala, Haoqi Fan, Vaibhav Aggarwal, Aaron Adcock, Armand Joulin, Piotr Dollár, Christoph Feichtenhofer, Ross Girshick, Rohit Girdhar, Ishan Misra*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2303.13496)]
+ICCV'2023 [[Paper](https://arxiv.org/abs/2303.13496)]
    <details close>
    <summary>WSP Framework</summary>
    <p align="center"><img width="50%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/59a0eb5c-5da6-4821-83fe-bba7567c3e6f" /></p>
@@ -1084,7 +1084,7 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2206.11894)]
 
 * **OmniMAE: Single Model Masked Pretraining on Images and Videos**<br>
 *Rohit Girdhar, Alaaeldin El-Nouby, Mannat Singh, Kalyan Vasudev Alwala, Armand Joulin, Ishan Misra*<br>
-ArXiv'2022 [[Paper](http://arxiv.org/abs/2206.08356)]
+CVPR'2023 [[Paper](http://arxiv.org/abs/2206.08356)]
 [[Code](https://github.com/facebookresearch/omnivore)]
    <details close>
    <summary>OmniMAE Framework</summary>
@@ -1170,7 +1170,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2301.06018)]
 
 * **Siamese Masked Autoencoders**<br>
 *Agrim Gupta, Jiajun Wu, Jia Deng, Li Fei-Fei*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2305.14344)]
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2305.14344)]
 [[Code](https://siam-mae-video.github.io/)]
    <details close>
    <summary>SiamMAE Framework</summary>
@@ -1184,6 +1184,23 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10794)]
    <details close>
    <summary>MGMAE Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263546126-988c91d2-1a00-4be6-aa4a-f1d3a4c428b7.png" /></p>
+   </details>
+
+* **Forecast-MAE: Self-supervised Pre-training for Motion Forecasting with Masked Autoencoders**<br>
+*Jie Cheng, Xiaodong Mei, Ming Liu*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.09882)]
+[[Code](https://github.com/jchengai/forecast-mae)]
+   <details close>
+   <summary>Forecast-MAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263546126-988c91d2-1a00-4be6-aa4a-f1d3a4c428b7.png" /></p>
+   </details>
+
+* **Traj-MAE: Masked Autoencoders for Trajectory Prediction**<br>
+*Hao Chen, Jiaze Wang, Kun Shao, Furui Liu, Jianye Hao, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng *<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2303.06697)]
+   <details close>
+   <summary>Traj-MAE Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273470265-f51fd9c3-b8c7-46f8-a253-79e0db2cb3c3.png" /></p>
    </details>
 
 ### Knowledge Distillation
@@ -1264,6 +1281,10 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2207.08051)]
 * **CMID: A Unified Self-Supervised Learning Framework for Remote Sensing Image Understanding**<br>
 *Dilxat Muhtar, Xueliang Zhang, Pengfeng Xiao, Zhenshi Li, Feng Gu*<br>
 TGRS'2023 [[Paper](https://arxiv.org/abs/2304.09670)] [[Code](https://github.com/NJU-LHRS/official-CMID)]
+
+* **Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning**<br>
+*Colorado J Reed, Ritwik Gupta, Shufan Li, Sarah Brockman, Christopher Funk, Brian Clipp, Kurt Keutzer, Salvatore Candido, Matt Uyttendaele, Trevor Darrell *<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2212.14532)]
 
 ### 3D Point Cloud
 
