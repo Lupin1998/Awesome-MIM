@@ -1,10 +1,10 @@
-# Awesome Masked Image Modeling for Visual Represention Learning
+# Awesome Masked Modeling for Self-supervised Vision Represention and Beyond
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)](https://github.com/Lupin1998/Awesome-MIM/graphs/commit-activity) ![GitHub stars](https://img.shields.io/github/stars/Lupin1998/Awesome-MIM?color=blue) ![GitHub forks](https://img.shields.io/github/forks/Lupin1998/Awesome-MIM?color=yellow&label=Fork)
 
 ## Introduction
 
-*We summarize awesome Masked Image Modeling (MIM) methods proposed for self-supervised visual representation learning.*
+*We summarize awesome Masked Image Modeling (MIM) and relevent Masked Modeling methods proposed for self-supervised representation learning.*
 
 The list of awesome MIM methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup). If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, we are working on a survey of MIM pre-training methods.
 
@@ -13,7 +13,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
 
 ## Table of Contents
 
-- [Awesome Masked Image Modeling for Visual Represention Learning](#awesome-masked-image-modeling-for-visual-represention-learning)
+- [Awesome Masked Modeling for Self-supervised Vision Represention and Beyond](#awesome-masked-modeling-for-self-supervised-vision-represention-and-beyond)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [MIM for Backbones](#mim-for-backbones)
@@ -32,9 +32,9 @@ The list of awesome MIM methods is summarized in chronological order and is on u
     - [Scene Text Recognition (OCR)](#scene-text-recognition-ocr)
     - [Remote Sensing Image](#remote-sensing-image)
     - [3D Point Cloud](#3d-point-cloud)
-    - [Reinforcement Learning](#reinforcement-learning)
-    - [Audio](#audio)
-  - [Analysis and Understanding of MIM](#analysis-and-understanding-of-mim)
+  - [Audio and Speech](#audio-and-speech)
+  - [Reinforcement Learning](#reinforcement-learning)
+  - [Analysis and Understanding of Masked Modeling](#analysis-and-understanding-of-masked-modeling)
   - [Survey](#survey)
   - [Contribution](#contribution)
   - [Related Project](#related-project)
@@ -307,15 +307,6 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.10442)]
    <details close>
    <summary>BEiT.V3 Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204308318-b1d80584-2b7e-4c35-bb68-171c9bfaf299.png" /></p>
-   </details>
-
-* **Masked Autoencoders Enable Efficient Knowledge Distillers**<br>
-*Yutong Bai, Zeyu Wang, Junfei Xiao, Chen Wei, Huiyu Wang, Alan Yuille, Yuyin Zhou, Cihang Xie*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.12256)]
-[[Code](https://github.com/UCSC-VLAA/DMAE)]
-   <details close>
-   <summary>DMAE Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204308505-f730651b-6e24-4496-9c6d-879b2f446793.png" /></p>
    </details>
 
 * **Exploring The Role of Mean Teachers in Self-supervised Masked Auto-Encoders**<br>
@@ -591,6 +582,24 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.00261)]
    <details close>
    <summary>MFM Framework</summary>
    <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263502915-4f9f94c8-3746-4745-80ab-a16e7eed2f5c.png" /></p>
+   </details>
+
+* **SparseMAE: Sparse Training Meets Masked Autoencoders**<br>
+*Aojun Zhou, Yang Li, Zipeng Qin, Jianbo Liu, Junting Pan, Renrui Zhang, Rui Zhao, Peng Gao, Hongsheng Li*<br>
+ICCV'2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhou_SparseMAE_Sparse_Training_Meets_Masked_Autoencoders_ICCV_2023_paper.pdf)]
+[[Code](https://github.com/aojunzz/SparseMAE)]
+   <details close>
+   <summary>SparseMAE Framework</summary>
+   <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273472384-7e1b04b9-03a3-44ee-a821-d959ba26e820.png" /></p>
+   </details>
+
+* **Improving Adversarial Robustness of Masked Autoencoders via Test-time Frequency-domain Prompting**<br>
+*Qidong Huang, Xiaoyi Dong, Dongdong Chen, Yinpeng Chen, Lu Yuan, Gang Hua, Weiming Zhang, Nenghai Yu*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10315)]
+[[Code](https://github.com/shikiw/RobustMAE)]
+   <details close>
+   <summary>RobustMAE Framework</summary>
+   <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273511030-25d49434-d197-42fa-a11a-2ce02458b938.png" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -976,6 +985,32 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.17842)]
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/258768117-d71a41d6-69d7-484f-868f-9f38b08c936c.png" /></p>
    </details>
 
+* **Text-Conditioned Sampling Framework for Text-to-Image Generation with Masked Generative Models**<br>
+*Jaewoong Lee, Sangwon Jang, Jaehyeong Jo, Jaehong Yoon, Yunji Kim, Jin-Hwa Kim, Jung-Woo Ha, Sung Ju Hwang*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2304.01515)]
+   <details close>
+   <summary>TCTS Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204300433-a0b6b25b-9f6f-431b-bbfd-19169d8cbca6.png" /></p>
+   </details>
+
+* **Diffusion Models as Masked Autoencoders**<br>
+*Chen Wei, Karttikeya Mangalam, Po-Yao Huang, Yanghao Li, Haoqi Fan, Hu Xu, Huiyu Wang, Cihang Xie, Alan Yuille, Christoph Feichtenhofer*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2304.03283)]
+[[Code](https://weichen582.github.io/diffmae.html)]
+   <details close>
+   <summary>TCTS Framework</summary>
+   <p align="center"><img width="55%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273509400-caf78224-79a2-4ccc-90af-a7dc5b8518a4.png" /></p>
+   </details>
+
+* **Masked Diffusion Transformer is a Strong Image Synthesizer**<br>
+*Shanghua Gao, Pan Zhou, Ming-Ming Cheng, Shuicheng Yan*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2303.14389)]
+[[Code](https://github.com/sail-sg/MDT)]
+   <details close>
+   <summary>MDT Framework</summary>
+   <p align="center"><img width="60%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273515639-af09f81b-c1d7-4d39-aa1a-6ffde172c030.png" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## MIM for Downstream Tasks
@@ -984,7 +1019,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.17842)]
 
 * **Unleashing Vanilla Vision Transformer with Masked Image Modeling for Object Detection**<br>
 *Yuxin Fang, Shusheng Yang, Shijie Wang, Yixiao Ge, Ying Shan, Xinggang Wang*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.02964)]
+ICCV'2023 [[Paper](https://arxiv.org/abs/2204.02964)]
 [[Code](https://github.com/hustvl/MIMDet)]
    <details close>
    <summary>MIMDet Framework</summary>
@@ -1024,6 +1059,15 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2205.09613)]
    <details close>
    <summary>imTED Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/263503486-6daa9793-904f-46d7-882e-9a53606cdcd1.png" /></p>
+   </details>
+
+* **Masked Retraining Teacher-student Framework for Domain Adaptive Object Detection**<br>
+*Yuan Liu, Songyang Zhang, Jiacheng Chen, Zhaohui Yu, Kai Chen, Dahua Lin*<br>
+ICCV'2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Masked_Retraining_Teacher-Student_Framework_for_Domain_Adaptive_Object_Detection_ICCV_2023_paper.pdf)]
+[[Code](https://github.com/JeremyZhao1998/MRT-release)]
+   <details close>
+   <summary>MRT Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273500384-73df36d2-3dbb-4883-a6f5-8a22edac7f58.png" /></p>
    </details>
 
 ### Video Rrepresentation
@@ -1196,11 +1240,55 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.09882)]
    </details>
 
 * **Traj-MAE: Masked Autoencoders for Trajectory Prediction**<br>
-*Hao Chen, Jiaze Wang, Kun Shao, Furui Liu, Jianye Hao, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng *<br>
+*Hao Chen, Jiaze Wang, Kun Shao, Furui Liu, Jianye Hao, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng*<br>
 ICCV'2023 [[Paper](https://arxiv.org/abs/2303.06697)]
    <details close>
    <summary>Traj-MAE Framework</summary>
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273470265-f51fd9c3-b8c7-46f8-a253-79e0db2cb3c3.png" /></p>
+   </details>
+
+* **HumanMAC: Masked Motion Completion for Human Motion Prediction**<br>
+*Ling-Hao Chen, Jiawei Zhang, Yewen Li, Yiren Pang, Xiaobo Xia, Tongliang Liu*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.07092)]
+[[Code](https://github.com/linghaochan/humanmac)]
+   <details close>
+   <summary>HumanMAC Framework</summary>
+   <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273471835-fd4c7cd5-0bcc-4cc2-9eb7-bdb0a2892adc.png" /></p>
+   </details>
+
+* **SkeletonMAE: Graph-based Masked Autoencoder for Skeleton Sequence Pre-training**<br>
+*Hong Yan, Yang Liu, Yushen Wei, Zhen Li, Guanbin Li, Liang Lin*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2307.08476)]
+[[Code](https://github.com/HongYan1123/SkeletonMAE)]
+   <details close>
+   <summary>SkeletonMAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273470987-0094f1d9-5378-4f88-948d-e23818b10e19.png" /></p>
+   </details>
+
+* **Masked Motion Predictors are Strong 3D Action Representation Learners**<br>
+*Ling-Hao Chen, Jiawei Zhang, Yewen Li, Yiren Pang, Xiaobo Xia, Tongliang Liu*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2302.03665)]
+[[Code](https://github.com/maoyunyao/MAMP)]
+   <details close>
+   <summary>MAMP Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273513853-a2fac3d8-9f7c-4da7-ac36-d43c68d8becc.png" /></p>
+   </details>
+
+* **GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding**<br>
+*Jihao Liu, Tai Wang, Boxiao Liu, Qihang Zhang, Yu Liu, Hongsheng Li*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2303.11325)]
+[[Code](https://github.com/Sense-X/GeoMIM)]
+   <details close>
+   <summary>GeoMIM Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273514669-2236d35b-084c-46ea-82b0-913d5306d29d.png" /></p>
+   </details>
+
+* **Motion-Guided Masking for Spatiotemporal Representation Learning**<br>
+*David Fan, Jue Wang, Shuai Liao, Yi Zhu, Vimal Bhat, Hector Santos-Villalobos, Rohith MV, Xinyu Li*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.12962)]
+   <details close>
+   <summary>MGM Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273517980-784780bd-40df-42d1-9768-d7f3e60f31ed.png" /></p>
    </details>
 
 ### Knowledge Distillation
@@ -1212,6 +1300,23 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2302.14771)]
    <details close>
    <summary>G2SD Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229930409-40ca4ec9-68df-4eed-ae49-67f513a99277.png" /></p>
+   </details>
+
+* **Masked Autoencoders Enable Efficient Knowledge Distillers**<br>
+*Yutong Bai, Zeyu Wang, Junfei Xiao, Chen Wei, Huiyu Wang, Alan Yuille, Yuyin Zhou, Cihang Xie*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2208.12256)]
+[[Code](https://github.com/UCSC-VLAA/DMAE)]
+   <details close>
+   <summary>DMAE Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204308505-f730651b-6e24-4496-9c6d-879b2f446793.png" /></p>
+   </details>
+
+* **Masked Autoencoders Are Stronger Knowledge Distillers**<br>
+*Shanshan Lao, Guanglu Song, Boxiao Liu, Yu Liu, Yujiu Yang*<br>
+ICCV'2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Lao_Masked_Autoencoders_Are_Stronger_Knowledge_Distillers_ICCV_2023_paper.pdf)]
+   <details close>
+   <summary>MKD Framework</summary>
+   <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273472136-59171feb-6a36-4027-8a21-14e17c230eb2.png" /></p>
    </details>
 
 ### Efficient Fine-tuning
@@ -1232,6 +1337,15 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2304.10520)]
    <details close>
    <summary>MAE-CT Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/236308666-b5904b49-dd4e-4dc5-9ee2-158eb3e616e5.png" /></p>
+   </details>
+
+* **Masked Autoencoders are Efficient Class Incremental Learners**<br>
+*Jiang-Tian Zhai, Xialei Liu, Andrew D. Bagdanov, Ke Li, Ming-Ming Cheng*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.12510)]
+[[Code](https://github.com/scok30/mae-cil)]
+   <details close>
+   <summary>MAE-CIL Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273471437-29db5e9d-6f82-4c6f-80b5-83c78171c52c.png" /></p>
    </details>
 
 ### Medical Image
@@ -1255,6 +1369,10 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2304.10864)]
 * **Masked Image Modeling Advances 3D Medical Image Analysis**<br>
 *Zekai Chen, Devansh Agarwal, Kshitij Aggarwal, Wiem Safta, Samit Hirawat, Venkat Sethuraman, Mariann Micsinai Balan, Kevin Brown*<br>
 WACV'2023 [[Paper](https://arxiv.org/abs/2204.11716)] [[Code](https://github.com/ZEKAICHEN/MIM-Med3D)]
+
+* **MRM: Masked Relation Modeling for Medical Image Pre-Training with Genetics**<br>
+*Qiushi Yang, Wuyang Li, Baopu Li, Yixuan Yuan*<br>
+ICCV'2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_MRM_Masked_Relation_Modeling_for_Medical_Image_Pre-Training_with_Genetics_ICCV_2023_paper.pdf)] [[Code](https://github.com/CityU-AIM-Group/MRM)]
 
 ### Face Recognition
 
@@ -1283,7 +1401,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2207.08051)]
 TGRS'2023 [[Paper](https://arxiv.org/abs/2304.09670)] [[Code](https://github.com/NJU-LHRS/official-CMID)]
 
 * **Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning**<br>
-*Colorado J Reed, Ritwik Gupta, Shufan Li, Sarah Brockman, Christopher Funk, Brian Clipp, Kurt Keutzer, Salvatore Candido, Matt Uyttendaele, Trevor Darrell *<br>
+*Colorado J Reed, Ritwik Gupta, Shufan Li, Sarah Brockman, Christopher Funk, Brian Clipp, Kurt Keutzer, Salvatore Candido, Matt Uyttendaele, Trevor Darrell*<br>
 ICCV'2023 [[Paper](https://arxiv.org/abs/2212.14532)]
 
 ### 3D Point Cloud
@@ -1336,13 +1454,35 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2204.06154)]
 *Guangyan Chen, Meiling Wang, Yi Yang, Kai Yu, Li Yuan, Yufeng Yue*<br>
 NIPS'2023 [[Paper](https://arxiv.org/abs/2305.11487)] [[Code](https://github.com/CGuangyan-BIT/PointGPT)]
 
-### Reinforcement Learning
+* **MATE: Masked Autoencoders are Online 3D Test-Time Learners**<br>
+*M. Jehanzeb Mirza, Inkyu Shin, Wei Lin, Andreas Schriebl, Kunyang Sun, Jaesung Choe, Horst Possegger, Mateusz Kozinski, In So Kweon, Kun-Jin Yoon, Horst Bischof*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2211.11432)] [[Code](https://github.com/jmiemirza/MATE)]
 
-* **Mask-based Latent Reconstruction for Reinforcement Learning**<br>
-*Tao Yu, Zhizheng Zhang, Cuiling Lan, Yan Lu, Zhibo Chen*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.12096)]
+* **Masked Spatio-Temporal Structure Prediction for Self-supervised Learning on Point Cloud Videos**<br>
+*Zhiqiang Shen, Xiaoxiao Sheng, Hehe Fan, Longguang Wang, Yulan Guo, Qiong Liu, Hao Wen, Xi Zhou*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.09245)] [[Code](https://github.com/JohnsonSign/MaST-Pre)]
+   <details close>
+   <summary>MaST-Pre</summary>
+   <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273511030-25d49434-d197-42fa-a11a-2ce02458b938.png" /></p>
+   </details>
 
-### Audio
+## Audio and Speech
+
+* **wav2vec: Unsupervised Pre-training for Speech Recognition**<br>
+*Steffen Schneider, Alexei Baevski, Ronan Collobert, Michael Auli*<br>
+ArXiv'2019 [[Paper](https://arxiv.org/abs/1904.05862)] [[Code](https://github.com/pytorch/fairseq)]
+
+* **vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations**<br>
+*Alexei Baevski, Steffen Schneider, Michael Auli*<br>
+ArXiv'2019 [[Paper](https://arxiv.org/abs/1910.05453)] [[Code](https://github.com/pytorch/fairseq)]
+
+* **wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**<br>
+*Alexei Baevski, Henry Zhou, Abdelrahman Mohamed, Michael Auli*<br>
+NIPS'2020 [[Paper](https://arxiv.org/abs/2006.11477)] [[Code](https://github.com/pytorch/fairseq)]
+
+* **HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units**<br>
+*Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed*<br>
+TASLP'2021 [[Paper](https://arxiv.org/abs/2106.07447)] [[Code](https://github.com/pytorch/fairseq)]
 
 * **MAM: Masked Acoustic Modeling for End-to-End Speech-to-Text Translation**<br>
 *Junkun Chen, Mingbo Ma, Renjie Zheng, Liang Huang*<br>
@@ -1364,9 +1504,23 @@ NeurIPS'2022 [[Paper](https://arxiv.org/abs/2207.06405)] [[Code](https://github.
 *Yuan Gong, Andrew Rouditchenko, Alexander H. Liu, David Harwath, Leonid Karlinsky, Hilde Kuehne, James Glass*<br>
 ICLR'2023 [[Paper](https://arxiv.org/abs/2210.07839)]
 
+* **Audiovisual Masked Autoencoders**<br>
+*Mariana-Iuliana Georgescu, Eduardo Fonseca, Radu Tudor Ionescu, Mario Lucic, Cordelia Schmid, Anurag Arnab*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2210.07839)]
+   <details close>
+   <summary>Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273470692-dc127f79-2fd4-4aff-a911-a7845c58ed1b.png" /></p>
+   </details>
+
+## Reinforcement Learning
+
+* **Mask-based Latent Reconstruction for Reinforcement Learning**<br>
+*Tao Yu, Zhizheng Zhang, Cuiling Lan, Yan Lu, Zhibo Chen*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.12096)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Analysis and Understanding of MIM
+## Analysis and Understanding of Masked Modeling
 
 * **Demystifying Self-Supervised Learning: An Information-Theoretical Framework**<br>
 *Yao-Hung Hubert Tsai, Yue Wu, Ruslan Salakhutdinov, Louis-Philippe Morency*<br>
@@ -1467,10 +1621,12 @@ Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin19
 
 ### Project of Self-supervised Learning
 
+- [unilm](https://github.com/microsoft/unilm): Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
 - [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
 - [MMPretrain](https://github.com/open-mmlab/mmpretrain): OpenMMLab self-supervised pre-training toolbox and benchmark.
 - [solo-learn](https://github.com/vturrisi/solo-learn): A library of self-supervised methods for visual representation learning powered by Pytorch Lightning.
-- [unilm](https://github.com/microsoft/unilm): Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
-- [VISSL](https://github.com/facebookresearch/vissl): FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images. 
+- [VISSL](https://github.com/facebookresearch/vissl): FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images.
+- [lightly](https://github.com/lightly-ai/lightly): A python library for self-supervised learning on images.
+- [Fairseq](https://github.com/facebookresearch/fairseq): Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
