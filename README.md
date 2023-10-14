@@ -725,6 +725,15 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
    <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261103618-f2aa7486-a09f-4f50-a84d-fb367c621d04.png" /></p>
    </details>
 
+* **DropPos: Pre-Training Vision Transformers by Reconstructing Dropped Positions**<br>
+*Haochen Wang, Junsong Fan, Yuxi Wang, Kaiyou Song, Tong Wang, Zhaoxiang Zhang*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2309.03576)]
+[[Code](https://github.com/Haochen-Wang409/DropPos)]
+   <details close>
+   <summary>DropPos Framework</summary>
+   <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/275285480-27b8a822-f298-4887-b012-249948c29a22.png" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### MIM for Transformers and CNNs
@@ -793,11 +802,20 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2301.03580)]
 
 * **ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders**<br>
 *Sanghyun Woo, Shoubhik Debnath, Ronghang Hu, Xinlei Chen, Zhuang Liu, In So Kweon, Saining Xie*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.00808)]
+CVPR'2023 [[Paper](https://arxiv.org/abs/2301.00808)]
 [[Code](https://github.com/facebookresearch/ConvNeXt-V2)]
    <details close>
    <summary>ConvNeXt.V2 Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/211898674-caa94c81-9aea-4544-8f5f-2cf410724bb4.png" /></p>
+   </details>
+
+* **RevColV2: Exploring Disentangled Representations in Masked Image Modeling**<br>
+*Qi Han, Yuxuan Cai, Xiangyu Zhang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.01005)]
+[[Code](https://github.com/megvii-research/RevCol)]
+   <details close>
+   <summary>RevCol.V2 Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/275285082-7c367ac3-bfce-4502-bf77-b7402b2f04e4.png" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -1430,6 +1448,10 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.09900)]
 *Renrui Zhang, Ziyu Guo, Peng Gao, Rongyao Fang, Bin Zhao, Dong Wang, Yu Qiao, Hongsheng Li*<br>
 NeurIPS'2022 [[Paper](https://arxiv.org/abs/2205.14401)]
 
+* **Ponder: Point Cloud Pre-training via Neural Rendering**<br>
+*Renrui Zhang, Ziyu Guo, Peng Gao, Rongyao Fang, Bin Zhao, Dong Wang, Yu Qiao, Hongsheng Li*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2301.00157)] [[Code](https://dihuangdh.github.io/ponder)]
+
 * **Learning 3D Representations from 2D Pre-trained Models via Image-to-Point Masked Autoencoders**<br>
 *Renrui Zhang, Liuhui Wang, Yu Qiao, Peng Gao, Hongsheng Li*<br>
 CVPR'2023 [[Paper](https://arxiv.org/abs/2212.06785)] [[Code](https://github.com/zrrskywalker/point-m2ae)]
@@ -1464,6 +1486,26 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.09245)] [[Code](https://github.com
    <details close>
    <summary>MaST-Pre</summary>
    <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273511030-25d49434-d197-42fa-a11a-2ce02458b938.png" /></p>
+   </details>
+
+* **UniPAD: A Universal Pre-training Paradigm for Autonomous Driving**<br>
+*Honghui Yang, Sha Zhang, Di Huang, Xiaoyang Wu, Haoyi Zhu, Tong He, Shixiang Tang, Hengshuang Zhao, Qibo Qiu, Binbin Lin, Xiaofei He, Wanli Ouyang*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2310.08370)] [[Code](https://github.com/Nightmare-n/UniPAD)]
+   <details close>
+   <summary>UniPAD</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/275272898-a2f31d20-f405-4733-a0b9-72b34c8e0525.png" /></p>
+   </details>
+
+* **PonderV2: Pave the Way for 3D Foundataion Model with A Universal Pre-training Paradigm**<br>
+*Haoyi Zhu, Honghui Yang, Xiaoyang Wu, Di Huang, Sha Zhang, Xianglong He, Tong He, Hengshuang Zhao, Chunhua Shen, Yu Qiao, Wanli Ouyang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.08586)] [[Code](https://github.com/Pointcept/Pointcept)]
+
+* **MeSa: Masked, Geometric, and Supervised Pre-training for Monocular Depth Estimation**<br>
+*Muhammad Osama Khan, Junbang Liang, Chun-Kai Wang, Shan Yang, Yu Lou*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.04551)]
+   <details close>
+   <summary>UniPAD</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/275282765-21d62c23-9b2f-442c-8cbb-be12d283393d.png" /></p>
    </details>
 
 ## Audio and Speech
