@@ -21,6 +21,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
     - [MIM with Constrastive Learning](#mim-with-constrastive-learning)
     - [MIM for Transformers and CNNs](#mim-for-transformers-and-cnns)
     - [MIM with Advanced Masking](#mim-with-advanced-masking)
+    - [MIM for Multi-Modality](#mim-for-multi-modality)
     - [Image Generation](#image-generation)
   - [MIM for Downstream Tasks](#mim-for-downstream-tasks)
     - [Object Detection](#object-detection)
@@ -300,15 +301,6 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.06049)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204308146-edae9cfb-3f03-4b13-bf11-51620ebc945d.png" /></p>
    </details>
 
-* **Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks**<br>
-*Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal, Owais Khan Mohammed, Saksham Singhal, Subhojit Som, Furu Wei*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.10442)]
-[[Code](https://github.com/microsoft/unilm/tree/master/beit)]
-   <details close>
-   <summary>BEiT.V3 Framework</summary>
-   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204308318-b1d80584-2b7e-4c35-bb68-171c9bfaf299.png" /></p>
-   </details>
-
 * **Exploring The Role of Mean Teachers in Self-supervised Masked Auto-Encoders**<br>
 *Youngwan Lee, Jeffrey Willette, Jonghee Kim, Juho Lee, Sung Ju Hwang*<br>
 ICLR'2023 [[Paper](https://arxiv.org/abs/2210.02077)]
@@ -335,28 +327,12 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.10615)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204310534-7c1bf6fc-690b-4dd3-889d-4488b8a892ea.png" /></p>
    </details>
 
-* **Masked Vision and Language Modeling for Multi-modal Representation Learning**<br>
-*Gukyeong Kwon, Zhaowei Cai, Avinash Ravichandran, Erhan Bas, Rahul Bhotika, Stefano Soatto*<br>
-ICLR'2023 [[Paper](https://arxiv.org/abs/2208.02131)]
-   <details close>
-   <summary>MaskVLM Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204310845-3e7777dc-5726-4c94-9506-8f88efd1966b.png" /></p>
-   </details>
-
 * **DILEMMA: Self-Supervised Shape and Texture Learning with Transformers**<br>
 *Sepehr Sameni, Simon Jenni, Paolo Favaro*<br>
 AAAI'2023 [[Paper](https://arxiv.org/abs/2204.04788)]
    <details close>
    <summary>DILEMMA Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/206920238-6f520585-e9c1-4e7a-89eb-3d9379931279.png" /></p>
-   </details>
-
-* **MaskCLIP: Masked Self-Distillation Advances Contrastive Language-Image Pretraining**<br>
-*Xiaoyi Dong, Yinglin Zheng, Jianmin Bao, Ting Zhang, Dongdong Chen, Hao Yang, Ming Zeng, Weiming Zhang, Lu Yuan, Dong Chen, Fang Wen, Nenghai Yu*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.12262)]
-   <details close>
-   <summary>MaskCLIP Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209704378-5c467c07-8096-441d-b8a4-37fe27d1ac07.png" /></p>
    </details>
 
 * **i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable**<br>
@@ -418,22 +394,6 @@ ICML'2023 [[Paper](https://arxiv.org/abs/2212.07525)]
    <details close>
    <summary>Data2Vec.V2 Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/207722013-4fc539f7-3d45-4eb8-8037-c4fa210738d6.png" /></p>
-   </details>
-
-* **Scaling Language-Image Pre-training via Masking**<br>
-*Yanghao Li, Haoqi Fan, Ronghang Hu, Christoph Feichtenhofer, Kaiming He*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.00794)]
-   <details close>
-   <summary>FLIP Framework</summary>
-   <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209705278-368b8125-cb14-4800-8523-09800b1728d4.png" /></p>
-   </details>
-
-* **Attentive Mask CLIP**<br>
-*Yifan Yang, Weiquan Huang, Yixuan Wei, Houwen Peng, Xinyang Jiang, Huiqiang Jiang, Fangyun Wei, Yin Wang, Han Hu, Lili Qiu, Yuqing Yang*<br>
-ICCV'2023 [[Paper](https://arxiv.org/abs/2212.08653)]
-   <details close>
-   <summary>A-CLIP Framework</summary>
-   <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
    </details>
 
 * **Masked autoencoders are effective solution to transformer data-hungry**<br>
@@ -882,6 +842,70 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2303.06583)]
    <summary>AutoMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236310631-a11eee44-3e70-414f-9caa-ad09a231ce31.png" /></p>
    </details>
+
+### MIM for Multi-Modality
+
+* **VL-BERT: Pre-training of Generic Visual-Linguistic Representations**<br>
+*Weijie Su, Xizhou Zhu, Yue Cao, Bin Li, Lewei Lu, Furu Wei, Jifeng Dai*<br>
+ICLR'2020 [[Paper](https://arxiv.org/abs/1908.08530)]
+[[Code](https://github.com/jackroos/VL-BERT)]
+   <details close>
+   <summary>VL-BERT Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/278494134-b57d357e-1b3e-44ac-9de5-1303e4b7dbcf.png" /></p>
+   </details>
+
+* **MaskCLIP: Masked Self-Distillation Advances Contrastive Language-Image Pretraining**<br>
+*Xiaoyi Dong, Jianmin Bao, Yinglin Zheng, Ting Zhang, Dongdong Chen, Hao Yang, Ming Zeng, Weiming Zhang, Lu Yuan, Dong Chen, Fang Wen, Nenghai Yu*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2208.12262)]
+[[Code](https://github.com/LightDXY/MaskCLIP)]
+   <details close>
+   <summary>MaskCLIP Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209704378-5c467c07-8096-441d-b8a4-37fe27d1ac07.png" /></p>
+   </details>
+
+* **Unified-IO: A Unified Model for Vision, Language, and Multi-Modal Tasks**<br>
+*Jiasen Lu, Christopher Clark, Rowan Zellers, Roozbeh Mottaghi, Aniruddha Kembhavi*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.08916)]
+[[Code](https://arxiv.org/abs/2206.08916)]
+   <details close>
+   <summary>Unified-IO Framework</summary>
+   <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/278491185-0babafa8-c7d5-4976-94d5-f02a12d605dd.png" /></p>
+   </details>
+
+* **Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks**<br>
+*Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal, Owais Khan Mohammed, Saksham Singhal, Subhojit Som, Furu Wei*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.10442)]
+[[Code](https://github.com/microsoft/unilm/tree/master/beit)]
+   <details close>
+   <summary>BEiT.V3 Framework</summary>
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204308318-b1d80584-2b7e-4c35-bb68-171c9bfaf299.png" /></p>
+   </details>
+
+* **Masked Vision and Language Modeling for Multi-modal Representation Learning**<br>
+*Gukyeong Kwon, Zhaowei Cai, Avinash Ravichandran, Erhan Bas, Rahul Bhotika, Stefano Soatto*<br>
+ICLR'2023 [[Paper](https://arxiv.org/abs/2208.02131)]
+   <details close>
+   <summary>MaskVLM Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204310845-3e7777dc-5726-4c94-9506-8f88efd1966b.png" /></p>
+   </details>
+
+* **Scaling Language-Image Pre-training via Masking**<br>
+*Yanghao Li, Haoqi Fan, Ronghang Hu, Christoph Feichtenhofer, Kaiming He*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2212.00794)]
+   <details close>
+   <summary>FLIP Framework</summary>
+   <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209705278-368b8125-cb14-4800-8523-09800b1728d4.png" /></p>
+   </details>
+
+* **Attentive Mask CLIP**<br>
+*Yifan Yang, Weiquan Huang, Yixuan Wei, Houwen Peng, Xinyang Jiang, Huiqiang Jiang, Fangyun Wei, Yin Wang, Han Hu, Lili Qiu, Yuqing Yang*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2212.08653)]
+   <details close>
+   <summary>A-CLIP Framework</summary>
+   <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Image Generation
 
