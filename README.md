@@ -22,6 +22,7 @@ The list of awesome MIM methods is summarized in chronological order and is on u
     - [MIM for Transformers and CNNs](#mim-for-transformers-and-cnns)
     - [MIM with Advanced Masking](#mim-with-advanced-masking)
     - [MIM for Multi-Modality](#mim-for-multi-modality)
+    - [MIM for Generalist Model](#mim-for-generalist-model)
     - [Image Generation](#image-generation)
   - [MIM for Downstream Tasks](#mim-for-downstream-tasks)
     - [Object Detection](#object-detection)
@@ -694,6 +695,15 @@ NIPS'2023 [[Paper](https://arxiv.org/abs/2309.03576)]
    <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/275285480-27b8a822-f298-4887-b012-249948c29a22.png" /></p>
    </details>
 
+* **Rejuvenating image-GPT as Strong Visual Representation Learners**<br>
+*Sucheng Ren, Zeyu Wang, Hongru Zhu, Junfei Xiao, Alan Yuille, Cihang Xie*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02147)]
+[[Code](https://github.com/OliverRensu/D-iGPT)]
+   <details close>
+   <summary>D-iGPT Framework</summary>
+   <p align="center"><img width="60%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/13002c8d-179e-484d-846c-9bd4b25b58d8" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### MIM for Transformers and CNNs
@@ -771,7 +781,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2301.00808)]
 
 * **RevColV2: Exploring Disentangled Representations in Masked Image Modeling**<br>
 *Qi Han, Yuxuan Cai, Xiangyu Zhang*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.01005)]
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2309.01005)]
 [[Code](https://github.com/megvii-research/RevCol)]
    <details close>
    <summary>RevCol.V2 Framework</summary>
@@ -903,6 +913,26 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2212.08653)]
    <details close>
    <summary>A-CLIP Framework</summary>
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
+   </details>
+
+### MIM for Generalist Model
+
+* **Images Speak in Images: A Generalist Painter for In-Context Visual Learning**<br>
+*Xinlong Wang, Wen Wang, Yue Cao, Chunhua Shen, Tiejun Huang*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2212.02499)]
+[[Code](https://github.com/baaivision/Painter)]
+   <details close>
+   <summary>Painter Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/de7240fd-f04c-411f-9ae1-f2e4839236ee" /></p>
+   </details>
+
+* **Sequential Modeling Enables Scalable Learning for Large Vision Models**<br>
+*Yutong Bai, Xinyang Geng, Karttikeya Mangalam, Amir Bar, Alan Yuille, Trevor Darrell, Jitendra Malik, Alexei A Efros*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.00785)]
+[[Code](https://yutongbai.com/lvm.html)]
+   <details close>
+   <summary>LVM Framework</summary>
+   <p align="center"><img width="75%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/c5bfa7df-7f7c-49bf-9674-749b1b5ebd8e" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -1053,6 +1083,24 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2303.14389)]
    <p align="center"><img width="60%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273515639-af09f81b-c1d7-4d39-aa1a-6ffde172c030.png" /></p>
    </details>
 
+* **Self-conditioned Image Generation via Generating Representations**<br>
+*Tianhong Li, Dina Katabi, Kaiming He*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.03701)]
+[[Code](https://github.com/LTH14/rcg)]
+   <details close>
+   <summary>RCG Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/88f210d7-2cba-456d-8ab2-3a807c153ea3" /></p>
+   </details>
+
+* **OneLLM: One Framework to Align All Modalities with Language**<br>
+*Jiaming Han, Kaixiong Gong, Yiyuan Zhang, Jiaqi Wang, Kaipeng Zhang, Dahua Lin, Yu Qiao, Peng Gao, Xiangyu Yue*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.03700)]
+[[Code](https://github.com/csuhan/OneLLM)]
+   <details close>
+   <summary>OneLLM Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/88f210d7-2cba-456d-8ab2-3a807c153ea3" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## MIM for Downstream Tasks
@@ -1110,6 +1158,15 @@ ICCV'2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Ma
    <details close>
    <summary>MRT Framework</summary>
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273500384-73df36d2-3dbb-4883-a6f5-8a22edac7f58.png" /></p>
+   </details>
+
+* **Object Recognition as Next Token Prediction**<br>
+*Kaiyu Yue, Bor-Chun Chen, Jonas Geiping, Hengduo Li, Tom Goldstein, Ser-Nam Lim*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02142)]
+[[Code](https://github.com/kaiyuyue/nxtp)]
+   <details close>
+   <summary>imTED Framework</summary>
+   <p align="center"><img width="75%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/7badecf5-3714-4a48-bbf9-26ea91167626" /></p>
    </details>
 
 ### Video Rrepresentation
