@@ -6,17 +6,22 @@
 
 *We summarize awesome Masked Image Modeling (MIM) and relevent Masked Modeling methods proposed for self-supervised representation learning.*
 
-The list of awesome MIM methods is summarized in chronological order and is on updating. The main branch is modified according to [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md) in [OpenMixup](https://github.com/Westlake-AI/openmixup). If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, we are working on a survey of MIM pre-training methods.
+This project is a part of *our survey on masked modeling methods* ([arXiv](https://arxiv.org/abs/2401.00897)). The list of awesome MIM methods is summarized in chronological order and is on updating. If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, our survey is on updating and here is the [latest version](https://github.com/Lupin1998/Awesome-MIM/files/Survey_on_Masked_Modeling_Latest_Version.pdf).
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
-* To export BibTeX citations of papers, check out [ArXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
+* To export BibTeX citations of papers, check out [arXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
+
+<p align="center" width="100%">
+  <img src='https://github.com/Lupin1998/Awesome-MIM/assets/44519745/226171ad-0d9d-4492-9abf-7c8af0379af6' width="100%">
+</p>
+Research in self-supervised learning can be broadly categorized into Generative and Discriminative paradigms. We reviewed major SSL research since 2008 and found that SSL has followed distinct developmental trajectories and stages across time periods and modalities. Since 2018, SSL in NLP has been dominated by generative masked language modeling, which remains mainstream. In computer vision, discriminative contrastive learning dominated from 2018 to 2021 before masked image modeling gained prominence after 2022.
 
 ## Table of Contents
 
 - [Awesome Masked Modeling for Self-supervised Vision Represention and Beyond](#awesome-masked-modeling-for-self-supervised-vision-represention-and-beyond)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
-  - [MIM for Backbones](#mim-for-backbones)
+  - [Fundamental MIM Methods](#fundamental-mim-methods)
     - [MIM for Transformers](#mim-for-transformers)
     - [MIM with Constrastive Learning](#mim-with-constrastive-learning)
     - [MIM for Transformers and CNNs](#mim-for-transformers-and-cnns)
@@ -43,8 +48,12 @@ The list of awesome MIM methods is summarized in chronological order and is on u
     - [Paper List of Masked Image Modeling](#paper-list-of-masked-image-modeling)
     - [Project of Self-supervised Learning](#project-of-self-supervised-learning)
 
+## Fundamental MIM Methods
 
-## MIM for Backbones
+<p align="center" width="100%">
+  <img src='https://github.com/Lupin1998/Awesome-MIM/assets/44519745/ec3f11eb-b12d-4ebc-a129-fc951018ddcd' width="90%">
+</p>
+The overview of the basic MIM framework, containing four building blocks with their internal components and functionalities. All MIM research can be summarized as innovations upon these four blocks, i.e., Masking, Encoder, Target, and Head. Frameworks of masked modeling in other modalities are similar to this framework.
 
 ### MIM for Transformers
 
@@ -563,6 +572,15 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10315)]
    <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273511030-25d49434-d197-42fa-a11a-2ce02458b938.png" /></p>
    </details>
 
+* **DeepMIM: Deep Supervision for Masked Image Modeling**<br>
+*Qidong Huang, Xiaoyi Dong, Dongdong Chen, Yinpeng Chen, Lu Yuan, Gang Hua, Weiming Zhang, Nenghai Yu*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10315)]
+[[Code](https://github.com/shikiw/RobustMAE)]
+   <details close>
+   <summary>RobustMAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/5df9e2dd-ee9f-4771-b509-31dfc1593c24" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### MIM with Constrastive Learning
@@ -599,6 +617,14 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.01204)]
    <details close>
    <summary>SIM Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204312408-fe573880-62ac-4f6e-b7ed-c9163f0cea96.png" /></p>
+   </details>
+
+* **Masked Contrastive Representation Learning**<br>
+*Yuchong Yao, Nandakishor Desai, Marimuthu Palaniswami*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2211.06012)]
+   <details close>
+   <summary>MACRL Framework</summary>
+   <p align="center"><img width="70%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/29af2ae4-5629-480b-93f7-2dd14a370890" /></p>
    </details>
 
 * **Masked Image Modeling with Denoising Contrast**<br>
@@ -676,14 +702,6 @@ ICLR'2023 [[Paper](https://openreview.net/forum?id=jwdqNwyREyh)]
    <details close>
    <summary>Layer Grafted Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/224830983-13cfcbf5-f1df-481b-9e7c-24667d041fe4.png" /></p>
-   </details>
-
-* **Self-supervision through Random Segments with Autoregressive Coding (RandSAC)**<br>
-*Tianyu Hua, Yonglong Tian, Sucheng Ren, Michalis Raptis, Hang Zhao, Leonid Sigal*<br>
-ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
-   <details close>
-   <summary>RandSAC Framework</summary>
-   <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261103618-f2aa7486-a09f-4f50-a84d-fb367c621d04.png" /></p>
    </details>
 
 * **DropPos: Pre-Training Vision Transformers by Reconstructing Dropped Positions**<br>
@@ -915,6 +933,15 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2212.08653)]
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
    </details>
 
+* **VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation**<br>
+*Jinguo Zhu, Xiaohan Ding, Yixiao Ge, Yuying Ge, Sijie Zhao, Hengshuang Zhao, Xiaohua Wang, Ying Shan*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.09251)]
+[[Code](https://github.com/ailab-cvc/vl-gpt)]
+   <details close>
+   <summary>VL-GPT Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/MogaNet/assets/44519745/5b7cfab1-5945-4080-afe1-46299cb82e72" /></p>
+   </details>
+
 ### MIM for Generalist Model
 
 * **Images Speak in Images: A Generalist Painter for In-Context Visual Learning**<br>
@@ -1037,6 +1064,14 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09117)]
    <details close>
    <summary>MAGE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
+   </details>
+
+* **Self-supervision through Random Segments with Autoregressive Coding (RandSAC)**<br>
+*Tianyu Hua, Yonglong Tian, Sucheng Ren, Michalis Raptis, Hang Zhao, Leonid Sigal*<br>
+ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
+   <details close>
+   <summary>RandSAC Framework</summary>
+   <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261103618-f2aa7486-a09f-4f50-a84d-fb367c621d04.png" /></p>
    </details>
 
 * **Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment**<br>
@@ -1641,6 +1676,11 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2210.07839)]
 *Tao Yu, Zhizheng Zhang, Cuiling Lan, Yan Lu, Zhibo Chen*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.12096)]
 
+* **Masked Contrastive Representation Learning for Reinforcement Learning**<br>
+*Jinhua Zhu, Yingce Xia, Lijun Wu, Jiajun Deng, Wengang Zhou, Tao Qin, Tie-Yan Liu, Houqiang Li*<br>
+TPAMI'2023 [[Paper](https://ieeexplore.ieee.org/document/9779589)]
+[[Code](https://github.com/teslacool/m-curl)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Analysis and Understanding of Masked Modeling
@@ -1715,7 +1755,15 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2301.08846)]
 
 * **A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond**<br>
 *Chaoning Zhang, Chenshuang Zhang, Junha Song, John Seon Keun Yi, Kang Zhang, In So Kweon*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2208.00173)]
+IJCAI'2023 [[Paper](https://arxiv.org/abs/2208.00173)]
+
+* **Masked Autoencoders in Computer Vision: A Comprehensive Survey**<br>
+*Zexian Zhou, Xiaojing Liu*<br>
+IEEE Access'2023 [[Paper](https://ieeexplore.ieee.org/document/10278410)]
+
+* **Masked Modeling for Self-supervised Representation Learning on Vision and Beyond**<br>
+*Siyuan Li, Luyuan Zhang, Zedong Wang, Di Wu, Lirong Wu, Zicheng Liu, Jun Xia, Cheng Tan, Yang Liu, Baigui Sun, Stan Z. Li*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2401.00897)] [[Code](https://github.com/Lupin1998/Awesome-MIM)]
 
 ## Contribution
 
