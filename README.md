@@ -6,7 +6,7 @@
 
 *We summarize awesome Masked Image Modeling (MIM) and relevent Masked Modeling methods proposed for self-supervised representation learning.*
 
-This project is a part of *our survey on masked modeling methods* ([arXiv](https://arxiv.org/abs/2401.00897)). The list of awesome MIM methods is summarized in chronological order and is on updating. If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, our survey is on updating and here is the [latest version](https://github.com/Lupin1998/Awesome-MIM/files/Survey_on_Masked_Modeling_Latest_Version.pdf).
+This project is a part of *our survey on masked modeling methods* ([arXiv](https://arxiv.org/abs/2401.00897)). The list of awesome MIM methods is summarized in chronological order and is on updating. If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, our survey is on updating and here is the [latest version](https://github.com/Lupin1998/Awesome-MIM/blob/master/files/Survey_on_Masked_Modeling_Latest_Version.pdf).
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
 * To export BibTeX citations of papers, check out [arXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
@@ -1224,15 +1224,6 @@ NeurIPS'2022 [[Paper](https://arxiv.org/abs/2203.12602)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207724710-e4093d2e-8d6c-40b9-bf7d-ab519eb97dd2.png" /></p>
    </details>
 
-* **VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking**<br>
-*Limin Wang, Bingkun Huang, Zhiyu Zhao, Zhan Tong, Yinan He, Yi Wang, Yali Wang, Yu Qiao*<br>
-CVPR'2023 [[Paper](https://arxiv.org/abs/2303.16727)]
-[[Code](https://github.com/MCG-NJU/VideoMAE)]
-   <details close>
-   <summary>VideoMAE.V2 Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/231277665-7027e34b-7b2c-4306-ac73-7be08b176f09.png" /></p>
-   </details>
-
 * **Masked Autoencoders As Spatiotemporal Learners**<br>
 *Christoph Feichtenhofer, Haoqi Fan, Yanghao Li, Kaiming He*<br>
 NeurIPS'2022 [[Paper](https://arxiv.org/abs/2205.09113)]
@@ -1260,13 +1251,13 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2206.11894)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207725785-e8b125ff-22c1-451a-b1d8-101c13113189.png" /></p>
    </details>
 
-* **OmniMAE: Single Model Masked Pretraining on Images and Videos**<br>
-*Rohit Girdhar, Alaaeldin El-Nouby, Mannat Singh, Kalyan Vasudev Alwala, Armand Joulin, Ishan Misra*<br>
-CVPR'2023 [[Paper](http://arxiv.org/abs/2206.08356)]
-[[Code](https://github.com/facebookresearch/omnivore)]
+* **BEVT: BERT Pretraining of Video Transformers**<br>
+*Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Yu-Gang Jiang, Luowei Zhou, Lu Yuan*<br>
+CVPR'2022 [[Paper](https://arxiv.org/abs/2112.01529)]
+[[Code](https://github.com/xyzforever/BEVT)]
    <details close>
-   <summary>OmniMAE Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207725594-3beaf158-74f6-4fed-a330-d34755d1f37a.png" /></p>
+   <summary>BEVT Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/2b878f93-d79f-49cc-a2e4-154d85b79895" /></p>
    </details>
 
 * **MILES: Visual BERT Pre-training with Injected Language Semantics for Video-text Retrieval**<br>
@@ -1309,6 +1300,33 @@ ICLR'2023 [[Paper](https://openreview.net/forum?id=j9m-mVnndbm)]
    <details close>
    <summary>MIMT Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/207726629-e9481b07-58a4-4afb-be42-1a315bccd10c.png" /></p>
+   </details>
+
+* **VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking**<br>
+*Limin Wang, Bingkun Huang, Zhiyu Zhao, Zhan Tong, Yinan He, Yi Wang, Yali Wang, Yu Qiao*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2303.16727)]
+[[Code](https://github.com/MCG-NJU/VideoMAE)]
+   <details close>
+   <summary>VideoMAE.V2 Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/231277665-7027e34b-7b2c-4306-ac73-7be08b176f09.png" /></p>
+   </details>
+
+* **OmniMAE: Single Model Masked Pretraining on Images and Videos**<br>
+*Rohit Girdhar, Alaaeldin El-Nouby, Mannat Singh, Kalyan Vasudev Alwala, Armand Joulin, Ishan Misra*<br>
+CVPR'2023 [[Paper](http://arxiv.org/abs/2206.08356)]
+[[Code](https://github.com/facebookresearch/omnivore)]
+   <details close>
+   <summary>OmniMAE Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/207725594-3beaf158-74f6-4fed-a330-d34755d1f37a.png" /></p>
+   </details>
+
+* **Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning**<br>
+*Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Lu Yuan, Yu-Gang Jiang*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2212.04500)]
+[[Code](https://github.com/ruiwang2021/mvd)]
+   <details close>
+   <summary>MVD Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/26aeb76c-cfd1-47e4-b419-2298384aa6f9" /></p>
    </details>
 
 * **DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks**<br>
