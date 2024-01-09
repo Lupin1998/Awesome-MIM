@@ -4,7 +4,7 @@
 
 ## Introduction
 
-*We summarize awesome Masked Image Modeling (MIM) and relevent Masked Modeling methods proposed for self-supervised representation learning.*
+**We summarize awesome Masked Image Modeling (MIM) and relevent Masked Modeling methods proposed for self-supervised representation learning.** *Welcome to add relevant masked modeling paper to our project!*
 
 This project is a part of *our survey on masked modeling methods* ([arXiv](https://arxiv.org/abs/2401.00897)). The list of awesome MIM methods is summarized in chronological order and is on updating. If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, our survey is on updating and here is the [latest version](https://github.com/Lupin1998/Awesome-MIM/blob/master/files/Survey_on_Masked_Modeling_Latest_Version.pdf).
 
@@ -29,7 +29,7 @@ Research in self-supervised learning can be broadly categorized into Generative 
     - [MIM for Multi-Modality](#mim-for-multi-modality)
     - [MIM for Generalist Model](#mim-for-generalist-model)
     - [Image Generation](#image-generation)
-  - [MIM for Downstream Tasks](#mim-for-downstream-tasks)
+  - [MIM for CV Downstream Tasks](#mim-for-cv-downstream-tasks)
     - [Object Detection](#object-detection)
     - [Video Rrepresentation](#video-rrepresentation)
     - [Knowledge Distillation](#knowledge-distillation)
@@ -40,6 +40,8 @@ Research in self-supervised learning can be broadly categorized into Generative 
     - [Remote Sensing Image](#remote-sensing-image)
     - [3D Point Cloud](#3d-point-cloud)
   - [Audio and Speech](#audio-and-speech)
+  - [Biology and Chemistry](#biology-and-chemistry)
+    - [Protein](#protein)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Analysis and Understanding of Masked Modeling](#analysis-and-understanding-of-masked-modeling)
   - [Survey](#survey)
@@ -854,6 +856,15 @@ NeurIPS'2022 [[Paper](https://arxiv.org/abs/2206.10207)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204317096-f6ade707-6f66-4826-823e-e14d0784b960.png" /></p>
    </details>
 
+* **Good helper is around you: Attention-driven Masked Image Modeling**<br>
+*Zhengqi Liu, Jie Gui, Hao Luo*<br>
+AAAI'2023 [[Paper](https://arxiv.org/abs/2211.15362)]
+[[Code](https://github.com/guijiejie/AMT)]
+   <details close>
+   <summary>AMT Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/2c596060-ab99-4ad8-a879-819a7cfb986b" /></p>
+   </details>
+
 * **Hard Patches Mining for Masked Image Modeling**<br>
 *Haochen Wang, Kaiyou Song, Junsong Fan, Yuxi Wang, Jin Xie, Zhaoxiang Zhang*<br>
 CVPR'2023 [[Paper](https://arxiv.org/abs/2304.05919)]
@@ -870,6 +881,8 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2303.06583)]
    <summary>AutoMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236310631-a11eee44-3e70-414f-9caa-ad09a231ce31.png" /></p>
    </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### MIM for Multi-Modality
 
@@ -951,6 +964,23 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2212.02499)]
    <details close>
    <summary>Painter Framework</summary>
    <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/de7240fd-f04c-411f-9ae1-f2e4839236ee" /></p>
+   </details>
+
+* **InstructCV: Instruction-Tuned Text-to-Image Diffusion Models as Vision Generalists**<br>
+*Yulu Gan, Sungwoo Park, Alexander Schubert, Anthony Philippakis, Ahmed M. Alaa*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2310.00390)]
+[[Code](https://github.com/AlaaLab/InstructCV)]
+   <details close>
+   <summary>InstructCV Framework</summary>
+   <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/7a875d40-48fc-4570-9547-1059e6a742b4" /></p>
+   </details>
+
+* **InstructDiffusion: A Generalist Modeling Interface for Vision Tasks**<br>
+*Zigang Geng, Binxin Yang, Tiankai Hang, Chen Li, Shuyang Gu, Ting Zhang, Jianmin Bao, Zheng Zhang, Han Hu, Dong Chen, Baining Guo*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2309.03895)]
+   <details close>
+   <summary>InstructDiffusion Framework</summary>
+   <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/925312fe-b020-4091-b5fa-b1e777e06309" /></p>
    </details>
 
 * **Sequential Modeling Enables Scalable Learning for Large Vision Models**<br>
@@ -1138,7 +1168,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.03700)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## MIM for Downstream Tasks
+## MIM for CV Downstream Tasks
 
 ### Object Detection
 
@@ -1443,6 +1473,8 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.12962)]
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273517980-784780bd-40df-42d1-9768-d7f3e60f31ed.png" /></p>
    </details>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Knowledge Distillation
 
 * **Generic-to-Specific Distillation of Masked Autoencoders**<br>
@@ -1642,6 +1674,8 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.04551)]
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/275282765-21d62c23-9b2f-442c-8cbb-be12d283393d.png" /></p>
    </details>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Audio and Speech
 
 * **wav2vec: Unsupervised Pre-training for Speech Recognition**<br>
@@ -1687,6 +1721,40 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2210.07839)]
    <summary>Framework</summary>
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273470692-dc127f79-2fd4-4aff-a911-a7845c58ed1b.png" /></p>
    </details>
+
+## Biology and Chemistry
+
+### Protein
+
+* **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences**<br>
+*Alexander Rives, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo, Myle Ott, C. Lawrence Zitnick, Jerry Ma, Rob Fergus*<br>
+PNAS'2020 [[Paper](https://www.pnas.org/doi/pdf/10.1073/pnas.2016239118)]
+[[Code](https://github.com/facebookresearch/esm)]
+
+* **Transformer protein language models are unsupervised structure learners**<br>
+*Roshan Rao, Joshua Meier, Tom Sercu, Sergey Ovchinnikov, Alexander Rives*<br>
+bioRxiv'2020 [[Paper](https://www.biorxiv.org/content/10.1101/2020.12.15.422761)]
+[[Code](https://github.com/facebookresearch/esm)]
+
+* **Language models enable zero-shot prediction of the effects of mutations on protein function**<br>
+*Joshua Meier, Roshan Rao, Robert Verkuil, Jason Liu, Tom Sercu, Alexander Rives*<br>
+bioRxiv'2021 [[Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779)]
+[[Code](https://github.com/facebookresearch/esm)]
+
+* **Learning inverse folding from millions of predicted structures**<br>
+*Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Lerer, Alexander Rives*<br>
+ICML'2022 [[Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779)]
+[[Code](https://github.com/facebookresearch/esm)]
+
+* **Evolutionary-scale prediction of atomic level protein structure with a language model**<br>
+*Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, Alexander Rives*<br>
+bioRxiv'2022 [[Paper](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v3)]
+[[Code](https://github.com/facebookresearch/esm)]
+
+* **ProteinBERT: A universal deep-learning model of protein sequence and function**<br>
+*Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, Alexander Rives*<br>
+Bioinformatics'2022 [[Paper]([ProteinBERT](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274))]
+[[Code](https://github.com/nadavbra/protein_bert)]
 
 ## Reinforcement Learning
 
