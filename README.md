@@ -27,7 +27,7 @@ Research in self-supervised learning can be broadly categorized into Generative 
     - [MIM for Transformers and CNNs](#mim-for-transformers-and-cnns)
     - [MIM with Advanced Masking](#mim-with-advanced-masking)
     - [MIM for Multi-Modality](#mim-for-multi-modality)
-    - [MIM for Generalist Model](#mim-for-generalist-model)
+    - [MIM for Vision Generalist Model](#mim-for-vision-generalist-model)
     - [Image Generation](#image-generation)
   - [MIM for CV Downstream Tasks](#mim-for-cv-downstream-tasks)
     - [Object Detection](#object-detection)
@@ -708,7 +708,7 @@ ICLR'2023 [[Paper](https://openreview.net/forum?id=jwdqNwyREyh)]
 
 * **DropPos: Pre-Training Vision Transformers by Reconstructing Dropped Positions**<br>
 *Haochen Wang, Junsong Fan, Yuxi Wang, Kaiyou Song, Tong Wang, Zhaoxiang Zhang*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2309.03576)]
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2309.03576)]
 [[Code](https://github.com/Haochen-Wang409/DropPos)]
    <details close>
    <summary>DropPos Framework</summary>
@@ -955,7 +955,16 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.09251)]
    <p align="center"><img width="90%" src="https://github.com/Westlake-AI/MogaNet/assets/44519745/5b7cfab1-5945-4080-afe1-46299cb82e72" /></p>
    </details>
 
-### MIM for Generalist Model
+* **Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action**<br>
+*Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, Aniruddha Kembhavi*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2312.17172)]
+[[Code](https://github.com/allenai/unified-io-2)]
+   <details close>
+   <summary>Unified-IO 2 Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/b4ad7a11-ac60-40bb-990f-6ab4586035b2" /></p>
+   </details>
+
+### MIM for Vision Generalist Model
 
 * **Images Speak in Images: A Generalist Painter for In-Context Visual Learning**<br>
 *Xinlong Wang, Wen Wang, Yue Cao, Chunhua Shen, Tiejun Huang*<br>
@@ -1578,7 +1587,7 @@ ICME'2023 [[Paper](https://arxiv.org/abs/2304.10341)]
 
 * **SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery**<br>
 *Yezhen Cong, Samar Khanna, Chenlin Meng, Patrick Liu, Erik Rozi, Yutong He, Marshall Burke, David B. Lobell, Stefano Ermon*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2207.08051)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2207.08051)]
 
 * **CMID: A Unified Self-Supervised Learning Framework for Remote Sensing Image Understanding**<br>
 *Dilxat Muhtar, Xueliang Zhang, Pengfeng Xiao, Zhenshi Li, Feng Gu*<br>
@@ -1587,6 +1596,10 @@ TGRS'2023 [[Paper](https://arxiv.org/abs/2304.09670)] [[Code](https://github.com
 * **Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning**<br>
 *Colorado J Reed, Ritwik Gupta, Shufan Li, Sarah Brockman, Christopher Funk, Brian Clipp, Kurt Keutzer, Salvatore Candido, Matt Uyttendaele, Trevor Darrell*<br>
 ICCV'2023 [[Paper](https://arxiv.org/abs/2212.14532)]
+
+* **On the Transferability of Learning Models for Semantic Segmentation for Remote Sensing Data**<br>
+*Rongjun Qin, Guixiang Zhang, Yang Tang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.10490)]
 
 ### 3D Point Cloud
 
@@ -1640,7 +1653,7 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2204.06154)]
 
 * **PointGPT: Auto-regressively Generative Pre-training from Point Clouds**<br>
 *Guangyan Chen, Meiling Wang, Yi Yang, Kai Yu, Li Yuan, Yufeng Yue*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2305.11487)] [[Code](https://github.com/CGuangyan-BIT/PointGPT)]
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2305.11487)] [[Code](https://github.com/CGuangyan-BIT/PointGPT)]
 
 * **MATE: Masked Autoencoders are Online 3D Test-Time Learners**<br>
 *M. Jehanzeb Mirza, Inkyu Shin, Wei Lin, Andreas Schriebl, Kunyang Sun, Jaesung Choe, Horst Possegger, Mateusz Kozinski, In So Kweon, Kun-Jin Yoon, Horst Bischof*<br>
@@ -1688,7 +1701,7 @@ ArXiv'2019 [[Paper](https://arxiv.org/abs/1910.05453)] [[Code](https://github.co
 
 * **wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**<br>
 *Alexei Baevski, Henry Zhou, Abdelrahman Mohamed, Michael Auli*<br>
-NIPS'2020 [[Paper](https://arxiv.org/abs/2006.11477)] [[Code](https://github.com/pytorch/fairseq)]
+NeurIPS'2020 [[Paper](https://arxiv.org/abs/2006.11477)] [[Code](https://github.com/pytorch/fairseq)]
 
 * **HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units**<br>
 *Wei-Ning Hsu, Benjamin Bolte, Yao-Hung Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, Abdelrahman Mohamed*<br>
