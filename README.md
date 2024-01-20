@@ -725,6 +725,15 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02147)]
    <p align="center"><img width="60%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/13002c8d-179e-484d-846c-9bd4b25b58d8" /></p>
    </details>
 
+* **CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets**<br>
+*Jiange Yang, Sheng Guo, Gangshan Wu, Limin Wang*<br>
+AAAI'2023 [[Paper](https://arxiv.org/abs/2302.06148)]
+[[Code](https://github.com/MCG-NJU/CoMAE)]
+   <details close>
+   <summary>ConMAE Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/MCG-NJU/CoMAE/blob/main/framework.png" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### MIM for Transformers and CNNs
