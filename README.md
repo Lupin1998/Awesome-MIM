@@ -1695,14 +1695,14 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.08586)] [[Code](https://github.co
 
 ### Depth Estimation
 
-* **CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets**<br>
+<!-- * **CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets**<br>
 *Jiange Yang, Sheng Guo, Gangshan Wu, Limin Wang*<br>
 AAAI'2023 [[Paper](https://arxiv.org/abs/2302.06148)]
 [[Code](https://github.com/MCG-NJU/CoMAE)]
    <details close>
    <summary>UniPAD</summary>
    <p align="center"><img width="60%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/2740466f-0f34-48b9-9e75-179c2151a3f4" /></p>
-   </details>
+   </details> -->
 
 * **MeSa: Masked, Geometric, and Supervised Pre-training for Monocular Depth Estimation**<br>
 *Muhammad Osama Khan, Junbang Liang, Chun-Kai Wang, Shan Yang, Yu Lou*<br>
