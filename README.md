@@ -730,7 +730,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02147)]
 AAAI'2023 [[Paper](https://arxiv.org/abs/2302.06148)]
 [[Code](https://github.com/MCG-NJU/CoMAE)]
    <details close>
-   <summary>ConMAE Framework</summary>
+   <summary>CoMAE Framework</summary>
    <p align="center"><img width="80%" src="https://github.com/MCG-NJU/CoMAE/blob/main/framework.png" /></p>
    </details>
 
