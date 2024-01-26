@@ -32,7 +32,7 @@ Research in self-supervised learning can be broadly categorized into Generative 
   - [MIM for CV Downstream Tasks](#mim-for-cv-downstream-tasks)
     - [Object Detection](#object-detection)
     - [Video Rrepresentation](#video-rrepresentation)
-    - [Knowledge Distillation](#knowledge-distillation)
+    - [Knowledge Distillation and Few-shot Classification](#knowledge-distillation-and-few-shot-classification)
     - [Efficient Fine-tuning](#efficient-fine-tuning)
     - [Medical Image](#medical-image)
     - [Face Recognition](#face-recognition)
@@ -576,12 +576,20 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10315)]
    </details>
 
 * **DeepMIM: Deep Supervision for Masked Image Modeling**<br>
-*Qidong Huang, Xiaoyi Dong, Dongdong Chen, Yinpeng Chen, Lu Yuan, Gang Hua, Weiming Zhang, Nenghai Yu*<br>
-ICCV'2023 [[Paper](https://arxiv.org/abs/2308.10315)]
-[[Code](https://github.com/shikiw/RobustMAE)]
+*Sucheng Ren, Fangyun Wei, Samuel Albanie, Zheng Zhang, Han Hu*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2303.08817)]
+[[Code](https://github.com/oliverrensu/deepmim)]
    <details close>
    <summary>RobustMAE Framework</summary>
    <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/5df9e2dd-ee9f-4771-b509-31dfc1593c24" /></p>
+   </details>
+
+* **Deconstructing Denoising Diffusion Models for Self-Supervised Learning**<br>
+*Xinlei Chen, Zhuang Liu, Saining Xie, Kaiming He*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.14404)]
+   <details close>
+   <summary>l-DAE Framework</summary>
+   <p align="center"><img width="60%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/67139c3e-2d21-4c6a-885b-ab65703add68" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -939,6 +947,14 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2212.00794)]
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209705278-368b8125-cb14-4800-8523-09800b1728d4.png" /></p>
    </details>
 
+* **All in Tokens: Unifying Output Space of Visual Tasks via Soft Token**<br>
+*Jia Ning, Chen Li, Zheng Zhang, Zigang Geng, Qi Dai, Kun He, Han Hu*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2301.02229)]
+   <details close>
+   <summary>AiT Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/18166057-152e-4547-abd8-747df7d5ffb4" /></p>
+   </details>
+
 * **Attentive Mask CLIP**<br>
 *Yifan Yang, Weiquan Huang, Yixuan Wei, Houwen Peng, Xinyang Jiang, Huiqiang Jiang, Fangyun Wei, Yin Wang, Han Hu, Lili Qiu, Yuqing Yang*<br>
 ICCV'2023 [[Paper](https://arxiv.org/abs/2212.08653)]
@@ -1227,7 +1243,7 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2205.09613)]
    </details>
 
 * **Masked Retraining Teacher-student Framework for Domain Adaptive Object Detection**<br>
-*Yuan Liu, Songyang Zhang, Jiacheng Chen, Zhaohui Yu, Kai Chen, Dahua Lin*<br>
+*Zijing Zhao, Sitong Wei, Qingchao Chen, Dehui Li, Yifan Yang, Yuxin Peng, Yang Liu*<br>
 ICCV'2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Masked_Retraining_Teacher-Student_Framework_for_Domain_Adaptive_Object_Detection_ICCV_2023_paper.pdf)]
 [[Code](https://github.com/JeremyZhao1998/MRT-release)]
    <details close>
@@ -1485,7 +1501,7 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.12962)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Knowledge Distillation
+### Knowledge Distillation and Few-shot Classification
 
 * **Generic-to-Specific Distillation of Masked Autoencoders**<br>
 *Wei Huang, Zhiliang Peng, Li Dong, Furu Wei, Jianbin Jiao, Qixiang Ye*<br>
@@ -1503,6 +1519,14 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2208.12256)]
    <details close>
    <summary>DMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204308505-f730651b-6e24-4496-9c6d-879b2f446793.png" /></p>
+   </details>
+
+* **Mask-guided Vision Transformer (MG-ViT) for Few-Shot Learning**<br>
+*Yuzhong Chen, Zhenxiang Xiao, Lin Zhao, Lu Zhang, Haixing Dai, David Weizhong Liu, Zihao Wu, Changhe Li, Tuo Zhang, Changying Li, Dajiang Zhu, Tianming Liu, Xi Jiang*<br>
+ICLR'2023 [[Paper](http://arxiv.org/abs/2205.09995)]
+   <details close>
+   <summary>MG-ViT Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/39c153eb-5ff0-4777-bd90-7c8b9bc53c1d" /></p>
    </details>
 
 * **Masked Autoencoders Are Stronger Knowledge Distillers**<br>
@@ -1894,7 +1918,11 @@ PUBLISH'YEAR [[Paper](link)] [[Code](link)]
    </details>
 ```
 
-Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Daisuke Niizumi ([@daisukelab](https://github.com/daisukelab)). We thank all contributors for `Awesome-MIM`!
+The main maintainer is Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)). We thank all contributors for `Awesome-MIM`, and current contributors include:
+
+<a href="https://github.com/Lupin1998/Awesome-MIM/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Lupin1998/Awesome-MIM" />
+</a>
 
 ## Related Project
 
