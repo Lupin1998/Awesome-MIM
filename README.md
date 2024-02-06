@@ -43,6 +43,7 @@ Research in self-supervised learning can be broadly categorized into Generative 
   - [Audio and Speech](#audio-and-speech)
   - [Biology and Chemistry](#biology-and-chemistry)
     - [Protein](#protein)
+  - [Neuroscience Learning](#neuroscience-learning)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Analysis and Understanding of Masked Modeling](#analysis-and-understanding-of-masked-modeling)
   - [Survey](#survey)
@@ -584,6 +585,14 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2303.08817)]
    <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/5df9e2dd-ee9f-4771-b509-31dfc1593c24" /></p>
    </details>
 
+* **Rethinking Patch Dependence for Masked Autoencoders**<br>
+*Letian Fu, Long Lian, Renhao Wang, Baifeng Shi, Xudong Wang, Adam Yala, Trevor Darrell, Alexei A. Efros, Ken Goldberg*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.14391)]
+   <details close>
+   <summary>CrossMAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/a64fc186-1082-40ba-bfe9-811c4a4cfe15)" /></p>
+   </details>
+
 * **Deconstructing Denoising Diffusion Models for Self-Supervised Learning**<br>
 *Xinlei Chen, Zhuang Liu, Saining Xie, Kaiming He*<br>
 ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.14404)]
@@ -963,6 +972,15 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2212.08653)]
    <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/209704869-a0eee2b2-0b21-4be1-8bfa-074758f3b4a2.png" /></p>
    </details>
 
+* **MultiModal-GPT: A Vision and Language Model for Dialogue with Humans**<br>
+*Tao Gong, Chengqi Lyu, Shilong Zhang, Yudong Wang, Miao Zheng, Qian Zhao, Kuikun Liu, Wenwei Zhang, Ping Luo, Kai Chen*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2305.04790)]
+[[Code](https://github.com/open-mmlab/Multimodal-GPT)]
+   <details close>
+   <summary>MultiModal-GPT Framework</summary>
+   <p align="center"><img width="75%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/a492f540-e287-4c2a-8879-7812cd2b2767" /></p>
+   </details>
+
 * **VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation**<br>
 *Jinguo Zhu, Xiaohan Ding, Yixiao Ge, Yuying Ge, Sijie Zhao, Hengshuang Zhao, Xiaohua Wang, Ying Shan*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2312.09251)]
@@ -974,7 +992,7 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.09251)]
 
 * **Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action**<br>
 *Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, Aniruddha Kembhavi*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2312.17172)]
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.17172)]
 [[Code](https://github.com/allenai/unified-io-2)]
    <details close>
    <summary>Unified-IO 2 Framework</summary>
@@ -1808,6 +1826,34 @@ bioRxiv'2022 [[Paper](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v
 *Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, Alexander Rives*<br>
 Bioinformatics'2022 [[Paper]([ProteinBERT](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274))]
 [[Code](https://github.com/nadavbra/protein_bert)]
+
+## Neuroscience Learning
+
+* **neuro2vec: Masked Fourier Spectrum Prediction for Neurophysiological Representation Learning**<br>
+*Di Wu, Siyuan Li, Jie Yang, Mohamad Sawan*<br>
+arXiv'2022 [[Paper](https://arxiv.org/abs/2204.12440)]
+[[Code](https://github.com/Westlake-AI/OpenBioSeq)]
+   <details close>
+   <summary>neuro2vec</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/50e515cd-3c51-4f8c-b5e6-b8f8eea1aed9" /></p>
+   </details>
+
+* **Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI**<br>
+*Wei-Bang Jiang, Li-Ming Zhao, Bao-Liang Lu*<br>
+ICLR'2024 [[Paper](https://openreview.net/forum?id=QzTpTRVtrP)]
+   <details close>
+   <summary>LaBraM</summary>
+   <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/c651a84b-d7e6-48c6-81ae-1eff065ad418" /></p>
+   </details>
+
+* **Neuroformer: Multimodal and Multitask Generative Pretraining for Brain Data**<br>
+*Antonis Antoniades, Yiyi Yu, Joseph Canzano, William Wang, Spencer LaVere Smith*<br>
+ICLR'2024 [[Paper](https://arxiv.org/abs/2311.00136)]
+[[Code](https://github.com/woanderer/Neuroformer)]
+   <details close>
+   <summary>Neuroformer</summary>
+   <p align="center"><img width="75%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/14e4d77e-f58a-4db6-ab6d-5de8da5d2a87" /></p>
+   </details>
 
 ## Reinforcement Learning
 
