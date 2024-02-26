@@ -1377,6 +1377,15 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.05234)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/234365532-88126c05-712d-4f1f-bba6-4d20a33a9c12.png" /></p>
    </details>
 
+* **NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion**<br>
+*Chenfei Wu, Jian Liang, Lei Ji, Fan Yang, Yuejian Fang, Daxin Jiang, Nan Duan*<br>
+ECCV'2022 [[Paper](https://arxiv.org/abs/2111.12417)]
+[[Code](https://github.com/microsoft/NUWA)]
+   <details close>
+   <summary>NUWA Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/2358151d-7c19-441d-84fc-c1273b9e7fb0" /></p>
+   </details>
+
 * **MIMT: Masked Image Modeling Transformer for Video Compression**<br>
 *Jinxi Xiang, Kuan Tian, Jun Zhang*<br>
 ICLR'2023 [[Paper](https://openreview.net/forum?id=j9m-mVnndbm)]
@@ -1524,6 +1533,33 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.12962)]
    <details close>
    <summary>MGM Framework</summary>
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273517980-784780bd-40df-42d1-9768-d7f3e60f31ed.png" /></p>
+   </details>
+
+* **ModelScope Text-to-Video Technical Report**<br>
+*Jiuniu Wang, Hangjie Yuan, Dayou Chen, Yingya Zhang, Xiang Wang, Shiwei Zhang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.06571)]
+[[Code](https://modelscope.cn/models/iic/text-to-video-synthesis/summary)]
+   <details close>
+   <summary>ModelScopeT2V Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/b9a4175d-f705-4932-b31e-df8f7aff1fc8" /></p>
+   </details>
+
+* **NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis**<br>
+*Chenfei Wu, Jian Liang, Xiaowei Hu, Zhe Gan, Jianfeng Wang, Lijuan Wang, Zicheng Liu, Yuejian Fang, Nan Duan*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2207.09814)]
+[[Code](https://github.com/microsoft/NUWA)]
+   <details close>
+   <summary>NUWA-Infinity Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/d8223f34-37bb-4317-b8fd-77e74c0a6d12" /></p>
+   </details>
+
+* **NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation**<br>
+*Shengming Yin, Chenfei Wu, Huan Yang, Jianfeng Wang, Xiaodong Wang, Minheng Ni, Zhengyuan Yang, Linjie Li, Shuguang Liu, Fan Yang, Jianlong Fu, Gong Ming, Lijuan Wang, Zicheng Liu, Houqiang Li, Nan Duan*<br>
+ACL'2023 [[Paper](https://arxiv.org/abs/2303.12346)]
+[[Code](https://github.com/microsoft/NUWA)]
+   <details close>
+   <summary>NUWA-XL Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/798699d6-5f9c-461b-8da6-66b919c8872c" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
