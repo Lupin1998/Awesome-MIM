@@ -1223,7 +1223,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.03700)]
 
 ## MIM for CV Downstream Tasks
 
-### Object Detection
+### Object Detection and Segmentation
 
 * **Unleashing Vanilla Vision Transformer with Masked Image Modeling for Object Detection**<br>
 *Yuxin Fang, Shusheng Yang, Shijie Wang, Yixiao Ge, Ying Shan, Xinggang Wang*<br>
@@ -1285,6 +1285,15 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02142)]
    <details close>
    <summary>imTED Framework</summary>
    <p align="center"><img width="75%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/7badecf5-3714-4a48-bbf9-26ea91167626" /></p>
+   </details>
+
+* **EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything**<br>
+*Yunyang Xiong, Bala Varadarajan, Lemeng Wu, Xiaoyu Xiang, Fanyi Xiao, Chenchen Zhu, Xiaoliang Dai, Dilin Wang, Fei Sun, Forrest Iandola, Raghuraman Krishnamoorthi, Vikas Chandra*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2312.00863)]
+[[Code](https://github.com/yformer/EfficientSAM)]
+   <details close>
+   <summary>EfficientSAM Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/0369174b-b17d-432e-ad06-470b49a51a75" /></p>
    </details>
 
 ### Video Rrepresentation
@@ -1869,8 +1878,30 @@ bioRxiv'2022 [[Paper](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v
 
 * **ProteinBERT: A universal deep-learning model of protein sequence and function**<br>
 *Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, Alexander Rives*<br>
-Bioinformatics'2022 [[Paper]([ProteinBERT](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274))]
+Bioinformatics'2022 [[Paper](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274)]
 [[Code](https://github.com/nadavbra/protein_bert)]
+
+* **Foldseek: fast and accurate protein structure search**<br>
+*Michel van Kempen, Stephanie S. Kim, Charlotte Tumescheit, Milot Mirdita, Johannes Söding, Martin Steinegger*<br>
+Nature'2023 [[Paper](https://www.biorxiv.org/content/10.1101/2022.02.07.479398v2)]
+[[Code](https://github.com/steineggerlab/foldseek)]
+
+* **SaProt: Protein Language Modeling with Structure-aware Vocabulary**<br>
+*Jin Su, Chenchen Han, Yuyang Zhou, Junjie Shan, Xibin Zhou, Fajie Yuan*<br>
+ICLR'2024 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v2)]
+[[Code](https://github.com/westlake-repl/SaProt)]
+
+* **MAPE-PPI: Towards Effective and Efficient Protein-Protein Interaction Prediction via Microenvironment-Aware Protein Embedding**<br>
+*Lirong Wu, Yijun Tian, Yufei Huang, Siyuan Li, Haitao Lin, Nitesh V Chawla, Stan Z. Li*<br>
+ICLR'2024 [[Paper](https://arxiv.org/abs/2402.14391)]
+[[Code](https://github.com/lirongwu/mape-ppi)]
+
+### Chemistry
+
+* **Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules**<br>
+*Jun Xia, Chengshuai Zhao, Bozhen Hu, Zhangyang Gao, Cheng Tan, Yue Liu, Siyuan Li, Stan Z. Li*<br>
+ICLR'2023 [[Paper](https://openreview.net/forum?id=jevY-DtiZTR)]
+[[Code](https://github.com/junxia97/Mole-BERT)]
 
 ## Neuroscience Learning
 
