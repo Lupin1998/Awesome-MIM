@@ -542,7 +542,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.07346)]
 
 * **R-MAE: Regions Meet Masked Autoencoders**<br>
 *Duy-Kien Nguyen, Vaibhav Aggarwal, Yanghao Li, Martin R. Oswald, Alexander Kirillov, Cees G. M. Snoek, Xinlei Chen*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.05411)]
+ICLR'2024 [[Paper](https://arxiv.org/abs/2306.05411)]
 [[Code](https://github.com/facebookresearch/r-mae)]
    <details close>
    <summary>R-MAE Framework</summary>
@@ -599,6 +599,14 @@ ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.14404)]
    <details close>
    <summary>l-DAE Framework</summary>
    <p align="center"><img width="60%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/67139c3e-2d21-4c6a-885b-ab65703add68" /></p>
+   </details>
+
+* **Denoising Autoregressive Representation Learning**<br>
+*Yazhe Li, Jorg Bornschein, Ting Chen*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2403.05196)]
+   <details close>
+   <summary>DARL Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/A2MIM/assets/44519745/76b1d81e-9ea6-4830-93f9-6be1ddba3432" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -1571,6 +1579,15 @@ ACL'2023 [[Paper](https://arxiv.org/abs/2303.12346)]
    <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/798699d6-5f9c-461b-8da6-66b919c8872c" /></p>
    </details>
 
+* **VDT: General-purpose Video Diffusion Transformers via Mask Modeling**<br>
+*Haoyu Lu, Guoxing Yang, Nanyi Fei, Yuqi Huo, Zhiwu Lu, Ping Luo, Mingyu Ding*<br>
+ICLR'2024 [[Paper](https://openreview.net/forum?id=Un0rgm9f04)]
+[[Code](https://github.com/RERV/VDT)]
+   <details close>
+   <summary>VDT Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/6953a706-2c50-4146-b6db-420f790dd68d" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Knowledge Distillation and Few-shot Classification
@@ -1675,6 +1692,15 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.11090)] [Code](https://github.com
 * **MaskOCR: Text Recognition with Masked Encoder-Decoder Pretraining**<br>
 *Pengyuan Lyu, Chengquan Zhang, Shanshan Liu, Meina Qiao, Yangliu Xu, Liang Wu, Kun Yao, Junyu Han, Errui Ding, Jingdong Wang*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2206.00311)]
+
+* **DiT: Self-supervised Pre-training for Document Image Transformer**<br>
+*Junlong Li, Yiheng Xu, Tengchao Lv, Lei Cui, Cha Zhang, Furu Wei*<br>
+ACMMM'2022 [[Paper](https://arxiv.org/abs/2203.02378)] [Code](https://github.com/microsoft/unilm/tree/master/dit)]
+[[Code](https://github.com/scok30/mae-cil)]
+   <details close>
+   <summary>DiT Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/1dfc20b5-44d0-437f-93ed-7dd3379a742f" /></p>
+   </details>
 
 * **DocMAE: Document Image Rectification via Self-supervised Representation Learning**<br>
 *Shaokai Liu, Hao Feng, Wengang Zhou, Houqiang Li, Cong Liu, Feng Wu*<br>
@@ -1782,15 +1808,6 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.08586)] [[Code](https://github.co
 
 ### Depth Estimation
 
-<!-- * **CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets**<br>
-*Jiange Yang, Sheng Guo, Gangshan Wu, Limin Wang*<br>
-AAAI'2023 [[Paper](https://arxiv.org/abs/2302.06148)]
-[[Code](https://github.com/MCG-NJU/CoMAE)]
-   <details close>
-   <summary>UniPAD</summary>
-   <p align="center"><img width="60%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/2740466f-0f34-48b9-9e75-179c2151a3f4" /></p>
-   </details> -->
-
 * **MeSa: Masked, Geometric, and Supervised Pre-training for Monocular Depth Estimation**<br>
 *Muhammad Osama Khan, Junbang Liang, Chun-Kai Wang, Shan Yang, Yu Lou*<br>
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.04551)]
@@ -1846,6 +1863,15 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2210.07839)]
    <summary>Framework</summary>
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273470692-dc127f79-2fd4-4aff-a911-a7845c58ed1b.png" /></p>
    </details>
+
+* **Masked Autoencoders with Multi-Window Local-Global Attention Are Better Audio Learners**<br>
+*Sarthak Yadav, Sergios Theodoridis, Lars Kai Hansen, Zheng-Hua Tan*<br>
+ICLR'2024 [[Paper](https://arxiv.org/abs/2306.00561)]
+
+* **Masked Audio Generation using a Single Non-Autoregressive Transformer**<br>
+*Alon Ziv, Itai Gat, Gael Le Lan, Tal Remez, Felix Kreuk, Jade Copet, Alexandre Défossez, Gabriel Synnaeve, Yossi Adi*<br>
+ICLR'2024 [[Paper](https://openreview.net/forum?id=Ny8NiVfi95)]
+[[Code](https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/)]
 
 ## Biology and Chemistry
 
@@ -1943,6 +1969,16 @@ TPAMI'2023 [[Paper](https://ieeexplore.ieee.org/document/9779589)]
 [[Code](https://github.com/teslacool/m-curl)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Tabular Data
+
+* **ReMasker: Imputing Tabular Data with Masked Autoencoding**<br>
+*Tianyu Du, Luca Melis, Ting Wang*<br>
+ICLR'2024 [[Paper](https://openreview.net/forum?id=KI9NqjLVDT)]
+
+* **MCM: Masked Cell Modeling for Anomaly Detection in Tabular Data**<br>
+*Jiaxin Yin, Yuanyuan Qiao, Zitang Zhou, Xiangchao Wang, Jie Yang*<br>
+ICLR'2024 [[Paper](https://openreview.net/forum?id=lNZJyEDxy4)]
 
 ## Analysis and Understanding of Masked Modeling
 
