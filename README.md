@@ -6,7 +6,7 @@
 
 **We summarize awesome Masked Image Modeling (MIM) and relevent Masked Modeling methods proposed for self-supervised representation learning.** *Welcome to add relevant masked modeling paper to our project!*
 
-This project is a part of *our survey on masked modeling methods* ([arXiv](https://arxiv.org/abs/2401.00897)). The list of awesome MIM methods is summarized in chronological order and is on updating. If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, our survey is on updating and here is the [latest version](https://github.com/Lupin1998/Awesome-MIM/blob/master/files/Survey_on_Masked_Modeling_Latest_Version.pdf).
+This project is a part of our **survey on masked modeling methods** ([arXiv](https://arxiv.org/abs/2401.00897)). The list of awesome MIM methods is summarized in chronological order and is on updating. If you find any typos or any missed paper, please feel free to open an issue or send a pull request. Currently, our survey is on updating and here is the [latest version](https://github.com/Lupin1998/Awesome-MIM/blob/master/files/Survey_on_Masked_Modeling_Latest_Version.pdf).
 
 * To find related papers and their relationships, check out [Connected Papers](https://www.connectedpapers.com/), which visualizes the academic field in a graph representation.
 * To export BibTeX citations of papers, check out [arXiv](https://arxiv.org/) or [Semantic Scholar](https://www.semanticscholar.org/) of the paper for professional reference formats.
@@ -38,11 +38,13 @@ Research in self-supervised learning can be broadly categorized into Generative 
     - [Face Recognition](#face-recognition)
     - [Scene Text Recognition (OCR)](#scene-text-recognition-ocr)
     - [Remote Sensing Image](#remote-sensing-image)
-    - [3D Point Cloud](#3d-point-cloud)
+    - [3D Representation Learning](#3d-representation-learning)
     - [Depth Estimation](#depth-estimation)
   - [Audio and Speech](#audio-and-speech)
-  - [Biology and Chemistry](#biology-and-chemistry)
+  - [AI for Science](#ai-for-science)
     - [Protein](#protein)
+    - [Chemistry](#chemistry)
+    - [Physics](#physics)
   - [Neuroscience Learning](#neuroscience-learning)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Analysis and Understanding of Masked Modeling](#analysis-and-understanding-of-masked-modeling)
@@ -365,6 +367,15 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.07636)]
    <details close>
    <summary>EVA Framework</summary>
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/206920442-4d896aca-1765-4e66-9afb-c76017bc3521.png" /></p>
+   </details>
+
+* **EVA-02: A Visual Representation for Neon Genesis**<br>
+*Yuxin Fang, Quan Sun, Xinggang Wang, Tiejun Huang, Xinlong Wang, Yue Cao*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2303.11331)]
+[[Code](https://github.com/baaivision/EVA/tree/master/EVA-02)]
+   <details close>
+   <summary>EVA-02 Framework</summary>
+   <p align="center"><img width="50%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/0dc8f561-dd10-4950-8472-3b7f21210c82" /></p>
    </details>
 
 * **Context Autoencoder for Self-Supervised Representation Learning**<br>
@@ -716,7 +727,7 @@ ICLR'2023 [[Paper](https://openreview.net/forum?id=A3sgyt4HWp)]
 
 * **How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders**<br>
 *Qi Zhang, Yifei Wang, Yisen Wang*<br>
-NIP'2022 [[Paper](https://arxiv.org/abs/2210.08344)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.08344)]
 [[Code](https://github.com/zhangq327/U-MAE)]
    <details close>
    <summary>U-MAE Framework</summary>
@@ -841,6 +852,14 @@ NeurIPS'2023 [[Paper](https://arxiv.org/abs/2309.01005)]
    <details close>
    <summary>RevCol.V2 Framework</summary>
    <p align="center"><img width="85%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/275285082-7c367ac3-bfce-4502-bf77-b7402b2f04e4.png" /></p>
+   </details>
+
+* **Masked Capsule Autoencoders**<br>
+*Miles Everett, Mingjun Zhong, Georgios Leontidis*<br>
+arXiv'2024 [[Paper](https://arxiv.org/abs/2403.04724)]
+   <details close>
+   <summary>MCAE Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/1708e5a1-6e4e-4d74-926d-b474c3069841" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -1148,6 +1167,14 @@ ICLR'2022 [[Paper](https://arxiv.org/abs/2110.04627)]
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/260846200-0a7fd6e6-170a-435d-9f7b-a020bde64bc5.png" /></p>
    </details>
 
+* **Self-supervision through Random Segments with Autoregressive Coding (RandSAC)**<br>
+*Tianyu Hua, Yonglong Tian, Sucheng Ren, Michalis Raptis, Hang Zhao, Leonid Sigal*<br>
+ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
+   <details close>
+   <summary>RandSAC Framework</summary>
+   <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261103618-f2aa7486-a09f-4f50-a84d-fb367c621d04.png" /></p>
+   </details>
+
 * **MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis**<br>
 *Tianhong Li, Huiwen Chang, Shlok Kumar Mishra, Han Zhang, Dina Katabi, Dilip Krishnan*<br>
 CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09117)]
@@ -1157,12 +1184,22 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09117)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
    </details>
 
-* **Self-supervision through Random Segments with Autoregressive Coding (RandSAC)**<br>
-*Tianyu Hua, Yonglong Tian, Sucheng Ren, Michalis Raptis, Hang Zhao, Leonid Sigal*<br>
-ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
+* **Not All Image Regions Matter: Masked Vector Quantization for Autoregressive Image Generation**<br>
+*Mengqi Huang, Zhendong Mao, Quan Wang, Yongdong Zhang*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2305.13607)]
+[[Code](https://github.com/CrossmodalGroup/MaskedVectorQuantization)]
    <details close>
-   <summary>RandSAC Framework</summary>
-   <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261103618-f2aa7486-a09f-4f50-a84d-fb367c621d04.png" /></p>
+   <summary>MQ-VAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/bf859af5-5fbb-46f4-a65d-ca8fba896981" /></p>
+   </details>
+
+* **Towards Accurate Image Coding: Improved Autoregressive Image Generation with Dynamic Vector Quantization**<br>
+*Mengqi Huang, Zhendong Mao, Zhuowei Chen, Yongdong Zhang*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2305.11718)]
+[[Code](https://github.com/CrossmodalGroup/DynamicVectorQuantization)]
+   <details close>
+   <summary>DQ-VAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/72f8eb15-97f2-4c8c-9597-dfdb1edc44d2" /></p>
    </details>
 
 * **Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment**<br>
@@ -1225,6 +1262,15 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.03700)]
    <details close>
    <summary>OneLLM Framework</summary>
    <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/88f210d7-2cba-456d-8ab2-3a807c153ea3" /></p>
+   </details>
+
+* **Beyond Text: Frozen Large Language Models in Visual Signal Comprehension**<br>
+*Lei Zhu, Fangyun Wei, Yanye Lu*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2403.07874)]
+[[Code](https://github.com/zh460045050/V2L-Tokenizer)]
+   <details close>
+   <summary>V2L Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/9a645669-5202-491a-a25c-432de5d2ca32" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -1728,7 +1774,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.10490)]
 *Hugo Chan-To-Hing, Bharadwaj Veeravalli*<br>
 ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.02764)]
 
-### 3D Point Cloud
+### 3D Representation Learning
 
 * **Pre-Training 3D Point Cloud Transformers with Masked Point Modeling**<br>
 *Xumin Yu, Lulu Tang, Yongming Rao, Tiejun Huang, Jie Zhou, Jiwen Lu*<br>
@@ -1765,6 +1811,10 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2212.06785)] [[Code](https://github.com
 * **GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training**<br>
 *Xiaoyu Tian, Haoxi Ran, Yue Wang, Hang Zhao*<br>
 CVPR'2023 [[Paper](https://arxiv.org/abs/2305.08808)] [[Code](https://github.com/ZrrSkywalker/I2P-MAE)]
+
+* **VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion**<br>
+*Yiming Li, Zhiding Yu, Christopher Choy, Chaowei Xiao, Jose M. Alvarez, Sanja Fidler, Chen Feng, Anima Anandkumar*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2302.12251)] [[Code](https://github.com/NVlabs/VoxFormer)]
 
 * **Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?**<br>
 *Runpei Dong, Zekun Qi, Linfeng Zhang, Junbo Zhang, Jianjian Sun, Zheng Ge, Li Yi, Kaisheng Ma*<br>
@@ -1804,7 +1854,13 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2310.08370)] [[Code](https://github.com
 
 * **PonderV2: Pave the Way for 3D Foundataion Model with A Universal Pre-training Paradigm**<br>
 *Haoyi Zhu, Honghui Yang, Xiaoyang Wu, Di Huang, Sha Zhang, Xianglong He, Tong He, Hengshuang Zhao, Chunhua Shen, Yu Qiao, Wanli Ouyang*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.08586)] [[Code](https://github.com/Pointcept/Pointcept)]
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.08586)]
+[[Code](https://github.com/Pointcept/Pointcept)]
+
+* **NeRF-MAE : Masked AutoEncoders for Self Supervised 3D representation Learning for Neural Radiance Fields**<br>
+*Muhammad Zubair Irshad, Sergey Zakahrov, Vitor Guizilini, Adrien Gaidon, Zsolt Kira, Rares Ambrus*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2404.01300)]
+[[Code](https://github.com/zubair-irshad/NeRF-MAE)]
 
 ### Depth Estimation
 
@@ -1873,7 +1929,7 @@ ICLR'2024 [[Paper](https://arxiv.org/abs/2306.00561)]
 ICLR'2024 [[Paper](https://openreview.net/forum?id=Ny8NiVfi95)]
 [[Code](https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/)]
 
-## Biology and Chemistry
+## AI for Science
 
 ### Protein
 
@@ -1928,6 +1984,19 @@ ICLR'2024 [[Paper](https://arxiv.org/abs/2402.14391)]
 *Jun Xia, Chengshuai Zhao, Bozhen Hu, Zhangyang Gao, Cheng Tan, Yue Liu, Siyuan Li, Stan Z. Li*<br>
 ICLR'2023 [[Paper](https://openreview.net/forum?id=jevY-DtiZTR)]
 [[Code](https://github.com/junxia97/Mole-BERT)]
+
+### Physics
+
+* **W-MAE: Pre-trained weather model with masked autoencoder for multi-variable weather forecasting**<br>
+*Xin Man, Chenghong Zhang, Jin Feng, Changyu Li, Jie Shao*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2304.08754)]
+[[Code](https://github.com/gufrannn/w-mae)]
+
+* **Masked Autoencoders are PDE Learners**<br>
+*Anthony Zhou, Amir Barati Farimani*<br>
+arXiv'2024 [[Paper](https://arxiv.org/abs/2403.17728)]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Neuroscience Learning
 
@@ -2028,7 +2097,7 @@ ArXiv'2022 [[Paper](http://arxiv.org/abs/2208.04164)] [[Code](https://github.com
 
 * **How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders**<br>
 *Qi Zhang, Yifei Wang, Yisen Wang*<br>
-NIP'2022 [[Paper](https://arxiv.org/abs/2210.08344)] [[Code](https://github.com/zhangq327/U-MAE)]
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.08344)] [[Code](https://github.com/zhangq327/U-MAE)]
 
 * **i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable**<br>
 *Kevin Zhang, Zhiqiang Shen*<br>
