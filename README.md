@@ -928,6 +928,15 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2304.05919)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/232319362-d6a5419f-6a95-4405-a615-f8ded42c1896.png" /></p>
    </details>
 
+* **AdaMAE: Adaptive Masking for Efficient Spatiotemporal Learning with Masked Autoencoders**<br>
+*Wele Gedara Chaminda Bandara, Naman Patel, Ali Gholami, Mehdi Nikkhah, Motilal Agrawal, Vishal M. Patel*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09120)]
+[[Code](https://github.com/wgcban/adamae)]
+   <details close>
+   <summary>AdaMAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/9a47b15b-00b1-45c5-a06d-cce1ce29d9b3" /></p>
+   </details>
+
 * **Improving Masked Autoencoders by Learning Where to Mask**<br>
 *Haijian Chen, Wendong Zhang, Yunbo Wang, Xiaokang Yang*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2303.06583)]
@@ -1727,6 +1736,10 @@ WACV'2023 [[Paper](https://arxiv.org/abs/2204.11716)] [[Code](https://github.com
 *Qiushi Yang, Wuyang Li, Baopu Li, Yixuan Yuan*<br>
 ICCV'2023 [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_MRM_Masked_Relation_Modeling_for_Medical_Image_Pre-Training_with_Genetics_ICCV_2023_paper.pdf)] [[Code](https://github.com/CityU-AIM-Group/MRM)]
 
+* **FocusMAE: Gallbladder Cancer Detection from Ultrasound Videos with Focused Masked Autoencoders**<br>
+*Soumen Basu, Mayuna Gupta, Chetan Madan, Pankaj Gupta, Chetan Arora*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2403.08848)] [[Code](https://github.com/sbasu276/FocusMAE)]
+
 ### Face Recognition
 
 * **FaceMAE: Privacy-Preserving Face Recognition via Masked Autoencoders**<br>
@@ -1861,6 +1874,11 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.08586)]
 *Muhammad Zubair Irshad, Sergey Zakahrov, Vitor Guizilini, Adrien Gaidon, Zsolt Kira, Rares Ambrus*<br>
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2404.01300)]
 [[Code](https://github.com/zubair-irshad/NeRF-MAE)]
+
+* **General Point Model with Autoencoding and Autoregressive**<br>
+*Zhe Li, Zhangyang Gao, Cheng Tan, Bocheng Ren, Laurence Tianruo Yang, Stan Z. Li*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2310.16861)]
+[[Code](https://github.com/gentlefress/GPM)]
 
 ### Depth Estimation
 
@@ -2036,6 +2054,10 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.12096)]
 *Jinhua Zhu, Yingce Xia, Lijun Wu, Jiajun Deng, Wengang Zhou, Tao Qin, Tie-Yan Liu, Houqiang Li*<br>
 TPAMI'2023 [[Paper](https://ieeexplore.ieee.org/document/9779589)]
 [[Code](https://github.com/teslacool/m-curl)]
+
+* **SMART: Self-supervised Multi-task pretrAining with contRol Transformers**<br>
+*Yanchao Sun, Shuang Ma, Ratnesh Madaan, Rogerio Bonatti, Furong Huang, Ashish Kapoor*<br>
+ICLR'2023 [[Paper](https://arxiv.org/abs/2301.09816)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
