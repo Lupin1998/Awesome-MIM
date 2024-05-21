@@ -1710,6 +1710,14 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2308.12510)]
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/273471437-29db5e9d-6f82-4c6f-80b5-83c78171c52c.png" /></p>
    </details>
 
+* **MaskMatch: Boosting Semi-Supervised Learning Through Mask Autoencoder-Driven Feature Learning**<br>
+*Wenjin Zhang, Keyi Li, Sen Yang, Chenyang Gao, Wanzhao Yang, Sifan Yuan, Ivan Marsic*<br>
+arXiv'2024 [[Paper](https://arxiv.org/abs/2405.06227)]
+   <details close>
+   <summary>MaskMatch Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/151bf557-cea2-4a7a-8385-bc55dff07c6f" /></p>
+   </details>
+
 ### Medical Image
 
 * **Self Pre-training with Masked Autoencoders for Medical Image Analysis**<br>
@@ -1996,12 +2004,25 @@ ICLR'2024 [[Paper](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v2)]
 ICLR'2024 [[Paper](https://arxiv.org/abs/2402.14391)]
 [[Code](https://github.com/lirongwu/mape-ppi)]
 
+* **VQDNA: Unleashing the Power of Vector Quantization for Multi-Species Genomic Sequence Modeling**<br>
+*Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Jiangbin Zheng, Yufei Huang, Stan Z. Li*<br>
+ICML'2024 [[Paper](https://arxiv.org/abs/2405.10812)]
+
+* **Learning to Predict Mutation Effects of Protein-Protein Interactions by Microenvironment-aware Hierarchical Prompt Learning**<br>
+*Lirong Wu, Yijun Tian, Haitao Lin, Yufei Huang, Siyuan Li, Nitesh V Chawla, Stan Z. Li*<br>
+ICML'2024 [[Paper](https://arxiv.org/abs/2405.10348)]
+[[Code](https://github.com/lirongwu/prompt-ddg)]
+
 ### Chemistry
 
 * **Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules**<br>
 *Jun Xia, Chengshuai Zhao, Bozhen Hu, Zhangyang Gao, Cheng Tan, Yue Liu, Siyuan Li, Stan Z. Li*<br>
 ICLR'2023 [[Paper](https://openreview.net/forum?id=jevY-DtiZTR)]
 [[Code](https://github.com/junxia97/Mole-BERT)]
+
+* **VQMAE: Surface-VQMAE: Vector-quantized Masked Auto-encoders on Molecular Surfaces**<br>
+*Fang Wu, Stan Z. Li*<br>
+ICML'2024 [[Paper](https://github.com/smiles724/VQMAE)]
 
 ### Physics
 
@@ -2172,6 +2193,19 @@ The main maintainer is Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)). W
 <a href="https://github.com/Lupin1998/Awesome-MIM/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Lupin1998/Awesome-MIM" />
 </a>
+
+## Citation
+
+If you find this repository and our survey helpful, please consider citing our paper:
+```
+@article{Li2023MIMSurvey,
+  title={Masked Modeling for Self-supervised Representation Learning on Vision and Beyond},
+  author={Siyuan Li and Luyuan Zhang and Zedong Wang and Di Wu and Lirong Wu and Zicheng Liu and Jun Xia and Cheng Tan and Yang Liu and Baigui Sun and Stan Z. Li},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2401.00897},
+}
+```
 
 ## Related Project
 
