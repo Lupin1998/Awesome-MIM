@@ -1273,6 +1273,15 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.03700)]
    <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/88f210d7-2cba-456d-8ab2-3a807c153ea3" /></p>
    </details>
 
+* **MDTv2: Masked Diffusion Transformer is a Strong Image Synthesizer**<br>
+*Shanghua Gao, Pan Zhou, Ming-Ming Cheng, Shuicheng Yan*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2303.14389)]
+[[Code](https://github.com/sail-sg/MDT)]
+   <details close>
+   <summary>MDTv2 Framework</summary>
+   <p align="center"><img width="65%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/42fc03e2-a517-4ff2-a008-49a5a1b2b1c1" /></p>
+   </details>
+
 * **Beyond Text: Frozen Large Language Models in Visual Signal Comprehension**<br>
 *Lei Zhu, Fangyun Wei, Yanye Lu*<br>
 CVPR'2024 [[Paper](https://arxiv.org/abs/2403.07874)]
@@ -1280,6 +1289,20 @@ CVPR'2024 [[Paper](https://arxiv.org/abs/2403.07874)]
    <details close>
    <summary>V2L Framework</summary>
    <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/9a645669-5202-491a-a25c-432de5d2ca32" /></p>
+   </details>
+
+* **Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation**<br>
+*Peize Sun, Yi Jiang, Shoufa Chen, Shilong Zhang, Bingyue Peng, Ping Luo, Zehuan Yuan*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2406.06525)]
+[[Code](https://github.com/FoundationVision/LlamaGen)]
+
+* **Scaling the Codebook Size of VQGAN to 100,000 with a Utilization Rate of 99%**<br>
+*Lei Zhu, Fangyun Wei, Yanye Lu, Dong Chen*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2406.11837)]
+[[Code](https://github.com/zh460045050/VQGAN-LC)]
+   <details close>
+   <summary>VQGAN-LC Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/407b6e71-dcb8-454b-aba8-9bdcca1eb0df" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -1716,6 +1739,14 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2405.06227)]
    <details close>
    <summary>MaskMatch Framework</summary>
    <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/151bf557-cea2-4a7a-8385-bc55dff07c6f" /></p>
+   </details>
+
+* **Pseudo Labelling for Enhanced Masked Autoencoders**<br>
+*Srinivasa Rao Nandam, Sara Atito, Zhenhua Feng, Josef Kittler, Muhammad Awais*<br>
+arXiv'2024 [[Paper](https://arxiv.org/abs/2406.17450)]
+   <details close>
+   <summary>SdAE Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/7ddf82e3-73da-4bb2-a294-9d2dece750a6" /></p>
    </details>
 
 ### Medical Image
