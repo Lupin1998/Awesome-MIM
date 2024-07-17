@@ -1818,6 +1818,10 @@ TGRS'2023 [[Paper](https://arxiv.org/abs/2304.09670)] [[Code](https://github.com
 *Colorado J Reed, Ritwik Gupta, Shufan Li, Sarah Brockman, Christopher Funk, Brian Clipp, Kurt Keutzer, Salvatore Candido, Matt Uyttendaele, Trevor Darrell*<br>
 ICCV'2023 [[Paper](https://arxiv.org/abs/2212.14532)]
 
+* **SS-MAE: Spatial-Spectral Masked Auto-Encoder for Multi-Source Remote Sensing Image Classification**<br>
+*Junyan Lin, Feng Gao, Xiaocheng Shi, Junyu Dong, Qian Du*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2311.04442)]
+
 * **On the Transferability of Learning Models for Semantic Segmentation for Remote Sensing Data**<br>
 *Rongjun Qin, Guixiang Zhang, Yang Tang*<br>
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.10490)]
@@ -1825,6 +1829,10 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2310.10490)]
 * **Fus-MAE: A cross-attention-based data fusion approach for Masked Autoencoders in remote sensing**<br>
 *Hugo Chan-To-Hing, Bharadwaj Veeravalli*<br>
 ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.02764)]
+
+* **S2MAE: A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Data**<br>
+*Xuyang Li, Danfeng Hong, Jocelyn Chanussot*<br>
+CVPR'2024 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Li_S2MAE_A_Spatial-Spectral_Pretraining_Foundation_Model_for_Spectral_Remote_Sensing_CVPR_2024_paper.html)] 
 
 ### 3D Representation Learning
 
@@ -1918,6 +1926,18 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2404.01300)]
 *Zhe Li, Zhangyang Gao, Cheng Tan, Bocheng Ren, Laurence Tianruo Yang, Stan Z. Li*<br>
 CVPR'2024 [[Paper](https://arxiv.org/abs/2310.16861)]
 [[Code](https://github.com/gentlefress/GPM)]
+
+### Low-level Vision
+
+* **DegAE: A New Pretraining Paradigm for Low-level Vision**<br>
+*Yihao Liu, Jingwen He, Jinjin Gu, Xiangtao Kong, Yu Qiao, Chao Dong*<br>
+CVPR'2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_DegAE_A_New_Pretraining_Paradigm_for_Low-Level_Vision_CVPR_2023_paper.html)]
+[[Code](https://github.com/lyh-18/DegAE_DegradationAutoencoder/)]
+
+* **LM4LV: A Frozen Large Language Model for Low-level Vision Tasks**<br>
+*Boyang Zheng, Jinjin Gu, Shijun Li, Chao Dong*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.15734)]
+[[Code](https://github.com/bytetriper/LM4LV)]
 
 ### Depth Estimation
 
@@ -2070,12 +2090,12 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2403.17728)]
 
 ## Neuroscience Learning
 
-* **neuro2vec: Masked Fourier Spectrum Prediction for Neurophysiological Representation Learning**<br>
+* **Neuro-BERT: Rethinking Masked Autoencoding for Self-Supervised Neurological Pretraining**<br>
 *Di Wu, Siyuan Li, Jie Yang, Mohamad Sawan*<br>
-arXiv'2022 [[Paper](https://arxiv.org/abs/2204.12440)]
+JBHI'2024 [[Paper](https://doi.org/10.1109/JBHI.2024.3415959)]
 [[Code](https://github.com/Westlake-AI/OpenBioSeq)]
    <details close>
-   <summary>neuro2vec</summary>
+   <summary>Neuro-BERT (neuro2vec)</summary>
    <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/50e515cd-3c51-4f8c-b5e6-b8f8eea1aed9" /></p>
    </details>
 
