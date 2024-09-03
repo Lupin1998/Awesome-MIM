@@ -405,7 +405,7 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.06593)]
 
 * **Exploring Target Representations for Masked Autoencoders**<br>
 *Xingbin Liu, Jinghao Zhou, Tao Kong, Xianming Lin, Rongrong Ji*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.03917)]
+ICLR'2024 [[Paper](https://arxiv.org/abs/2209.03917)]
 [[Code](https://github.com/liuxingbin/dbot)]
    <details close>
    <summary>dBOT Framework</summary>
@@ -1044,7 +1044,33 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.17172)]
    <p align="center"><img width="90%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/b4ad7a11-ac60-40bb-990f-6ab4586035b2" /></p>
    </details>
 
+* **Self-Guided Masked Autoencoders for Domain-Agnostic Self-Supervised Learning**<br>
+*Johnathan Wenjia Xie, Yoonho Lee, Annie S Chen, Chelsea Finn*<br>
+ICLR'2024 [[Paper](https://openreview.net/forum?id=HiYMiZYwkw)]
+[[Code](https://github.com/Johnathan-Xie/sma)]
+   <details close>
+   <summary>SMA Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/11292f56-a8e2-4ea5-b9a1-3fe34d29b261" /></p>
+   </details>
+
 ### MIM for Vision Generalist Model
+
+* **A Generalist Agent**<br>
+*Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gomez Colmenarejo, Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, Tom Eccles, Jake Bruce, Ali Razavi, Ashley Edwards, Nicolas Heess, Yutian Chen, Raia Hadsell, Oriol Vinyals, Mahyar Bordbar, Nando de Freitas*<br>
+TMLR'2022 [[Paper](https://arxiv.org/abs/2205.06175)]
+[[Code](https://github.com/OrigamiDream/gato)]
+   <details close>
+   <summary>Gato Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/439489b1-90c4-4004-87fa-4802e4962162" /></p>
+   </details>
+
+* **Scaling Autoregressive Models for Content-Rich Text-to-Image Generation**<br>
+*Jiahui Yu, Yuanzhong Xu, Jing Yu Koh, Thang Luong, Gunjan Baid, Zirui Wang, Vijay Vasudevan, Alexander Ku, Yinfei Yang, Burcu Karagol Ayan, Ben Hutchinson, Wei Han, Zarana Parekh, Xin Li, Han Zhang, Jason Baldridge, Yonghui Wu*<br>
+TMLR'2022 [[Paper](https://openreview.net/forum?id=AFDcYJKhND)]
+   <details close>
+   <summary>Parti Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/4b00770f-998d-4be4-8bc7-3a3c8bf2e177" /></p>
+   </details>
 
 * **Images Speak in Images: A Generalist Painter for In-Context Visual Learning**<br>
 *Xinlong Wang, Wen Wang, Yue Cao, Chunhua Shen, Tiejun Huang*<br>
@@ -2250,31 +2276,4 @@ The main maintainer is Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)). W
 If you find this repository and our survey helpful, please consider citing our paper:
 ```
 @article{Li2023MIMSurvey,
-  title={Masked Modeling for Self-supervised Representation Learning on Vision and Beyond},
-  author={Siyuan Li and Luyuan Zhang and Zedong Wang and Di Wu and Lirong Wu and Zicheng Liu and Jun Xia and Cheng Tan and Yang Liu and Baigui Sun and Stan Z. Li},
-  journal={ArXiv},
-  year={2023},
-  volume={abs/2401.00897},
-}
-```
-
-## Related Project
-
-### Paper List of Masked Image Modeling
-
-- [Awesome-Masked-Autoencoders](https://github.com/EdisonLeeeee/Awesome-Masked-Autoencoders): A collection of literature after or concurrent with Masked Autoencoder (MAE).
-- [awesome-MIM](https://github.com/ucasligang/awesome-MIM): Reading list for research topics in Masked Image Modeling.
-- [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md): Awesome list of masked image modeling methods for self-supervised visual representation.
-- [awesome-self-supervised-learning](https://github.com/jason718/awesome-self-supervised-learning): A curated list of awesome self-supervised methods.
-
-### Project of Self-supervised Learning
-
-- [unilm](https://github.com/microsoft/unilm): Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
-- [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
-- [MMPretrain](https://github.com/open-mmlab/mmpretrain): OpenMMLab self-supervised pre-training toolbox and benchmark.
-- [solo-learn](https://github.com/vturrisi/solo-learn): A library of self-supervised methods for visual representation learning powered by Pytorch Lightning.
-- [VISSL](https://github.com/facebookresearch/vissl): FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images.
-- [lightly](https://github.com/lightly-ai/lightly): A python library for self-supervised learning on images.
-- [Fairseq](https://github.com/facebookresearch/fairseq): Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+  title={Masked M
