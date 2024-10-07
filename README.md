@@ -45,7 +45,7 @@ Research in self-supervised learning can be broadly categorized into Generative 
     - [Protein](#protein)
     - [Chemistry](#chemistry)
     - [Physics](#physics)
-  - [Neuroscience Learning](#neuroscience-learning)
+  - [Neuroscience Learning](#time-series-and-neuroscience-learning)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Analysis and Understanding of Masked Modeling](#analysis-and-understanding-of-masked-modeling)
   - [Survey](#survey)
@@ -551,6 +551,10 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.07346)]
    <p align="center"><img width="95%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/71967291-abc1-4136-b03a-e05cf7b6f7ef" /></p>
    </details>
 
+* **BIM: Block-Wise Self-Supervised Learning with Masked Image Modeling**<br>
+*Yixuan Luo, Mengye Ren, Sai Qian Zhang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2311.17218)]
+
 * **R-MAE: Regions Meet Masked Autoencoders**<br>
 *Duy-Kien Nguyen, Vaibhav Aggarwal, Yanghao Li, Martin R. Oswald, Alexander Kirillov, Cees G. M. Snoek, Xinlei Chen*<br>
 ICLR'2024 [[Paper](https://arxiv.org/abs/2306.05411)]
@@ -862,6 +866,15 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2403.04724)]
    <p align="center"><img width="80%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/1708e5a1-6e4e-4d74-926d-b474c3069841" /></p>
    </details>
 
+* **MixMask: Revisiting Masking Strategy for Siamese ConvNets**<br>
+*Kirill Vishniakov, Eric Xing, Zhiqiang Shen*<br>
+BMVC'2024 [[Paper](https://arxiv.org/abs/2210.11456)]
+[[Code](https://github.com/LightnessOfBeing/MixMask)]
+   <details close>
+   <summary>MixMask Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/user-attachments/assets/e997db8d-cebe-449a-8fdb-14682955147f" /></p>
+   </details>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### MIM with Advanced Masking
@@ -944,6 +957,11 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2303.06583)]
    <summary>AutoMAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/236310631-a11eee44-3e70-414f-9caa-ad09a231ce31.png" /></p>
    </details>
+
+* **Learning with Noisy labels via Self-supervised Adversarial Noisy Masking**<br>
+*Yuanpeng Tu, Boshen Zhang, Yuxi Li, Liang Liu, Jian Li, Jiangning Zhang, Yabiao Wang, Chengjie Wang, Cai Rong Zhao*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2302.06805)]
+[[Code](https://github.com/yuanpengtu/SANM)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -2114,7 +2132,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2403.17728)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Neuroscience Learning
+## Time Series and Neuroscience Learning
 
 * **Neuro-BERT: Rethinking Masked Autoencoding for Self-Supervised Neurological Pretraining**<br>
 *Di Wu, Siyuan Li, Jie Yang, Mohamad Sawan*<br>
@@ -2141,6 +2159,11 @@ ICLR'2024 [[Paper](https://arxiv.org/abs/2311.00136)]
    <summary>Neuroformer</summary>
    <p align="center"><img width="75%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/14e4d77e-f58a-4db6-ab6d-5de8da5d2a87" /></p>
    </details>
+
+* **VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecasters**<br>
+*Mouxiang Chen, Lefei Shen, Zhuo Li, Xiaoyun Joy Wang, Jianling Sun, Chenghao Liu*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2408.17253)]
+[[Code](https://github.com/keytoyze/visionts)]
 
 ## Reinforcement Learning
 
@@ -2276,4 +2299,31 @@ The main maintainer is Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)). W
 If you find this repository and our survey helpful, please consider citing our paper:
 ```
 @article{Li2023MIMSurvey,
-  title={Masked M
+  title={Masked Modeling for Self-supervised Representation Learning on Vision and Beyond},
+  author={Siyuan Li and Luyuan Zhang and Zedong Wang and Di Wu and Lirong Wu and Zicheng Liu and Jun Xia and Cheng Tan and Yang Liu and Baigui Sun and Stan Z. Li},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2401.00897},
+}
+```
+
+## Related Project
+
+### Paper List of Masked Image Modeling
+
+- [Awesome-Masked-Autoencoders](https://github.com/EdisonLeeeee/Awesome-Masked-Autoencoders): A collection of literature after or concurrent with Masked Autoencoder (MAE).
+- [awesome-MIM](https://github.com/ucasligang/awesome-MIM): Reading list for research topics in Masked Image Modeling.
+- [Awesome-MIM](https://github.com/Westlake-AI/openmixup/blob/main/docs/en/awesome_selfsup/MIM.md): Awesome list of masked image modeling methods for self-supervised visual representation.
+- [awesome-self-supervised-learning](https://github.com/jason718/awesome-self-supervised-learning): A curated list of awesome self-supervised methods.
+
+### Project of Self-supervised Learning
+
+- [unilm](https://github.com/microsoft/unilm): Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
+- [OpenMixup](https://github.com/Westlake-AI/openmixup): CAIRI Supervised, Semi- and Self-Supervised Visual Representation Learning Toolbox and Benchmark.
+- [MMPretrain](https://github.com/open-mmlab/mmpretrain): OpenMMLab self-supervised pre-training toolbox and benchmark.
+- [solo-learn](https://github.com/vturrisi/solo-learn): A library of self-supervised methods for visual representation learning powered by Pytorch Lightning.
+- [VISSL](https://github.com/facebookresearch/vissl): FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images.
+- [lightly](https://github.com/lightly-ai/lightly): A python library for self-supervised learning on images.
+- [Fairseq](https://github.com/facebookresearch/fairseq): Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
