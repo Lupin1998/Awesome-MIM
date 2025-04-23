@@ -28,6 +28,7 @@ Research in self-supervised learning can be broadly categorized into Generative 
     - [MIM with Advanced Masking](#mim-with-advanced-masking)
     - [MIM for Multi-Modality](#mim-for-multi-modality)
     - [MIM for Vision Generalist Model](#mim-for-vision-generalist-model)
+    - [Unified Representation and Image Generation](#unified-representation-and-image-generation)
     - [Image Generation](#image-generation)
   - [MIM for CV Downstream Tasks](#mim-for-cv-downstream-tasks)
     - [Object Detection](#object-detection)
@@ -1127,6 +1128,37 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.00785)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Unified Representation and Image Generation
+
+* **MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis**<br>
+*Tianhong Li, Huiwen Chang, Shlok Kumar Mishra, Han Zhang, Dina Katabi, Dilip Krishnan*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09117)]
+[[Code](https://github.com/lth14/mage)]
+   <details close>
+   <summary>MAGE Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
+   </details>
+
+* **Revisiting Multimodal Representation in Contrastive Learning: From Patch and Token Embeddings to Finite Discrete Tokens**<br>
+*Yuxiao Chen, Jianbo Yuan, Yu Tian, Shijie Geng, Xinyu Li, Ding Zhou, Dimitris N. Metaxas, Hongxia Yang*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2303.14865)] [[Code](https://github.com/yuxiaochen1103/fdt)]
+
+* **Stabilize the Latent Space for Image Autoregressive Modeling: A Unified Perspective**<br>
+*Yongxin Zhu, Bocheng Li, Hang Zhang, Xin Li, Linli Xu, Lidong Bing*<br>
+NeurIPS'2024 [[Paper](https://arxiv.org/abs/2410.12490)] [[Code](https://github.com/DAMO-NLP-SG/DiGIT)]
+
+* **SImage Understanding Makes for A Good Tokenizer for Image Generation**<br>
+*Yongxin Zhu, Bocheng Li, Hang Zhang, Xin Li, Linli Xu, Lidong Bing*<br>
+NeurIPS'2024 [[Paper](https://arxiv.org/abs/2410.12490)] [[Code](https://github.com/DAMO-NLP-SG/DiGIT)]
+
+* **MergeVQ: A Unified Framework for Visual Generation and Representation with Disentangled Token Merging and Quantization**<br>
+*Siyuan Li, Luyuan Zhang, Zedong Wang, Juanxi Tian, Cheng Tan, Zicheng Liu, Chang Yu, Qingsong Xie, Haonan Lu, Haoqian Wang, Zhen Lei *<br>
+CVPR'2025 [[Paper](https://arxiv.org/abs/2504.00999)] [[Code](https://apexgen-x.github.io/MergeVQ/)]
+   <details close>
+   <summary>MAGE Framework</summary>
+   <p align="center"><img width="90%" src="https://lupin1998.github.io/imgs/CVPR2025_MergeVQ_teaser.PNG" /></p>
+   </details>
+
 ### Image Generation
 
 * **Discrete Variational Autoencoders**<br>
@@ -1226,15 +1258,6 @@ ICLR'2023 [[Paper](https://arxiv.org/abs/2203.12054)]
    <details close>
    <summary>RandSAC Framework</summary>
    <p align="center"><img width="80%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/261103618-f2aa7486-a09f-4f50-a84d-fb367c621d04.png" /></p>
-   </details>
-
-* **MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis**<br>
-*Tianhong Li, Huiwen Chang, Shlok Kumar Mishra, Han Zhang, Dina Katabi, Dilip Krishnan*<br>
-CVPR'2023 [[Paper](https://arxiv.org/abs/2211.09117)]
-[[Code](https://github.com/lth14/mage)]
-   <details close>
-   <summary>MAGE Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/224833197-6d95863c-cb83-4d9d-a900-b4f61baba785.png" /></p>
    </details>
 
 * **Not All Image Regions Matter: Masked Vector Quantization for Autoregressive Image Generation**<br>
